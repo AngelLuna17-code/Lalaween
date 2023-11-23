@@ -13,7 +13,9 @@ function App() {
         <Navbar />
       </div>
       <div className='container mx-auto'>
-        <Accordion1 />
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-5'>
+          <Accordion1 />
+        </div>
       </div>
     </div>
   );

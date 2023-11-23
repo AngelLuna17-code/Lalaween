@@ -28,7 +28,7 @@ const App = () => {
                 </div>
                 <div>
                     <h3>PRÓPOSITO</h3>
-                    <p>Diseñar para comunicar de manera efectiva la personalidad, esencia e identidad de tu marca.
+                    <p className='text-justify sm:text-sm md:text-base lg:text-lg'>Diseñar para comunicar de manera efectiva la personalidad, esencia e identidad de tu marca.
                         Para generar un lanzamiento positivo desde la creación de su logotipo y a través de campañas publicitarias
                         en redes sociales e impresos con diseños óptimos y atractivos para el nicho de mercado al que su negocio
                         desee llegar, sin perder su autenticidad.</p>
