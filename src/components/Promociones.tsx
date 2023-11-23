@@ -19,7 +19,13 @@ const Accordion = ({ title, content }) => {
                     </div>
                 </div>
             </div>
-            {isOpen && <div className="accordion-content"><div className='p-2'>{content}</div></div>}
+            {isOpen &&
+                <div className="accordion-content">
+                    <div className='p-2'>
+                        {content}
+                    </div>
+                </div>
+            }
         </div>
     );
 };
