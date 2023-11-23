@@ -17,17 +17,35 @@ export default function App() {
             li1Item2: "8",
             li1Item3: "9",
         }
-        
+
     ];
 
     return (
         <div className="mt-5">
             {list.map((item, index) => (
-                <ul key={index} className="list-disc list-inside">
-                    <li>{item.li1Item1}</li>
-                    <li>{item.li1Item2}</li>
-                    <li>{item.li1Item3}</li>
-                </ul>
+                <div>
+                    <div>
+                        <ul key={index} className="list-disc list-inside">
+                            <li>{item.li1Item1}</li>
+                            <li>{item.li1Item2}</li>
+                            <li>{item.li1Item3}</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul key={index} className="list-disc list-inside">
+                            <li>{item.li1Item1}</li>
+                            <li>{item.li1Item2}</li>
+                            <li>{item.li1Item3}</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul key={index} className="list-disc list-inside">
+                            <li>{item.li1Item1}</li>
+                            <li>{item.li1Item2}</li>
+                            <li>{item.li1Item3}</li>
+                        </ul>
+                    </div>
+                </div>
             ))}
         </div>
     );
