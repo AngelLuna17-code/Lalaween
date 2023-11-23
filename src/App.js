@@ -9,13 +9,11 @@ function App() {
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
-
-      {/* Contenedor centrado para el contenido */}
-      <div className=''>
+      <div>
         <Navbar />
       </div>
       <div className='container mx-auto'>
-          <Accordion1 />
+        <Accordion1 />
       </div>
     </div>
   );
