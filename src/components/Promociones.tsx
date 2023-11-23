@@ -38,6 +38,9 @@ export default function App() {
             proposito: "Diseñar para comunicar de manera efectiva la personalidad, esencia e identidad de tu marca. Para generar un lanzamiento positivo desde la creación de su logotipo y a través de campañas publicitarias en redes sociales e impresos con diseños óptimos y atractivos para el nicho de mercado al que su negocio desee llegar, sin perder su autenticidad.",
             oldPrice: "$8,100.00 + IVA",
             newPrice: "$3,500.00 + IVA",
+            li1item1:"Asesoramiento en la personalización de la idea de negocio.",
+            li1item2:"Creación de Logotipo para la identidad de tu marca.",
+            li1item3:"Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.",
         },
         /* Pa' que le emprendas */
         /* Pa' queten bien informados */
@@ -47,6 +50,8 @@ export default function App() {
             proposito: "Diseñar y ejecutar de manera efectiva campañas publicitarias e informativas sin que la marca pierda su esencia y autenticidad, a través de un lanzamiento positivo en redes sociales con diseños óptimos y atractivos para el nicho de mercado al que su negocio desee llegar.",
             oldPrice: "$5,800.00 + IVA * Mes",
             newPrice: "$3,780.00 + IVA * Mes",
+            li1item1:"Asesoramiento en la personalización de las redes sociales según su marca.",
+            li1item2:"Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.",
         },
         /* Pa' queten bien informadoss */
         /* Pa' quete encuentren siempre */
@@ -56,6 +61,9 @@ export default function App() {
             proposito: "Mejorar la experiencia de sus usuarios y lograr un mayor alcance, con un máximo nivel de exposición posible para cumplir satisfactoriamente las necesidades de su nicho; conservando la autenticidad y personalidad de su marca, a través de un lanzamiento activo en redes sociales e implementación de su página web.",
             oldPrice: "$26,950.00 + IVA * Mes",
             newPrice: "$15,950.00 + IVA * Mes",
+            li1item1:"Implantación de soluciones digitales (Redes sociales y Pagina Web).",
+            li1item2:"Asesoramiento en la personalización de las distribución digital de su marca.",
+            li1item3:"Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.",
         },
         /* Pa' quete encuentren siempre */
         /* Pa' que economices */
@@ -65,6 +73,8 @@ export default function App() {
             proposito: "Porque sabemos que vas empezando, pero el diseño no es lo tuyo o no tienes tiempo de crear contenido, con esto buscamos crear diseños atractivos y funcionales que le den el toque profesional a las redes sociales de tu negocio",
             oldPrice: "$5,250.00 + IVA * Mes",
             newPrice: "$2,625.00 + IVA * Mes",
+            li1item1:"Personalizar tus redes en base a tu marca",
+            li1item2:"Mejorar la calidad visual del contenido de tus redes sociales",
         },
         /* Pa' que economices */
     ];
@@ -87,7 +97,16 @@ export default function App() {
                         <div className=''>
                             <Accordion
                                 title="¿Que implica?"
-                                content={<div>Hola Mundo</div>} />
+                                content={
+                                    <div>
+                                        <ul className='list-disc list-inside'>
+                                            <li className='mt-3'>{item.li1item1}</li>
+                                            <li className='mt-3'>{item.li1item2}</li>
+                                            <li className='mt-3'>{item.li1item3}</li>
+                                        </ul>
+                                    </div>
+                                }
+                            />
                         </div>
                         <div className='mt-5'>
                             <Accordion
