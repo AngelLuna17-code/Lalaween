@@ -8,10 +8,16 @@ const Accordion = ({ title, content }) => {
     };
 
     return (
-        <div className="accordion-item text-white bg-[#404040] rounded-lg p-2">
+        <div className="accordion-item text-white bg-[#111827] rounded-lg p-2">
             <div className="accordion-title" onClick={toggleAccordion}>
-                <div><h5 className='text-[#00a09b]'>{title}</h5></div>
-                <div className=''>{isOpen ? '▲' : '▼'}</div>
+                <div className='flex justify-between'>
+                    <div className='1'>
+                        <h5 className='text-[#00a09b]'>{title}</h5>
+                    </div>
+                    <div className='2'>
+                        {isOpen ? '▲' : '▼'}
+                    </div>
+                </div>
             </div>
             {isOpen && <div className="accordion-content"><div className='p-2'>{content}</div></div>}
         </div>
