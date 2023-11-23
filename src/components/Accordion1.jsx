@@ -13,7 +13,7 @@ const Accordion = ({ title, content }) => {
                 <div><h5>{title}</h5></div>
                 <div>{isOpen ? '▲' : '▼'}</div>
             </div>
-            {isOpen && <div className="accordion-content">{content}</div>}
+            {isOpen && <div className="accordion-content"><div className='mt-2'>{content}</div></div>}
         </div>
     );
 };
