@@ -44,20 +44,17 @@ const App = () => {
                 <div className=''>
                     <Accordion
                         title="¿Que implica?"
-                        content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? Et perspiciatis dolore iure voluptatem."
-                    />
+                        content={<div>Hola Mundo</div>} />
                 </div>
                 <div className='mt-5'>
                     <Accordion
                         title="¿Qué servicios incluye?"
-                        content="Dolor sit amet consectetur adipisicing elit. Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? Et perspiciatis dolore iure voluptatem."
-                    />
+                        content={<div>Hola Mundo</div>} />
                 </div>
                 <div className='mt-5'>
                     <Accordion
                         title="¿Qué beneficios incluye?"
-                        content="Sit amet consectetur adipisicing elit. Quis sapiente laborum cupiditate possimus labore, hic temporibus velit dicta earum suscipit commodi eum enim atque at? Et perspiciatis dolore iure voluptatem."
-                    />
+                        content={<div>Hola Mundo</div>} />
                 </div>
             </div>
             <div className='text-center text-white mt-5'>
