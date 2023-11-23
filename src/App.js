@@ -14,11 +14,8 @@ function App() {
       <div className=''>
         <Navbar />
       </div>
-
       <div className='container mx-auto'>
-        <div>
           <Accordion1 />
-        </div>
       </div>
     </div>
   );
