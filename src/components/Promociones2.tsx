@@ -89,9 +89,9 @@ export default function App() {
                                         </div>
                                         <div className='text-center text-white mt-5'>
                                             <p className='line-through'>COSTO REAL</p>
-                                            <p className='line-through'></p>
+                                            <p className='line-through'>$6,250.00 + IVA * Mes</p>
                                             <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
-                                            <p></p>
+                                            <p>$3,125.00 + IVA * Mes</p>
                                         </div>
                                     </div>
                                 }
@@ -116,9 +116,9 @@ export default function App() {
                                         </div>
                                         <div className='text-center text-white mt-5'>
                                             <p className='line-through'>COSTO REAL</p>
-                                            <p className='line-through'></p>
+                                            <p className='line-through'>$8,400.00 + IVA * Mes</p>
                                             <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
-                                            <p></p>
+                                            <p>$4,200.00 + IVA * Mes</p>
                                         </div>
                                     </div>
                                 }
@@ -143,9 +143,9 @@ export default function App() {
                                             </div>
                                             <div className='text-center text-white mt-5'>
                                                 <p className='line-through'>COSTO REAL</p>
-                                                <p className='line-through'></p>
+                                                <p className='line-through'>$16,400 + IVA * Mes</p>
                                                 <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
-                                                <p></p>
+                                                <p>$8,200.00 + IVA * Mes</p>
                                             </div>
                                         </div>
                                         <div className='mt-5'>
