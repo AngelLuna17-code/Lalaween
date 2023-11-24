@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="flex bg-gray-800 text-white justify-between items-center top-0 p-4">
+    <div className="flex  justify-between items-center top-0 p-4 text-white" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
       <div className='flex items-center'>
 
         <div className="flex items-center mr-12">

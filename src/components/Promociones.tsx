@@ -138,17 +138,16 @@ export default function App() {
     return (
         <div className='grid sm:grid-cols-1 md:grid-cols-3 mt-10 gap-5 overflow-hidden'>
             {list.map((item, index) => (
-                <div className='Accordion17 p-5 rounded-lg'>
-                    <div className='text-white'>
-                        <div>
-                            <h3 className='text-[#00a09b]'>{item.titlePaq}</h3>
-                            <h4>{item.sub}</h4>
-                        </div>
-                        <div className='mt-5'>
-                            <h4 className='text-[#00a09b]'>PRÓPOSITO</h4>
-                            <p className='text-justify sm:text-sm md:text-base lg:text-lg'>{item.proposito}</p>
-                        </div>
+                <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                    <div className='text-white'>
+                    <div>
+                        <h3 className='text-[#00a09b]'>{item.titlePaq}</h3>
+                        <h4>{item.sub}</h4>
                     </div>
+                    <div className='mt-5'>
+                        <h4 className='text-[#00a09b]'>PRÓPOSITO</h4>
+                        <p className='text-justify sm:text-sm md:text-base lg:text-lg'>{item.proposito}</p>
+                    </div>
+                </div>
                     <div className='mt-5'>
                         <div className=''>
                             <Accordion
@@ -209,22 +208,21 @@ export default function App() {
                 </div>
             ))}
             {/*Pa' quete des a conocer */}
-            <div className='Accordion17 p-5 rounded-lg'>
-                <div className='text-white'>
-                    <div>
-                        <h3 className='text-[#00a09b]'>Pa' quete des a conocer</h3>
-                        <h4>Inicia tu presencia en redes sociales y crece tu negocio</h4>
-                    </div>
-                    <div className='mt-5'>
-                        <h4 className='text-[#00a09b]'>PRÓPOSITO</h4>
-                        <p className='text-justify sm:text-sm md:text-base lg:text-lg'>
-                            Diseñar, generar y ejecutar las bases para comenzar a promocionar tus servicios y/o productos en el
-                            mercado, estudiando y planteando estrategias según el análisis obtenido en redes sociales, dando a
-                            conocer y dejando al alcance de todos la comunicación directa y fluida con tu negocio en el mundo
-                            digital.
-                        </p>
-                    </div>
+            <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                <div className='text-white'>
+                <div>
+                    <h3 className='text-[#00a09b]'>Pa' quete des a conocer</h3>
+                    <h4>Inicia tu presencia en redes sociales y crece tu negocio</h4>
                 </div>
+                <div className='mt-5'>
+                    <h4 className='text-[#00a09b]'>PRÓPOSITO</h4>
+                    <p className='text-justify sm:text-sm md:text-base lg:text-lg'>
+                        Diseñar, generar y ejecutar las bases para comenzar a promocionar tus servicios y/o productos en el
+                        mercado, estudiando y planteando estrategias según el análisis obtenido en redes sociales, dando a
+                        conocer y dejando al alcance de todos la comunicación directa y fluida con tu negocio en el mundo
+                        digital.
+                    </p>
+                </div>
+            </div>
                 <div className='mt-5'>
                     <div>
                         <Accordion

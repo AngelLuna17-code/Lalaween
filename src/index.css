@@ -106,11 +106,6 @@ body {
 }
 
 /* Laptop */
-.Accordion17 {
-  background: rgba(0, 0, 0, .7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-}
 
 #stars {
   width: 1px;
