@@ -16,11 +16,11 @@ const Navbar = () => {
         </a>
         <div className='overflow-hidden '>
           <ul className='list-none flex space-x-12 '>
-            <a href=""><li>Inicio</li></a>
-            <a href=""><li>Productos</li></a>
-            <a href=""><li>Servicio</li></a>
-            <a href=""><li>Contacto</li></a>
-            <a href=""><li>Promociones</li></a>
+            <a href=""><li className='hover:text-[#00cac4]'>Inicio</li></a>
+            <a href=""><li className='hover:text-[#00cac4]'>Productos</li></a>
+            <a href=""><li className='hover:text-[#00cac4]'>Servicio</li></a>
+            <a href=""><li className='hover:text-[#00cac4]'>Contacto</li></a>
+            <a href=""><li className='hover:text-[#00cac4]'>Promociones</li></a>
           </ul>
         </div>
       </div>
