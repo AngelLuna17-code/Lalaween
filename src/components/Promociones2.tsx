@@ -69,6 +69,32 @@ export default function App() {
                                 }
                             />
                         </div>
+                        <div className=''>
+                            <Accordion
+                                title="¿Pa’ que le empieces?"
+                                content={
+                                    <div>
+                                        <div>
+                                            <ul className='list-disc list-inside'>
+                                                <li className='mt-3'>Asesoramiento en la personalización de las redes sociales según su marca</li>
+                                                <li className='mt-3'>Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.</li>
+                                                <li className='mt-3'>Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.</li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <div className='text-center text-white mt-5'>
+                                                <p className='line-through'>COSTO REAL</p>
+                                                <p className='line-through'></p>
+                                                <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                }
+                            />
+
+                        </div>
                     </div>
                 </div>
             ))}
