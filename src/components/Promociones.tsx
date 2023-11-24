@@ -136,7 +136,7 @@ export default function App() {
     ];
 
     return (
-        <div className='grid sm:grid-cols-1 md:grid-cols-3 mt-10 gap-5'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-3 mt-10 gap-5 overflow-hidden'>
             {list.map((item, index) => (
                 <div className='Accordion17 p-5 rounded-lg'>
                     <div className='text-white'>

@@ -6,7 +6,7 @@ import Promociones2 from "./components/Promociones2.tsx"
 
 function App() {
   return (
-    <div className="App w-screen">
+    <div className="App">
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
@@ -14,9 +14,7 @@ function App() {
         <Navbar />
       </div>
       <div className='container mx-auto'>
-        <div className=''>
           <Promociones/> 
-        </div>
       </div>
     </div>
   );
