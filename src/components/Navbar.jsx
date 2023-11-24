@@ -7,7 +7,7 @@ const Navbar = () => {
 
         <div className="flex items-center mr-12">
           <div >
-            <img style={{ height: "47px", width: "100%" }} src="logo.svg" alt="logo" />
+            <img style={{ height: "37px", width: "100%" }} src="logo.svg" alt="logo" />
           </div>
           <div className="ml-2">
             <p>Lalaween</p>
