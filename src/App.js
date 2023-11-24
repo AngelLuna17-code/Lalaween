@@ -16,7 +16,6 @@ function App() {
       <div className='container mx-auto'>
         <div className=''>
           <Promociones/> 
-          <Promociones2/>
         </div>
       </div>
     </div>

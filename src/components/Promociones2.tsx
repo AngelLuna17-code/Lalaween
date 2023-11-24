@@ -37,7 +37,7 @@ export default function App() {
     ];
 
     return (
-        <div className='mt-10 gap-5'>
+        <div>
             {list.map((item, index) => (
                 <div className='Accordion17 p-5 rounded-lg'>
                     <div className='text-white'>
