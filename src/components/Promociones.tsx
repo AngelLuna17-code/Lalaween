@@ -208,11 +208,12 @@ export default function App() {
                     </div>
                 </div>
             ))}
+            {/*Pa' quete des a conocer */}
             <div className='Accordion17 p-5 rounded-lg'>
                 <div className='text-white'>
                     <div>
-                        <h3 className='text-[#00a09b]'></h3>
-                        <h4></h4>
+                        <h3 className='text-[#00a09b]'>Pa' quete des a conocer</h3>
+                        <h4>Inicia tu presencia en redes sociales y crece tu negocio</h4>
                     </div>
                     <div className='mt-5'>
                         <h4 className='text-[#00a09b]'>PRÓPOSITO</h4>
@@ -258,9 +259,9 @@ export default function App() {
                                     </div>
                                     <div className='text-center text-white mt-5'>
                                         <p className='line-through'>COSTO REAL</p>
-                                        <p className='line-through'></p>
+                                        <p className='line-through'>$6,250.00 + IVA * Mes</p>
                                         <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
-                                        <p></p>
+                                        <p>$3,125.00 + IVA * Mes</p>
                                     </div>
                                 </div>
                             }
@@ -285,9 +286,9 @@ export default function App() {
                                     </div>
                                     <div className='text-center text-white mt-5'>
                                         <p className='line-through'>COSTO REAL</p>
-                                        <p className='line-through'></p>
+                                        <p className='line-through'>$8,400.00 + IVA * Mes</p>
                                         <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
-                                        <p></p>
+                                        <p>$4,200.00 + IVA * Mes</p>
                                     </div>
                                 </div>
                             }
@@ -312,9 +313,9 @@ export default function App() {
                                         </div>
                                         <div className='text-center text-white mt-5'>
                                             <p className='line-through'>COSTO REAL</p>
-                                            <p className='line-through'></p>
+                                            <p className='line-through'>$16,400 + IVA * Mes</p>
                                             <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
-                                            <p></p>
+                                            <p>$8,200.00 + IVA * Mes</p>
                                         </div>
                                     </div>
                                     <div className='mt-5'>
@@ -336,6 +337,7 @@ export default function App() {
                     {/* Pa’ que sueñen */}
                 </div>
             </div>
+            {/*Pa' quete des a conocer */}
         </div>
     );
 }
