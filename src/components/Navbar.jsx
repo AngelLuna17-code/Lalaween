@@ -25,7 +25,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex items-center space-x-10">
-        <a href=""><img style={{ height: "18px", width: "100%", filter: "brightness(0) invert(1)", transition: "all 0.3s ease", ":hover": { filter: "brightness(1.2) hue-rotate(160deg)", }, }} src="facebook.svg" alt="facebook" /></a>
+        <a href=""><img style={{ height: "18px", width: "100%", filter: "brightness(0) invert(1)", transition: "all 0.3s ease" }} src="facebook.svg" alt="facebook" /></a>
         <a href=""><img style={{ height: "18px", width: "100%", filter: "brightness(0) invert(1)", transition: "all 0.3s ease" }} src="instagram.svg" alt="instagram" /></a>
         <a href=""><img style={{ height: "18px", width: "100%", filter: "brightness(0) invert(1)", transition: "all 0.3s ease" }} src="tiktok.svg" alt="tiktok" /></a>
         <a href=""><img style={{ height: "18px", width: "100%", filter: "brightness(0) invert(1)", transition: "all 0.3s ease" }} src="whatsapp.svg" alt="whatsapp" /></a>
