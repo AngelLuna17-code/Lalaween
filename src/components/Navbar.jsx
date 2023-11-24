@@ -4,13 +4,29 @@ const Navbar = () => {
   return (
     <div className="flex bg-gray-800 text-white">
       {/* Columna 1 */}
-      <div className="flex-none p-4">Logo</div>
-
-      {/* Columna 2 */}
-      <div className="flex-grow p-4">Menú</div>
-
+      <div className="flex  items-center ">
+        <div>
+          <img style={{ height: "47px", width: "100%" }} src="logo.svg" alt="logo" />
+        </div>
+        <div>
+          <p>Lalaween</p>
+        </div>
+      </div>
+      <div className='overflow-hidden flex items-center'>
+        <div className=''>
+          <ul className='list-none flex space-x-4 '>
+            <a href=""><li>Inicio</li></a>
+            <a href=""><li>Productos</li></a>
+            <a href=""><li>Servicio</li></a>
+            <a href=""><li>Contacto</li></a>
+            <a href=""><li>Promociones</li></a>
+          </ul>
+        </div>
+      </div>
       {/* Columna 3 */}
-      <div className="flex-none p-4">Usuario</div>
+      <div className="">
+      
+      </div>
     </div>
   );
 };
