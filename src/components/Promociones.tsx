@@ -52,6 +52,12 @@ export default function App() {
             li2item7: "1 Diseño de tarjeta de presentación en formato JPG para impresión",
             li2item8: "1 Diseño de Volante en formato JPG para impresión",
             li2item9: "1 Diseño de firma para correo en PNG y JPG para uso digital.",
+
+            li3item1: "Se realizan 3 propuestas de logotipo y se selecciona uno que será entregado en formato .JPG .PNG .Ai y .EPS.",
+            li3item2: "Formato optimizado para Facebook e Instagram.",
+            li3item3: "Publicación del contenido trabajado para redes y administración de redes sociales durante un mes.",
+            li3item4: "Coaching de comunicación visual para la ponencia online e impresos.",
+            li3item5: "Asesoramiento general para pautas en redes sociales.",
         },
         /* Pa' que le emprendas */
         /* Pa' queten bien informados */
@@ -70,6 +76,11 @@ export default function App() {
             li2item3: " 4 Publicaciones en imagen tipo slide (Máximo 10 imagenes).",
             li2item4: "8 Historias (imagen y video).",
             li2item5: "4 Social video para reel o tiktok.",
+
+            li3item1: "Formato optimizado para Facebook e Instagram",
+            li3item2: "Publicación del contenido trabajado para redes y administración de redes sociales durante un mes.",
+            li3item3: "Coaching de comunicación visual para la ponencia online e impresos.",
+            li3item4: "Asesoramiento general para pautas en redes sociales.",
         },
         /* Pa' queten bien informadoss */
         /* Pa' quete encuentren siempre */
@@ -79,7 +90,7 @@ export default function App() {
             proposito: "Mejorar la experiencia de sus usuarios y lograr un mayor alcance, con un máximo nivel de exposición posible para cumplir satisfactoriamente las necesidades de su nicho; conservando la autenticidad y personalidad de su marca, a través de un lanzamiento activo en redes sociales e implementación de su página web.",
             oldPrice: "$26,950.00 + IVA * Mes",
             newPrice: "$15,950.00 + IVA * Mes",
-            
+
             li1item1: "Implantación de soluciones digitales (Redes sociales y Pagina Web).",
             li1item2: "Asesoramiento en la personalización de las distribución digital de su marca.",
             li1item3: "Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.",
@@ -91,6 +102,12 @@ export default function App() {
             li2item5: " 8 Publicaciones en imagen tipo slide (Máximo 10 imagenes).",
             li2item6: "12 Historias (imagen y video).",
             li2item7: "4 Social video para reel o tiktok.",
+
+            li3item1: "Formato optimizado para Facebook e Instagram.",
+            li3item2: "Publicación del contenido trabajado para redes y administración de redes sociales durante un mes.",
+            li3item3: "Gestión, asesoria y el mantenimiento de la página Web.",
+            li3item4: "Asesoramiento general para pautas en redes sociales.",
+            li3item5: "Coaching de comunicación visual para la ponencia online e impresos.",
         },
         /* Pa' quete encuentren siempre */
         /* Pa' que economices */
@@ -108,6 +125,12 @@ export default function App() {
             li2item2: "12 Publicaciones en imagen.",
             li2item3: "4 Publicaciones en imagen tipo slide (Máximo 5 imagenes).",
             li2item4: "4 Social video para reel o tiktok.",
+
+            li3item1: "Formato optimizado para Facebook e Instagram.",
+            li3item2: "Entrega de archivos finales en .Png por correo.",
+            li3item3: "Entrega de video .Mp4 por correo.",
+            li3item4: "Uso de imágenes de stock y/ las proporcionadas por el cliente.",
+            li3item5: "Se entregara un total de 20 publicaciones que podrá subir usted mismo a sus redes sociales y estados.",
         },
         /* Pa' que economices */
     ];
@@ -164,7 +187,17 @@ export default function App() {
                         <div className='mt-5'>
                             <Accordion
                                 title="¿Qué beneficios incluye?"
-                                content={<div>Hola Mundo</div>} />
+                                content={
+                                    <div>
+                                        <ul className='list-disc list-inside'>
+                                            <li className='mt-3'>{item.li3item1}</li>
+                                            <li className='mt-3'>{item.li3item2}</li>
+                                            <li className='mt-3'>{item.li3item3}</li>
+                                            <li className='mt-3'>{item.li3item4}</li>
+                                            <li className='mt-3'>{item.li3item5}</li>
+                                        </ul>
+                                    </div>
+                                } />
                         </div>
                     </div>
                     <div className='text-center text-white mt-5'>
