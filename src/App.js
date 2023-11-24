@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar.jsx";
 import Promociones from "./components/Promociones.tsx"
+import Promociones2 from "./components/Promociones2.tsx"
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       </div>
       <div className='container mx-auto'>
         <div className=''>
-          <Promociones/>
+          <Promociones/> 
+          <Promociones2/>
         </div>
       </div>
     </div>
