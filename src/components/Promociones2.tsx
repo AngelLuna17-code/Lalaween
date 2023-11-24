@@ -69,19 +69,78 @@ export default function App() {
                                 }
                             />
                         </div>
-                        <div className=''>
+                        <div className='mt-5'>
+                            <h5 className="text-[#00a09b]">¿Qué servicios incluye?</h5>
+                        </div>
+                        {/* Pa’ que le empieces */}
+                        <div className='mt-5'>
                             <Accordion
                                 title="¿Pa’ que le empieces?"
                                 content={
-                                    <div>
+                                    <div className='grid sm:grid-col-1 md:grid-cols-2'>
                                         <div>
                                             <ul className='list-disc list-inside'>
-                                                <li className='mt-3'>Asesoramiento en la personalización de las redes sociales según su marca</li>
-                                                <li className='mt-3'>Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.</li>
-                                                <li className='mt-3'>Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.</li>
+                                                <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok)</li>
+                                                <li className='mt-3'>Diseño de plantillas para redes sociales (Portada, Perfil y Publicaciones).</li>
+                                                <li className='mt-3'>12 Publicaciones en imagen.</li>
+                                                <li>8 Historias (imagen y video).</li>
+                                                <li>1 Social video para reel o tiktok</li>
                                             </ul>
                                         </div>
+                                        <div className='text-center text-white mt-5'>
+                                            <p className='line-through'>COSTO REAL</p>
+                                            <p className='line-through'></p>
+                                            <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                }
+                            />
+                        </div>
+                        {/* Pa’ que le empieces */}
+                        {/* Pa’ que te quieran */}
+                        <div className='mt-5'>
+                            <Accordion
+                                title="Pa’ que te quieran"
+                                content={
+                                    <div className='grid sm:grid-col-1 md:grid-cols-2'>
                                         <div>
+                                            <ul className='list-disc list-inside'>
+                                                <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok).</li>
+                                                <li className='mt-3'>Diseño de plantillas para redes sociales(Portada, Perfil y Publicaciones).</li>
+                                                <li className='mt-3'>20 Publicaciones en imagen.</li>
+                                                <li className='mt-3'>2 Publicaciones en imagen tipo slide (Máximo 10 imagenes).</li>
+                                                <li className='mt-3'>4 Historias (imagen y video).</li>
+                                                <li className='mt-3'>2 Social video para reel o tiktok.</li>
+                                            </ul>
+                                        </div>
+                                        <div className='text-center text-white mt-5'>
+                                            <p className='line-through'>COSTO REAL</p>
+                                            <p className='line-through'></p>
+                                            <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                }
+                            />
+                        </div>
+                        {/* Pa’ que te quieran */}
+                        {/* Pa’ que sueñen */}
+                        <div className='mt-5'>
+                            <Accordion
+                                title="Pa’ que sueñen"
+                                content={
+                                    <div>
+                                        <div>
+                                            <div>
+                                                <ul className='list-disc list-inside'>
+                                                    <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok).</li>
+                                                    <li className='mt-3'>Diseño de plantillas para redes sociales (Portada, Perfil y Publicaciones).</li>
+                                                    <li className='mt-3'>28 Publicaciones en imagen</li>
+                                                    <li className='mt-3'>28 Historias (imagen y video)</li>
+                                                    <li className='mt-3'>4 Social video para reel o tiktok</li>
+                                                </ul>
+                                            </div>
                                             <div className='text-center text-white mt-5'>
                                                 <p className='line-through'>COSTO REAL</p>
                                                 <p className='line-through'></p>
@@ -89,12 +148,26 @@ export default function App() {
                                                 <p></p>
                                             </div>
                                         </div>
+                                        <div className='mt-5'>
+                                            <div>
+                                                <h5 className="text-[#00a09b]">¿Qué beneficios incluyen?</h5>
+                                            </div>
+                                            <div>
+                                                <ul>
+                                                    <li className='mt-3'></li>
+                                                    <li className='mt-3'></li>
+                                                    <li className='mt-3'></li>
+                                                    <li className='mt-3'></li>
+                                                    <li className='mt-3'></li>
+                                                    <li className='mt-3'></li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
-
                                 }
                             />
-
                         </div>
+                        {/* Pa’ que sueñen */}
                     </div>
                 </div>
             ))}
