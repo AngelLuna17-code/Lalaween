@@ -37,7 +37,7 @@ export default function App() {
     ];
 
     return (
-        <div className='grid sm:grid-cols-1 md:grid-cols-3 mt-10 gap-5'>
+        <div className='mt-10 gap-5'>
             {list.map((item, index) => (
                 <div className='Accordion17 p-5 rounded-lg'>
                     <div className='text-white'>
@@ -77,7 +77,7 @@ export default function App() {
                             <Accordion
                                 title="¿Pa’ que le empieces?"
                                 content={
-                                    <div className='grid sm:grid-col-1 md:grid-cols-2'>
+                                    <div>
                                         <div>
                                             <ul className='list-disc list-inside'>
                                                 <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok)</li>
@@ -103,7 +103,7 @@ export default function App() {
                             <Accordion
                                 title="Pa’ que te quieran"
                                 content={
-                                    <div className='grid sm:grid-col-1 md:grid-cols-2'>
+                                    <div>
                                         <div>
                                             <ul className='list-disc list-inside'>
                                                 <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok).</li>
@@ -153,13 +153,10 @@ export default function App() {
                                                 <h5 className="text-[#00a09b]">¿Qué beneficios incluyen?</h5>
                                             </div>
                                             <div>
-                                                <ul>
-                                                    <li className='mt-3'></li>
-                                                    <li className='mt-3'></li>
-                                                    <li className='mt-3'></li>
-                                                    <li className='mt-3'></li>
-                                                    <li className='mt-3'></li>
-                                                    <li className='mt-3'></li>
+                                                <ul className='list-disc list-inside'>
+                                                    <li className='mt-3'>Formato optimizado para Facebook e Instagram</li>
+                                                    <li className='mt-3'>Uso de imágenes de stock y/o proporcionadas por el cliente.</li>
+                                                    <li className='mt-3'>Publicación del contenido trabajado para redes y administración de redes sociales durante un mes.</li>
                                                 </ul>
                                             </div>
                                         </div>
