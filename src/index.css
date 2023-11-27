@@ -10,7 +10,7 @@
 
 
 body {
-  font-family:"Poppins-Thin" ;
+  font-family:"Poppins-Thin", sans-serif ;
   min-width: 640px;
   margin: 0 auto;
   background: linear-gradient(-45deg, #000000, #111111, #011e2c);
