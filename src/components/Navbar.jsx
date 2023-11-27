@@ -36,7 +36,7 @@ const Navbar = () => {
                 Contacto
               </li>
             </a>
-            <a href="">
+            <a href="./terminos_y_condiciones">
               <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
                 Promociones
               </li>
