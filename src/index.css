@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url("../Font/Poppins-Thin.ttf") format('truetype');
+}
+
+
 body {
+  font-family:"Poppins-Thin" ;
   min-width: 640px;
   margin: 0 auto;
   background: linear-gradient(-45deg, #000000, #111111, #011e2c);
@@ -46,10 +54,9 @@ body {
   }
 
   p {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
-
 /* Mobile */
 /* Tablet */
 @media (min-width: 768px) {
@@ -71,10 +78,6 @@ body {
 
   h5 {
     font-size: 18px;
-  }
-
-  p {
-    font-size: 16px;
   }
 }
 
@@ -99,10 +102,6 @@ body {
 
   .h5-md {
     font-size: 20px;
-  }
-
-  p {
-    font-size: 18px;
   }
 }
 
