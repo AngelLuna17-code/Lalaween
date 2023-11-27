@@ -136,7 +136,7 @@ export default function App() {
     ];
 
     return (
-        <div className='grid sm:grid-cols-1 md:grid-cols-3 gap-5 overflow-hidden'>
+        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-2 lg:gap-5 xl:gap-5 xl:gap-3 2xl:gap-5 overflow-hidden'>
             {list.map((item, index) => (
                 <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                    <div className='text-white'>
                     <div>

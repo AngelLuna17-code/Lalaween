@@ -13,10 +13,9 @@ function App() {
       <div>
         <Navbar />
       </div>
-      <div className='container mx-auto'>
+      <div className='container mx-auto px-4'>
         <div className='mt-20'>
           <Promociones />
-
         </div>
       </div>
     </div>
