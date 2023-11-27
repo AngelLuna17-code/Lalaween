@@ -140,12 +140,12 @@ export default function App() {
             {list.map((item, index) => (
                 <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                    <div className='text-white'>
                     <div>
-                        <h3 className='text-[#00a09b]'>{item.titlePaq}</h3>
-                        <h4>{item.sub}</h4>
+                        <h3 className='text-[#00a09b] font-black'>{item.titlePaq}</h3>
+                        <p>{item.sub}</p>
                     </div>
                     <div className='mt-5'>
-                        <h4 className='text-[#00a09b]'>PRÓPOSITO</h4>
-                        <p className='text-justify sm:text-sm md:text-base lg:text-lg'>{item.proposito}</p>
+                        <h4 className='text-[#00a09b] font-semibold'>PRÓPOSITO</h4>
+                        <p className='text-justify'>{item.proposito}</p>
                     </div>
                 </div>
                     <div className='mt-5'>
@@ -211,11 +211,11 @@ export default function App() {
             <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                <div className='text-white'>
                 <div>
                     <h3 className='text-[#00a09b]'>Pa' quete des a conocer</h3>
-                    <h4>Inicia tu presencia en redes sociales y crece tu negocio</h4>
+                    <p>Inicia tu presencia en redes sociales y crece tu negocio</p>
                 </div>
                 <div className='mt-5'>
-                    <h4 className='text-[#00a09b]'>PRÓPOSITO</h4>
-                    <p className='text-justify sm:text-sm md:text-base lg:text-lg'>
+                    <h4 className='text-[#00a09b] font-semibold'>PRÓPOSITO</h4>
+                    <p className='text-justify'>
                         Diseñar, generar y ejecutar las bases para comenzar a promocionar tus servicios y/o productos en el
                         mercado, estudiando y planteando estrategias según el análisis obtenido en redes sociales, dando a
                         conocer y dejando al alcance de todos la comunicación directa y fluida con tu negocio en el mundo
