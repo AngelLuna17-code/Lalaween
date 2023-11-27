@@ -210,7 +210,7 @@ export default function App() {
             {/*Pa' quete des a conocer */}
             <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                <div className='text-white'>
                 <div>
-                    <h3 className='text-[#00a09b]'>Pa' quete des a conocer</h3>
+                    <h3 className='text-[#00a09b] font-black'>Pa' quete des a conocer</h3>
                     <p>Inicia tu presencia en redes sociales y crece tu negocio</p>
                 </div>
                 <div className='mt-5'>
