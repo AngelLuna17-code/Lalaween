@@ -2,10 +2,10 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <div className="flex  justify-between items-center top-0 py-4 px-10 text-white fixed top-0 w-screen z-20" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+    <div className="flex  justify-between items-center top-0 py-4 px-10 text-white fixed top-0 w-screen z-20 max-h-[65px]" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
       <div className='flex items-center'>
         <a href="/">
-          <div className="flex items-center mr-12">
+          <div className="flex items-center mr-16">
             <div >
               <img style={{ height: "37px", width: "100%" }} src="logo.svg" alt="logo" />
             </div>
@@ -16,14 +16,34 @@ const Navbar = () => {
         </a>
         <div className='overflow-hidden '>
           <ul className='list-none flex space-x-12 '>
-            <a href=""><li className='hover:text-[#00cac4]'>Inicio</li></a>
-            <a href=""><li className='hover:text-[#00cac4]'>Productos</li></a>
-            <a href=""><li className='hover:text-[#00cac4]'>Servicio</li></a>
-            <a href=""><li className='hover:text-[#00cac4]'>Contacto</li></a>
-            <a href=""><li className='hover:text-[#00cac4]'>Promociones</li></a>
+            <a href="">
+              <li className='hover:text-[#00cac4] hover:text-[30px]'>
+                Inicio</li>
+            </a>
+            <a href="">
+              <li className='hover:text-[#00cac4] hover:text-[30px]'>
+                Productos
+              </li>
+            </a>
+            <a href="">
+              <li className='hover:text-[#00cac4] hover:text-[30px]'>
+                Servicio
+              </li>
+            </a>
+            <a href="">
+              <li className='hover:text-[#00cac4] hover:text-[30px]'>
+                Contacto
+              </li>
+            </a>
+            <a href="">
+              <li className='hover:text-[#00cac4] hover:text-[30px]'>
+                Promociones
+              </li>
+            </a>
           </ul>
         </div>
       </div>
+
       <div className="flex items-center space-x-10">
         <a href="">
           <svg className='hover:text-[#00cac4]' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
