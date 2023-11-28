@@ -11,12 +11,8 @@ const About = () => {
             <div className='mt-10'>
                 <Promociones />
             </div>
-            {/* Footer */}
-            <div className=''>
-                <Footer />
-            </div>
-            {/* Footer */}
         </div>
+        <Footer />
     </div>
 }
 
