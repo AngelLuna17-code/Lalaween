@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 import Navbar from "./components/Navbar.jsx";
-import Promociones from "./components/Promociones.tsx"
 import Footer from "./components/Footer.jsx"
 
 function App() {
@@ -16,6 +15,8 @@ function App() {
         <Navbar />
       </div>
       {/* Navbar */}
+     
+
       {/* Footer */}
       <div className='mx-auto'>
         <Footer />
