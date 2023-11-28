@@ -1,28 +1,22 @@
-import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar.jsx";
-import Promociones from "./components/Promociones.tsx"
-import Footer from "./components/Footer.jsx"
-
+import { Routes, Route } from 'react-router-dom';
+import Layout  from "./pages/Layout";
+import About  from "./pages/About";
+import Home  from "./pages/Home";
+import Default  from "./pages/Default";
+import Dashboard  from "./pages/Dashboard";
 function App() {
   return (
-    /* Body */
-    <div className="App">
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
-      {/* Navbar */}
-      <div>
-        <Navbar />
-      </div>
-      {/* Navbar */}
-      {/* Footer */}
-      <div className='mx-auto'>
-        <Footer />
-      </div>
-      {/* Footer */}
+    <div>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+           <Route path="about" element={<About />} />
+           <Route path="/" element={<Home />} />
+           <Route path="dashboard" element={<Dashboard />} />
+           <Route path="*" element={<Default />} />
+        </Route>
+      </Routes>
     </div>
-    /* Body */
   );
 }
 
