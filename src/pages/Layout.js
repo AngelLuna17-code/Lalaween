@@ -22,8 +22,6 @@ const Layout = () => {
                   Inicio
                 </li>
               </Link>
-
-
               <a href="">
                 <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
                   Productos
@@ -76,7 +74,6 @@ const Layout = () => {
         </div>
       </div>
     </nav>
-    <hr />
     <Outlet />
   </div>;
 }
