@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from "../components/Footer.jsx"
+import AnimatedText from "../components/AnimatedText.jsx"
 
 const Home = () => {
     return <div>
@@ -20,6 +21,7 @@ const Home = () => {
                 <div className='text-white text-center flex items-center'>
                     <div>
                         <h1>Impulsamos</h1>
+                        <AnimatedText />
                         <h1>conservando tu esencia</h1>
                         <a href="">
                             <button className='bg-[#066a69] hover:bg-[#01a09a] px-[90px] py-[10px] font-black rounded-lg'>Nuestros paquetes</button>
