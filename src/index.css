@@ -8,6 +8,11 @@
   src: url("../Font/Poppins-Thin.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("../Font/Poppins-Regular.ttf") format('truetype');
+}
+
 
 body {
   font-family: "Poppins-Thin", sans-serif;
@@ -31,9 +36,21 @@ body {
   }
 }
 
+.typing {
+  font-weight: bolder;
+  font-size: 60px;
+  font-family: "Poppins-Regular", sans-serif;
+}
+
 /* Mobile */
+
 @media (min-width: 640px) {
   h1 {
+    font-size: 28px;
+    font-weight: lighter;
+  }
+
+  .typing {
     font-size: 28px;
   }
 
@@ -65,6 +82,10 @@ body {
     font-size: 32px;
   }
 
+  .typing {
+    font-size: 32px;
+  }
+
   h2 {
     font-size: 28px;
   }
@@ -86,6 +107,10 @@ body {
 /* Laptop */
 @media (min-width: 1024px) {
   h1 {
+    font-size: 60px;
+  }
+
+  .typing {
     font-size: 60px;
   }
 

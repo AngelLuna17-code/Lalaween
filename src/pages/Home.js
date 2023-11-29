@@ -10,7 +10,7 @@ const Home = () => {
         <div id="stars3"></div>
         {/* Stars */}
         {/* Hero */}
-        <div className='container mx-auto'>
+        <div className='container mx-auto mt-[50px]'>
             <div className='grid grid-cols-2'>
                 <div className='flex items-center'>
                     <img style={{ height: "80%", width: "100%" }} src="/logo.svg" alt="logo" />

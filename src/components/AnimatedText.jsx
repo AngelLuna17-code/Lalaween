@@ -14,7 +14,7 @@ const AnimatedText = () => {
 
   return (
     <animated.div style={props}>
-      <h1 className='font-black'>{phrases[index]}</h1>
+      <p className='font-black typing'>{phrases[index]}</p>
     </animated.div>
   );
 };
