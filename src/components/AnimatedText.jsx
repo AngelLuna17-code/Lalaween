@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSpring, animated } from 'react-spring';
 
 const AnimatedText = () => {
-  const phrases = ['¡Hola!', '¡Bienvenido!', '¡React es genial!'];
+  const phrases = ['Tu negocio', 'Tu marca', 'Tus ideas', 'Tu producto', 'Tus servicios'];
   const [index, setIndex] = useState(0);
 
   const props = useSpring({
@@ -14,7 +14,7 @@ const AnimatedText = () => {
 
   return (
     <animated.div style={props}>
-      <h1>{phrases[index]}</h1>
+      <h1 className='font-black'>{phrases[index]}</h1>
     </animated.div>
   );
 };

@@ -9,16 +9,13 @@ const Home = () => {
         <div id="stars2"></div>
         <div id="stars3"></div>
         {/* Stars */}
-        <div className='container mx-auto px-4 pb-8'>
-            <h1 className='text-white'>Lalaween</h1>
-        </div>
         {/* Hero */}
         <div className='container mx-auto'>
             <div className='grid grid-cols-2'>
                 <div className='flex items-center'>
                     <img style={{ height: "80%", width: "100%" }} src="/logo.svg" alt="logo" />
                 </div>
-                <div className='text-white text-center flex items-center'>
+                <div className='text-white text-center flex items-center justify-center'>
                     <div>
                         <h1>Impulsamos</h1>
                         <AnimatedText />

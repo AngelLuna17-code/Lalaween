@@ -86,7 +86,7 @@ body {
 /* Laptop */
 @media (min-width: 1024px) {
   h1 {
-    font-size: 36px;
+    font-size: 60px;
   }
 
   h2 {
