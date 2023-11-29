@@ -19,13 +19,12 @@ const Home = () => {
                 </div>
                 <div className='text-white text-center flex items-center'>
                     <div>
-                    <h1>Impulsamos</h1>
-                    <h1>conservando tu esencia</h1>
-                    <a href="">
-                        <button className='bg-[#066a69] hover:bg-[#01a09a] px-[90px] py-[10px] font-black rounded-lg'>Nuestros paquetes</button>
-                    </a>
+                        <h1>Impulsamos</h1>
+                        <h1>conservando tu esencia</h1>
+                        <a href="">
+                            <button className='bg-[#066a69] hover:bg-[#01a09a] px-[90px] py-[10px] font-black rounded-lg'>Nuestros paquetes</button>
+                        </a>
                     </div>
-                 
                 </div>
             </div>
         </div>
