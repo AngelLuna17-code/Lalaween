@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -6,11 +7,12 @@ const Footer = () => {
             <div className='px-4 py-8' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                 <div>
                     <ul className='list-none flex items-center justify-center space-x-12'>
-                        <a href="">
+                        <Link to="/">
                             <li className='text-white hover:text-[#00cac4]'>
                                 Inicio
                             </li>
-                        </a>
+                        </Link>
+
                         <a href="">
                             <li className='text-white hover:text-[#00cac4]'>
                                 Productos
@@ -62,10 +64,10 @@ const Footer = () => {
                         Copyright © 2023 Lalaween
                     </p>
                 </div>
+                <Outlet />
             </div>
         </footer>
     );
 };
-
 
 export default Footer;
