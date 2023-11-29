@@ -37,7 +37,7 @@ const Layout = () => {
                   Contacto
                 </li>
               </a>
-              <Link to="/about">
+              <Link to="/Promo">
                 <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
                   Promociones
                 </li>

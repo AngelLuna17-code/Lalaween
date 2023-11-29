@@ -2,7 +2,7 @@ import React from 'react';
 import Promociones from "../components/Promociones.tsx"
 import Footer from "../components/Footer.jsx"
 
-const About = () => {
+const Promo = () => {
     return <div>
         {/* Stars */}
         <div id="stars"></div>
@@ -22,4 +22,4 @@ const About = () => {
     </div>
 }
 
-export default About;
+export default Promo;
