@@ -11,7 +11,7 @@ const Promo = () => {
         {/* Stars */}
         {/* Promociones */}
         <div className='container mx-auto px-4 pb-8'>
-            <div className='mt-10'>
+            <div className='mt-[100px]'>
                 <Promociones />
             </div>
         </div>
