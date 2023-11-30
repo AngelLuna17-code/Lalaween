@@ -30,7 +30,7 @@ const Home = () => {
         </div>
         {/* Hero */}
         {/* Servicios */}
-        <div className='container mx auto container mx-auto flex justify-center items-center'>
+        <div className='container mx-auto flex justify-center items-center'>
             <ServiceCards />
         </div>
         {/* Servicios */}
