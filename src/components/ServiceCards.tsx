@@ -5,17 +5,20 @@ export default function App() {
         {
             title: "MARKETING DIGITAL",
             subTitle: "Tu negocio en contacto con el mundo.",
-            service: "Creación de contenido y manejo de tus redes sociales."
+            service: "Creación de contenido y manejo de tus redes sociales.",
+            image: "cards/card-1.webp"
         },
         {
             title: "DISEÑO GRAFICO",
             subTitle: "Tu imagen corporativa importa.",
-            service: "Diseños atractivos y personalizados."
+            service: "Diseños atractivos y personalizados.",
+            image: "cards/card-2.webp"
         },
         {
             title: "DISEÑO WEB",
             subTitle: "Tu negocio al alcance de un click",
-            service: ">Programación y diseño de tu sitio web a tu medida."
+            service: "Programación y diseño de tu sitio web a tu medida.",
+            image: "cards/card-3.webp"
         }
     ];
 
@@ -24,7 +27,7 @@ export default function App() {
             {list.map((item, index) => (
                 <div className='p-5 rounded-lg text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                     <div>
-                        <h2>
+                        <h2 className='title'>
                             {item.title}
                         </h2>
                     </div>
@@ -38,6 +41,8 @@ export default function App() {
                             {item.service}
                         </p>
                     </div>
+                    <div>
+                        <img src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} />                    </div>
                 </div>
             ))}
         </div>
