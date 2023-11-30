@@ -35,7 +35,15 @@ const Home = () => {
         </div>
         {/* Servicios */}
         {/* Footer */}
-        <Footer />
+        {/* Carrucel */}
+        <div>
+            
+        </div>
+        {/* Carrucel */}
+        {/* Footer */}
+        <div>
+            <Footer />
+        </div>
         {/* Footer */}
     </div >
 }
