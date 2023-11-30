@@ -46,6 +46,19 @@ body {
   font-family: "Poppins-Regular", sans-serif;
 }
 
+.contact-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  background-image: linear-gradient(rgba(1, 1, 1, .5), rgba(1, 1, 0, 2)), url(../public/team.webp);
+  background-position: 50% 50%;
+  overflow: hidden;
+  box-sizing: content-box;
+  padding: 150px 0;
+  backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(0)
+}
+
 /* Mobile */
 
 h1 {
@@ -138,7 +151,8 @@ p {
   .h5-md {
     font-size: 20px;
   }
-  .title-container{
+
+  .title-container {
     font-size: 60px;
   }
 }

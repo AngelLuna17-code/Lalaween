@@ -4,7 +4,7 @@ import { Outlet, Link } from "react-router-dom";
 const Footer = () => {
     return (
         <footer>
-            <div className='px-4 py-8' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+            <div className='px-4 py-8 bg-black'>
                 <div>
                     <ul className='list-none flex items-center justify-center space-x-12'>
                         <Link to="/">
