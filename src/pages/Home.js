@@ -36,10 +36,42 @@ const Home = () => {
         {/* Servicios */}
         {/* Footer */}
         {/* Carrucel */}
-        <div>
-            
+        <div className='container mx-auto py-[100px]'>
+            <div className='grid grid-cols-2'>
+                <div className='text-white text-center'>
+                    <h2 className='title-container'>Mira nuestro</h2>
+                    <h2 className='title-container title'>Portafolio</h2>
+                    <p className='pt-5'>
+                        Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.
+                    </p>
+                </div>
+                <div>
+                </div>
+            </div>
         </div>
         {/* Carrucel */}
+        {/* Mapa */}
+        <div className='conteiner mx-auto'>
+            <div className='grid grid-cols-2'>
+                <div>
+
+                </div>
+                <div className='text-white text-center'>
+                    <h2 className='title-container'>Aquí nos</h2>
+                    <h2 className='title-container title'>encontramos</h2>
+                </div>
+            </div>
+        </div>
+        {/* Mapa */}
+        {/* Contacto */}
+        <div className='contact-container'>
+            <div className='text-white text-center'>
+                <h2 className='title-container'>Será un gusto</h2>
+                <h2 className='title-container title'>trabajar contigo</h2>
+                <a href=''>creativeteam@lalaween.com</a>
+            </div>
+        </div>
+        {/* Contacto */}
         {/* Footer */}
         <div>
             <Footer />

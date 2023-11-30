@@ -138,6 +138,9 @@ p {
   .h5-md {
     font-size: 20px;
   }
+  .title-container{
+    font-size: 60px;
+  }
 }
 
 /* Laptop */
