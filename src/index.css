@@ -43,35 +43,41 @@ body {
 
 /* Mobile */
 
-  h1 {
-    font-size: 28px;
-    font-weight: lighter;
-  }
+h1 {
+  font-size: 28px;
+  font-weight: lighter;
+  font-smooth: auto;
+}
 
-  .typing {
-    font-size: 28px;
-  }
+.typing {
+  font-size: 28px;
+  font-smooth: auto;
+}
 
-  h2 {
-    font-size: 24px;
-  }
+h2 {
+  font-size: 24px;
+  font-smooth: auto;
+}
 
-  h3 {
-    font-size: 20px;
-  }
+h3 {
+  font-size: 20px;
+  font-smooth: auto;
+}
 
-  h4 {
-    font-size: 18px;
-  }
+h4 {
+  font-size: 18px;
+  font-smooth: auto;
+}
 
-  h5 {
-    font-size: 16px;
-  }
+h5 {
+  font-size: 16px;
+  font-smooth: auto;
+}
 
-  p {
-    font-size: 16px;
-    font-weight:500;
-  }
+p {
+  font-size: 16px;
+  font-weight: 500;
+}
 
 /* Mobile */
 /* Tablet */

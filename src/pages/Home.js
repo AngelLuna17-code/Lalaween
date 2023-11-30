@@ -1,6 +1,7 @@
 import React from 'react';
 import Footer from "../components/Footer.jsx"
 import AnimatedText from "../components/AnimatedText.jsx"
+import ServiceCards from "../components/ServiceCards.tsx"
 
 const Home = () => {
     return <div>
@@ -28,6 +29,11 @@ const Home = () => {
             </div>
         </div>
         {/* Hero */}
+        {/* Servicios */}
+        <div className='container mx auto container mx-auto flex justify-center items-center'>
+            <ServiceCards />
+        </div>
+        {/* Servicios */}
         {/* Footer */}
         <Footer />
         {/* Footer */}
