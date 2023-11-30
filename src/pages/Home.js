@@ -30,14 +30,14 @@ const Home = () => {
         </div>
         {/* Hero */}
         {/* Servicios */}
-        <div className='container mx-auto flex justify-center items-center'>
+        <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4'>
             <ServiceCards />
         </div>
         {/* Servicios */}
         {/* Footer */}
         {/* Carrucel */}
-        <div className='container mx-auto py-[100px]'>
-            <div className='grid grid-cols-2'>
+        <div className='container mx-auto py-[100px] sm:px-8 md:px-4'>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center'>
                     <h2 className='title-container'>Mira nuestro</h2>
                     <h2 className='title-container title'>Portafolio</h2>
@@ -46,15 +46,16 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
+                    <p className='text-white text-center'>aqui va un carousel juas juas</p>
                 </div>
             </div>
         </div>
         {/* Carrucel */}
         {/* Mapa */}
-        <div className='conteiner mx-auto'>
-            <div className='grid grid-cols-2'>
+        <div className='conteiner mx-auto sm:px-8 md:px-4'>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div>
-
+                    <p className='text-white text-center'>Aqui va un mapa</p>
                 </div>
                 <div className='text-white text-center'>
                     <h2 className='title-container'>Aquí nos</h2>

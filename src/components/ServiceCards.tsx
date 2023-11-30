@@ -23,27 +23,28 @@ export default function App() {
     ];
 
     return (
-        <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-2 lg:gap-5 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
+        <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
             {list.map((item, index) => (
                 <div className='rounded-t-lg text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                    <div className='py-12'>
-                        <div>
-                            <h2 className='title'>
-                                {item.title}
-                            </h2>
-                        </div>
-                        <div>
-                            <p>
-                                {item.subTitle}
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                {item.service}
-                            </p>
+                    <div className='lg:min-h-[230px] py-8 px-2 flex items-center justify-center'>
+                        <div className=''>
+                            <div>
+                                <h2 className='title'>
+                                    {item.title}
+                                </h2>
+                            </div>
+                            <div>
+                                <p>
+                                    {item.subTitle}
+                                </p>
+                            </div>
+                            <div>
+                                <p>
+                                    {item.service}
+                                </p>
+                            </div>
                         </div>
                     </div>
-
                     <div className='rounded-b-lg'>
                         <img className='rounded-b-lg' src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} />
                     </div>
