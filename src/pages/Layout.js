@@ -18,27 +18,27 @@ const Layout = () => {
           <div className='overflow-hidden'>
             <ul className='list-none flex items-center space-x-12'>
               <Link to="/">
-                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
+                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[22px]'>
                   Inicio
                 </li>
               </Link>
               <a href="">
-                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
+                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[22px]'>
                   Productos
                 </li>
               </a>
               <a href="">
-                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
+                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[22px]'>
                   Servicio
                 </li>
               </a>
               <a href="">
-                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
+                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[22px]'>
                   Contacto
                 </li>
               </a>
               <Link to="/Promo">
-                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[30px]'>
+                <li className='transition-all duration-300 ease-in-out delay-100 hover:text-[#00cac4] hover:text-[22px]'>
                   Promociones
                 </li>
               </Link>
