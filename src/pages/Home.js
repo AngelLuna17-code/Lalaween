@@ -37,7 +37,7 @@ const Home = () => {
         {/* Servicios */}
         {/* Footer */}
         {/* Carrucel */}
-        <div className='container mx-auto py-[100px] sm:px-8 md:px-4'>
+        <div className='container mx-auto  sm:px-8 md:px-4 py-12'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center'>
                     <h2 className='title-container'>Mira nuestro</h2>
@@ -47,15 +47,12 @@ const Home = () => {
                     </p>
                 </div>
                 <div>
-                    <p className='text-white text-center'>
-                        aqui va un carousel juas juas
-                    </p>
                 </div>
             </div>
         </div>
         {/* Carrucel */}
         {/* Mapa */}
-        <div className='container mx-auto  sm:px-8 md:px-4 overflow-hidden'>
+        <div className='container mx-auto  sm:px-8 md:px-4 overflow-hidden py-12'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center map-title-sm sm:py-[50px]'>
                     <h2 className='title-container'>Aquí nos</h2>
@@ -88,7 +85,9 @@ const Home = () => {
             <div className='text-white text-center'>
                 <h2 className='title-container'>Será un gusto</h2>
                 <h2 className='title-container title'>trabajar contigo</h2>
-                <a href=''>creativeteam@lalaween.com</a>
+                <div className='mt-8'>
+                    <a className='hover:text-[#00cac4] text-[27px]' href="mailto:CreativeTeam@LalaWeen.com" target="blank">creativeteam@lalaween.com</a>
+                </div>
             </div>
         </div>
         {/* Contacto */}
