@@ -42,9 +42,11 @@ const Home = () => {
                 <div className='text-white text-center'>
                     <h2 className='title-container'>Mira nuestro</h2>
                     <h2 className='title-container title'>Portafolio</h2>
-                    <p className='mt-5 w-[70%]'>
-                        Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.
-                    </p>
+                    <div className='flex items-center justify-center'>
+                        <p className='mt-5 w-[70%]'>
+                            Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.
+                        </p>
+                    </div>
                 </div>
                 <div>
                 </div>
