@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from "../components/Footer.jsx"
 import AnimatedText from "../components/AnimatedText.jsx"
 import ServiceCards from "../components/ServiceCards.tsx"
+import Mapa from "../components/Mapa.jsx"
 
 const Home = () => {
     return <div>
@@ -41,25 +42,43 @@ const Home = () => {
                 <div className='text-white text-center'>
                     <h2 className='title-container'>Mira nuestro</h2>
                     <h2 className='title-container title'>Portafolio</h2>
-                    <p className='pt-5'>
+                    <p className='mt-5'>
                         Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.
                     </p>
                 </div>
                 <div>
-                    <p className='text-white text-center'>aqui va un carousel juas juas</p>
+                    <p className='text-white text-center'>
+                        aqui va un carousel juas juas
+                    </p>
                 </div>
             </div>
         </div>
         {/* Carrucel */}
         {/* Mapa */}
-        <div className='conteiner mx-auto sm:px-8 md:px-4'>
+        <div className='container mx-auto  sm:px-8 md:px-4 overflow-hidden'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
-                <div>
-                    <p className='text-white text-center'>Aqui va un mapa</p>
-                </div>
-                <div className='text-white text-center'>
+                <div className='text-white text-center map-title-sm sm:py-[50px]'>
                     <h2 className='title-container'>Aquí nos</h2>
                     <h2 className='title-container title'>encontramos</h2>
+                </div>
+                <div>
+                    <div className='flex items-center justify-center'>
+                        <Mapa />
+                    </div>
+                    <div className='mt-5'>
+                        <p className='text-white text-center'>
+                            Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.
+                        </p>
+                        <a href=''>
+                            <p className='text-white text-center font-bold'>Ver mapa</p>
+                        </a>
+                    </div>
+                </div>
+                <div className='flex justify-center items-center'>
+                    <div className='text-white text-center map-title-lg'>
+                        <h2 className='title-container'>Aquí nos</h2>
+                        <h2 className='title-container title'>encontramos</h2>
+                    </div>
                 </div>
             </div>
         </div>

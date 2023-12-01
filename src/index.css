@@ -59,6 +59,10 @@ body {
   -webkit-backdrop-filter: blur(0)
 }
 
+iframe {
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
 /* Mobile */
 
 h1 {
@@ -95,6 +99,10 @@ h5 {
 p {
   font-size: 16px;
   font-weight: 500;
+}
+
+.map-title-lg {
+  display: none;
 }
 
 /* Mobile */
@@ -154,6 +162,14 @@ p {
 
   .title-container {
     font-size: 60px;
+  }
+
+  .map-title-sm {
+    display: none;
+  }
+
+  .map-title-lg {
+    display: block;
   }
 }
 
