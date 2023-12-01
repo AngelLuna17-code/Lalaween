@@ -69,8 +69,8 @@ const Home = () => {
                         <p className='text-white text-center'>
                             Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.
                         </p>
-                        <a href=''>
-                            <p className='text-white text-center font-bold'>Ver mapa</p>
+                        <a href='https://maps.app.goo.gl/qwFmJHHRY3W8afux7' target='blank'>
+                            <p className='text-white text-center font-bold hover:text-[#00cac4]'>Ver mapa</p>
                         </a>
                     </div>
                 </div>
