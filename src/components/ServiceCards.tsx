@@ -29,17 +29,17 @@ export default function App() {
                     <div className='lg:min-h-[230px] py-8 px-2 flex items-center justify-center'>
                         <div>
                             <div>
-                                <p className='title'>
+                                <p className='title text-2xl'>
                                     {item.title}
                                 </p>
                             </div>
                             <div>
-                                <p>
+                                <p className='mt-6'>
                                     {item.subTitle}
                                 </p>
                             </div>
                             <div>
-                                <p>
+                                <p className='mt-2'>
                                     {item.service}
                                 </p>
                             </div>
