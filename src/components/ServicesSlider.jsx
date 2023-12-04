@@ -65,7 +65,6 @@ const ServicesSlider = () => {
                     </div>
                 </div>
                 {/* Slider item 3 */}
-
             </Slider>
         </div>
     );

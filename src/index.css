@@ -179,7 +179,8 @@ p {
   .ServiceCards-container {
     display: block;
   }
-  .ServicesSlider-container{
+
+  .ServicesSlider-container {
     display: none;
   }
 }
