@@ -18,7 +18,7 @@ const ServicesSlider = () => {
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='py-8'>
-                            <h2 className='title'>
+                            <h2 className='title text-3xl'>
                                 MARKETING DIGITAL
                             </h2>
                             <p>
@@ -36,7 +36,7 @@ const ServicesSlider = () => {
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='py-8'>
-                            <h2 className='title'>
+                            <h2 className='title text-3xl'>
                                 DISEÑO GRAFICO                            </h2>
                             <p>
                                 Tu imagen corporativa importa                            </p>
@@ -51,7 +51,7 @@ const ServicesSlider = () => {
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='py-8'>
-                            <h2 className='title'>
+                            <h2 className='title text-3xl'>
                                 DISEÑO WEB
                             </h2>
                             <p>
