@@ -3,6 +3,7 @@ import Footer from "../components/Footer.jsx"
 import AnimatedText from "../components/AnimatedText.jsx"
 import ServiceCards from "../components/ServiceCards.tsx"
 import Mapa from "../components/Mapa.jsx"
+import SliderComponent from "../components/SliderComponent.jsx"
 
 const Home = () => {
     return <div>
@@ -36,23 +37,9 @@ const Home = () => {
         </div>
         {/* Servicios */}
         {/* Footer */}
-        {/* Carrucel */}
-        <div className='container mx-auto  sm:px-8 md:px-4 py-12'>
-            <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
-                <div className='text-white text-center'>
-                    <h2 className='title-container'>Mira nuestro</h2>
-                    <h2 className='title-container title'>Portafolio</h2>
-                    <div className='flex items-center justify-center'>
-                        <p className='mt-5 w-[70%]'>
-                            Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.
-                        </p>
-                    </div>
-                </div>
-                <div>
-                </div>
-            </div>
-        </div>
-        {/* Carrucel */}
+        {/* Carrusel */}
+       <SliderComponent/>
+        {/* Carrusel */}
         {/* Mapa */}
         <div className='container mx-auto  sm:px-8 md:px-4 overflow-hidden py-12'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
