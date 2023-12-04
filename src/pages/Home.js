@@ -4,6 +4,7 @@ import AnimatedText from "../components/AnimatedText.jsx"
 import ServiceCards from "../components/ServiceCards.tsx"
 import Mapa from "../components/Mapa.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
+import ServicesSlider from '../components/ServicesSlider.jsx'
 
 const Home = () => {
     return <div>
@@ -32,13 +33,35 @@ const Home = () => {
         </div>
         {/* Hero */}
         {/* Servicios */}
-        <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4'>
-            <ServiceCards />
+        <div className='container mx-auto py-[100px] ServicesSlider-container'>
+            <ServicesSlider />
+        </div>
+        <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 ServiceCards-container'>
+            <div>
+                <ServiceCards />
+            </div>
         </div>
         {/* Servicios */}
         {/* Footer */}
         {/* Carrusel */}
-       <SliderComponent/>
+        <div className='container mx-auto py-[100px]'>
+            <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
+                <div className='text-white text-center flex items-center justify-center'>
+                    <div>
+                        <div>
+                            <h2 className='title-container'>Mira nuestro</h2>
+                            <h2 className='title-container title'>portafolio</h2>
+                        </div>
+                        <div className='w-[60%] mt-8 mx-auto'>
+                            <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <SliderComponent />
+                </div>
+            </div>
+        </div>
         {/* Carrusel */}
         {/* Mapa */}
         <div className='container mx-auto  sm:px-8 md:px-4 overflow-hidden py-12'>

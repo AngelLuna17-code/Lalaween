@@ -13,17 +13,25 @@ const SliderComponent = () => {
     };
 
     return (
-        <Slider {...sliderSettings}>
-            <div>
-                {/* Contenido de la diapositiva 1 */}
-                <img src="/slide1.jpg" alt="Slide 1" />
-            </div>
-            <div>
-                {/* Contenido de la diapositiva 2 */}
-                <img src="/slide2.jpg" alt="Slide 2" />
-            </div>
-            {/* Agrega más diapositivas según sea necesario */}
-        </Slider>
+        <div>
+            <Slider className='mx-auto w-[50%]' {...sliderSettings}>
+                <div>
+                    <img className='rounded-[15px]' src="/slider/1.webp" alt="Slide 1" />
+                </div>
+                <div>
+                    <img className='rounded-[15px]' src="/slider/2.webp" alt="Slide 2" />
+                </div>
+                <div>
+                    <img className='rounded-[15px]' src="/slider/3.webp" alt="Slide 2" />
+                </div>
+                <div>
+                    <img className='rounded-[15px]' src="/slider/4.webp" alt="Slide 2" />
+                </div>
+                <div>
+                    <img className='rounded-[15px]' src="/slider/5.webp" alt="Slide 2" />
+                </div>
+            </Slider>
+        </div>
     );
 }
 

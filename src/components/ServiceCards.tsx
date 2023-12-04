@@ -25,9 +25,9 @@ export default function App() {
     return (
         <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
             {list.map((item, index) => (
-                <div className='rounded-t-lg text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+                <div className='rounded-t-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                     <div className='lg:min-h-[230px] py-8 px-2 flex items-center justify-center'>
-                        <div className=''>
+                        <div>
                             <div>
                                 <h2 className='title'>
                                     {item.title}
@@ -46,7 +46,7 @@ export default function App() {
                         </div>
                     </div>
                     <div className='rounded-b-lg'>
-                        <img className='rounded-b-lg' src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} />
+                        <img className='rounded-b-[15px]' src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} />
                     </div>
                 </div>
             ))}

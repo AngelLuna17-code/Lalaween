@@ -105,6 +105,10 @@ p {
   display: none;
 }
 
+.ServiceCards-container {
+  display: none;
+}
+
 /* Mobile */
 /* Tablet */
 @media (min-width: 768px) {
@@ -170,6 +174,13 @@ p {
 
   .map-title-lg {
     display: block;
+  }
+
+  .ServiceCards-container {
+    display: block;
+  }
+  .ServicesSlider-container{
+    display: none;
   }
 }
 
