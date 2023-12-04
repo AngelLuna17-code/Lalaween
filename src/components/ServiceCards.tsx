@@ -29,9 +29,9 @@ export default function App() {
                     <div className='lg:min-h-[230px] py-8 px-2 flex items-center justify-center'>
                         <div>
                             <div>
-                                <h2 className='title'>
+                                <p className='title'>
                                     {item.title}
-                                </h2>
+                                </p>
                             </div>
                             <div>
                                 <p>
