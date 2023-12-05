@@ -14,16 +14,16 @@ const Home = () => {
         <div id="stars3"></div>
         {/* Stars */}
         {/* Hero */}
-        <div className='container mx-auto mt-[50px]'>
+        <div className='xs:container sm:container md:container lg:container xl:container 2xl:container container mx-auto mt-[50px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center'>
                     <img style={{ height: "80%", width: "100%" }} src="/logo.svg" alt="logo" />
                 </div>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
-                        <h1 className='sm:text-4xl lg:text-6xl'>Impulsamos</h1>
+                        <h1 >Impulsamos</h1>
                         <AnimatedText />
-                        <h1 className='sm:text-4xl lg:text-6xl mt-5'>conservando tu esencia</h1>
+                        <h1>conservando tu esencia</h1>
                         <a href="">
                             <button className='bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-[20px]'>Nuestros paquetes</button>
                         </a>
@@ -33,44 +33,44 @@ const Home = () => {
         </div>
         {/* Hero */}
         {/* Servicios */}
-        <div className='container mx-auto sm:py-[50px] ServicesSlider-container'>
+        <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto sm:py-[50px] ServicesSlider-container xs:py-8'>
             <ServicesSlider />
         </div>
-        <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 ServiceCards-container'>
+        <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 ServiceCards-container'>
             <div>
                 <ServiceCards />
             </div>
         </div>
         {/* Servicios */}
         {/* Slider */}
-        <div className='container mx-auto sm:py-[50px]'>
+        <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto xs:py-8 sm:py-[50px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
                         <div>
-                            <h2 className='title-container sm:text-4xl lg:text-6xl lg:text-6xl'>Mira nuestro</h2>
-                            <h2 className='title-container title sm:text-4xl lg:text-6xl lg:text-6xl'>portafolio</h2>
+                            <h2 className='title-container'>Mira nuestro</h2>
+                            <h2 className='title-container title'>portafolio</h2>
                         </div>
-                        <div className='w-[60%] mt-8 mx-auto'>
+                        <div className='xs:w-[90%] 2xl:w-[75%] mt-8 mx-auto'>
                             <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
                         </div>
                     </div>
                 </div>
-                <div className='sm:mt-8'>
+                <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container xs:mt-8'>
                     <SliderComponent />
                 </div>
             </div>
         </div>
         {/* Slider */}
         {/* Mapa */}
-        <div className='container mx-auto overflow-hidden sm:py-[50px]'>
+        <div className='container mx-auto overflow-hidden xs:py-8'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center map-title-sm'>
-                    <h2 className='title-container sm:text-4xl lg:text-6xl'>Aquí nos</h2>
-                    <h2 className='title-container title sm:text-4xl lg:text-6xl'>encontramos</h2>
+                    <h2 className='title-container'>Aquí nos</h2>
+                    <h2 className='title-container title'>encontramos</h2>
                 </div>
                 <div>
-                    <div className='flex items-center justify-center sm:mt-5 lg:mt-0'>
+                    <div className='flex items-center justify-center xs:mt-5 lg:mt-0'>
                         <Mapa />
                     </div>
                     <div className='mt-5'>
@@ -84,8 +84,8 @@ const Home = () => {
                 </div>
                 <div className='flex justify-center items-center'>
                     <div className='text-white text-center map-title-lg'>
-                        <h2 className='title-container sm:text-4xl lg:text-6xl'>Aquí nos</h2>
-                        <h2 className='title-container title sm:text-4xl lg:text-6xl'>encontramos</h2>
+                        <h2 className='title-container'>Aquí nos</h2>
+                        <h2 className='title-container title'>encontramos</h2>
                     </div>
                 </div>
             </div>
@@ -94,10 +94,10 @@ const Home = () => {
         {/* Contacto */}
         <div className='contact-container'>
             <div className='text-white text-center'>
-                <h2 className='title-container sm:text-4xl lg:text-6xl'>Será un gusto</h2>
-                <h2 className='title-container title sm:text-4xl lg:text-6xl'>trabajar contigo</h2>
-                <div className='mt-8'>
-                    <a className='hover:text-[#00cac4] text-[27px]' href="mailto:CreativeTeam@LalaWeen.com" target="blank">creativeteam@lalaween.com</a>
+                <h2 className='title-container'>Será un gusto</h2>
+                <h2 className='title-container title'>trabajar contigo</h2>
+                <div className='mt-2'>
+                    <a className='hover:text-[#00cac4]' href="mailto:CreativeTeam@LalaWeen.com" target="blank">creativeteam@lalaween.com</a>
                 </div>
             </div>
         </div>

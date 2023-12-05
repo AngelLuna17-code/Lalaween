@@ -14,7 +14,7 @@ const SliderComponent = () => {
 
     return (
         <div>
-            <Slider className='mx-auto w-[50%]' {...sliderSettings}>
+            <Slider className='mx-auto xs:w-[80%] sm:w-[65%] md:w-[55%]' {...sliderSettings}>
                 <div>
                     <img className='rounded-[15px]' src="/slider/1.webp" alt="Slide 1" />
                 </div>

@@ -9,18 +9,18 @@ const Footer = () => {
                     <ul className='list-none flex items-center justify-center space-x-12'>
                         <Link to="/">
                             <li className='text-white hover:text-[#00cac4]'>
-                                Inicio
+                                <p>Inicio</p>
                             </li>
                         </Link>
 
                         <a href="">
                             <li className='text-white hover:text-[#00cac4]'>
-                                Productos
+                                <p>Productos</p>
                             </li>
                         </a>
                         <a href="">
                             <li className='text-white hover:text-[#00cac4]'>
-                                Servicio
+                                <p>Servicio</p>
                             </li>
                         </a>
                     </ul>
@@ -52,10 +52,9 @@ const Footer = () => {
                         </svg>
                     </a>
                 </div>
-                <div className='mt-5'>
+                <div className='mt-5 mx-auto lg:w-[85%] xl:w-[65%] 2xl:w-[55%]'>
                     <p className='text-white text-center'>
                         Nosotros somos LalaWeen, agencia de publicidad y diseño.
-                        <br />
                         El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.
                     </p>
                 </div>

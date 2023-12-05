@@ -13,12 +13,12 @@ const ServicesSlider = () => {
 
     return (
         <div>
-            <Slider className='w-[75%] mx-auto' {...sliderSettings}>
+            <Slider className='xs:w-[80%] mx-auto' {...sliderSettings}>
                 {/* Slider item 1 */}
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='py-8'>
-                            <h2 className='title text-3xl'>
+                            <h2 className='title'>
                                 MARKETING DIGITAL
                             </h2>
                             <p>
@@ -36,7 +36,7 @@ const ServicesSlider = () => {
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='py-8'>
-                            <h2 className='title text-3xl'>
+                            <h2 className='title'>
                                 DISEÑO GRAFICO                            </h2>
                             <p>
                                 Tu imagen corporativa importa                            </p>
@@ -51,7 +51,7 @@ const ServicesSlider = () => {
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='py-8'>
-                            <h2 className='title text-3xl'>
+                            <h2 className='title'>
                                 DISEÑO WEB
                             </h2>
                             <p>
