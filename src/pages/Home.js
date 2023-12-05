@@ -17,7 +17,7 @@ const Home = () => {
         <div className='xs:container sm:container md:container lg:container xl:container 2xl:container container mx-auto mt-[50px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center'>
-                    <img style={{ height: "80%", width: "100%" }} src="/logo.svg" alt="logo" />
+                    <img style={{ height: "75%", width: "100%" }} src="/logo.svg" alt="logo" />
                 </div>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
@@ -97,7 +97,7 @@ const Home = () => {
                 <h2 className='title-container'>Será un gusto</h2>
                 <h2 className='title-container title'>trabajar contigo</h2>
                 <div className='mt-2'>
-                    <a className='hover:text-[#00cac4]' href="mailto:CreativeTeam@LalaWeen.com" target="blank">creativeteam@lalaween.com</a>
+                    <a className='hover:text-[#00cac4] text-2xl' href="mailto:CreativeTeam@LalaWeen.com" target="blank">creativeteam@lalaween.com</a>
                 </div>
             </div>
         </div>
