@@ -1,8 +1,10 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom"
+import MobileNavbar from "../components/MobileNavbar.jsx"
 
 const Layout = () => {
   return <div>
     <nav>
+      {/* Desktop Navbar */}
       <div className="flex justify-between items-center top-0 px-10 lg:px-6 xl:px-8 text-white fixed top-0 w-screen min-h-[70px] z-20 invisible lg:visible" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
         <div className='flex items-center lg:space-x-5 xl:space-x-12'>
           <a href="/">
@@ -73,6 +75,12 @@ const Layout = () => {
           </a>
         </div>
       </div>
+      {/* Desktop Navbar */}
+      {/* Mobile Navbar */}
+      <div>
+        <MobileNavbar />
+      </div>
+      {/* Mobile Navbar */}
     </nav>
     <Outlet />
   </div>;
