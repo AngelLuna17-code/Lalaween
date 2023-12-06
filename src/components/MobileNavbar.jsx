@@ -24,8 +24,8 @@ const Accordion = ({ content }) => {
                 </div>
                     <div className="" onClick={toggleAccordion}>
                         <div className='flex justify-between'>
-                            <div className=''>
-                                {isOpen ? '▲' : '☰'}
+                            <div className='text-[30px] cursor-pointer'>
+                                {isOpen ? '☰' : '☰'}
                             </div>
                         </div>
                     </div>
