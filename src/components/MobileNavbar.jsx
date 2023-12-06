@@ -22,21 +22,21 @@ const Accordion = ({ content }) => {
                         </div>
                     </a>
                 </div>
-                    <div className="" onClick={toggleAccordion}>
-                        <div className='flex justify-between'>
-                            <div className='text-[30px] cursor-pointer'>
-                                {isOpen ? '☰' : '☰'}
-                            </div>
+                <div className="" onClick={toggleAccordion}>
+                    <div className='flex justify-between'>
+                        <div className='text-[30px] cursor-pointer'>
+                            {isOpen ? '☰' : '☰'}
                         </div>
                     </div>
+                </div>
             </div>
             {isOpen &&
-                        <div className="accordion-content">
-                            <div className='p-2'>
-                                {content}
-                            </div>
-                        </div>
-                    }
+                <div className="accordion-content">
+                    <div className='p-2'>
+                        {content}
+                    </div>
+                </div>
+            }
         </div>
     );
 };
