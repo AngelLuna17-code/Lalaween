@@ -32,7 +32,7 @@ const Accordion = ({ content }) => {
             </div>
             {isOpen &&
                 <div className="accordion-content">
-                    <div>
+                    <div className='pb-4'>
                         {content}
                     </div>
                 </div>
@@ -45,15 +45,13 @@ export default function App() {
         <div>
             <Accordion
                 content={
-                    <div className='pb-4'>
-                        <ul className='list-none list-inside'>
-                            <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Inicio</li></a>
-                            <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Productos</li></a>
-                            <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Servicios</li></a>
-                            <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Contacto</li></a>
-                            <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Promociones</li></a>
-                        </ul>
-                    </div>
+                    <ul className='list-none list-inside'>
+                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Inicio</li></a>
+                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Productos</li></a>
+                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Servicios</li></a>
+                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Contacto</li></a>
+                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Promociones</li></a>
+                    </ul>
                 }
             />
         </div>
