@@ -186,6 +186,24 @@ p {
   }
 }
 
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #00cac4 #101010
+}
+
+*::-webkit-scrollbar {
+  width: 16px
+}
+
+*::-webkit-scrollbar-track {
+  background: #101010
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00cac4;
+  border-radius: 10px;
+  border: 3px none #fff
+}
 #stars {
   width: 1px;
   height: 1px;
