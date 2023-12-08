@@ -5,6 +5,8 @@ import ServiceCards from "../components/ServiceCards.tsx"
 import Mapa from "../components/Mapa.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
 import ServicesSlider from '../components/ServicesSlider.jsx'
+import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
+import FloatingButton from "../components/FloatingButton.jsx";
 
 const Home = () => {
     return <div>
@@ -107,6 +109,11 @@ const Home = () => {
             <Footer />
         </div>
         {/* Footer */}
+        {/* Floating Buttons */}
+        <ScrollToTopButton />
+        <FloatingButton />
+        {/* Floating Buttons */}
+
     </div >
 }
 
