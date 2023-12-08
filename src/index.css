@@ -18,10 +18,12 @@ body {
   background: linear-gradient(-45deg, #000000, #111111, #011e2c);
   animation: gradient 1s ease infinite;
 }
-img{
+
+img {
   height: auto;
   width: 100%;
 }
+
 @media (min-width: 375px) {
 
   h1,
@@ -204,6 +206,7 @@ p {
   border-radius: 10px;
   border: 3px none #fff
 }
+
 #stars {
   width: 1px;
   height: 1px;
