@@ -42,8 +42,8 @@ const Home = () => {
         <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 xs:hidden lg:block'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
                 <ServiceCards />
-                <div className='rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                    <div className='lg:min-h-[230px] py-8 px-2 flex items-center justify-center'>
+                <div className='rounded-t-[15px] rounded-b-[15px] text-white text-center ' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+                    <div className='lg:max-h-[230px] xl:max-h-[245px] 2xl:min-h-[260px] py-8 px-2 flex items-center justify-center'>
                         <div>
                             <div>
                                 <p className='title text-2xl'>
@@ -56,14 +56,14 @@ const Home = () => {
                             <div>
                             </div>
                             <div>
-                                <p>
+                                <p className='font-black '>
                                     Tu imagen corporativa importa.
                                 </p>
                             </div>
                             <div>
                                 <CardAnimatedText />
                             </div>
-                            <div>
+                            <div className='mt-3'>
                                 <p>
                                     Diseños atractivos y personalizados.
                                 </p>
