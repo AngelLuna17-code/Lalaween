@@ -56,7 +56,7 @@ const Home = () => {
                             <div>
                             </div>
                             <div>
-                                <p className=''>
+                                <p>
                                     Tu imagen corporativa importa.
                                 </p>
                             </div>
@@ -64,7 +64,7 @@ const Home = () => {
                                 <CardAnimatedText />
                             </div>
                             <div>
-                                <p className=''>
+                                <p>
                                     Diseños atractivos y personalizados.
                                 </p>
                             </div>
