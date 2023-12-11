@@ -2,6 +2,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import CardAnimatedText from "../components/CardAnimatedText.jsx"
 
 const ServicesSlider = () => {
     const sliderSettings = {
@@ -17,14 +18,17 @@ const ServicesSlider = () => {
                 {/* Slider item 1 */}
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                        <div className='py-8'>
+                        <div className='py-4 px-2'>
                             <h2 className='title'>
                                 MARKETING DIGITAL
                             </h2>
-                            <p>
+                            <div>
+                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-08.webp" alt="Marketing" />
+                            </div>
+                            <p className='font-black'>
                                 Tu negocio en contacto con el mundo.
                             </p>
-                            <p>
+                            <p className=' mt-3'>
                                 Creación de contenido y manejo de tus redes sociales.
                             </p>
                         </div>
@@ -35,14 +39,19 @@ const ServicesSlider = () => {
                 {/* Slider item 2 */}
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                        <div className='py-8'>
+                        <div className='py-4 px-2'>
                             <h2 className='title'>
                                 DISEÑO GRAFICO
                             </h2>
-                            <p>
+                            <div>
+                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="" />
+
+                            </div>
+                            <p className='font-black'>
                                 Tu imagen corporativa importa
                             </p>
-                            <p>
+                            <CardAnimatedText />
+                            <p className='mt-3'>
                                 Diseños atractivos y personalizados
                             </p>
                         </div>
@@ -53,14 +62,17 @@ const ServicesSlider = () => {
                 {/* Slider item 3 */}
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                        <div className='py-8'>
+                        <div className='py-4 px-2'>
                             <h2 className='title'>
                                 DISEÑO WEB
                             </h2>
-                            <p>
+                            <div>
+                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-10.webp" alt="Diseño" />
+                            </div>
+                            <p className='font-black'>
                                 Tu negocio al alcance de un click
                             </p>
-                            <p>
+                            <p className='mt-3'>
                                 Programación y diseño de tu sitio web a tu medida
                             </p>
                         </div>

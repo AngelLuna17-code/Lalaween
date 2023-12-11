@@ -51,7 +51,7 @@ const Home = () => {
                                 </p>
                             </div>
                             <div >
-                                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen WEB-09.png" alt="diseño" />
+                                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="diseño" />
                             </div>
                             <div>
                             </div>

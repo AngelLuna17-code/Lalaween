@@ -7,14 +7,14 @@ export default function App() {
             subTitle: "Tu negocio en contacto con el mundo.",
             service: "Creación de contenido y manejo de tus redes sociales.",
             image: "cards/card-1.webp",
-            icon: "icons/LalaWeen WEB-08.png"
+            icon: "icons/LalaWeen-WEB-08.webp"
         },
         {
             title: "DISEÑO WEB",
             subTitle: "Tu negocio al alcance de un click",
             service: "Programación y diseño de tu sitio web a tu medida.",
             image: "cards/card-3.webp",
-            icon: "icons/LalaWeen WEB-10.png"
+            icon: "icons/LalaWeen-WEB-10.webp"
         }
     ];
 
