@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useSpring, animated } from 'react-spring';
+import { useSpring, animated, config } from 'react-spring';
 
 const AnimatedText = () => {
   const phrases = ['Tu negocio', 'Tu marca', 'Tus ideas', 'Tu producto', 'Tus servicios'];
@@ -10,6 +10,7 @@ const AnimatedText = () => {
     from: { opacity: 0 },
     reset: true,
     onRest: () => setIndex((index + 1) % phrases.length),
+    config: { duration: 1200 },
   });
 
   return (
