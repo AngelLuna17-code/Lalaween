@@ -8,6 +8,7 @@ import SliderComponent from "../components/SliderComponent.jsx"
 import ServicesSlider from '../components/ServicesSlider.jsx'
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 import FloatingButton from "../components/FloatingButton.jsx";
+import Modal from "../components/Modal.jsx"
 
 const Home = () => {
     return <div>
@@ -77,6 +78,7 @@ const Home = () => {
             </div>
         </div>
         {/* Servicios */}
+        <Modal/>
         {/* Slider */}
         <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto xs:py-8 sm:py-[50px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
