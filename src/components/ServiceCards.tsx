@@ -33,12 +33,12 @@ export default function App() {
                                 <img className='mx-auto' style={{ height: "auto", width: "20%" }} src={process.env.PUBLIC_URL + "/" + item.icon} alt={item.title} />
                             </div>
                             <div>
-                                <p className=''>
+                                <p>
                                     {item.subTitle}
                                 </p>
                             </div>
                             <div>
-                                <p className=''>
+                                <p>
                                     {item.service}
                                 </p>
                             </div>
