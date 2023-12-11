@@ -37,11 +37,14 @@ const ServicesSlider = () => {
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='py-8'>
                             <h2 className='title'>
-                                DISEÑO GRAFICO                            </h2>
+                                DISEÑO GRAFICO
+                            </h2>
                             <p>
-                                Tu imagen corporativa importa                            </p>
+                                Tu imagen corporativa importa
+                            </p>
                             <p>
-                                Diseños atractivos y personalizados                            </p>
+                                Diseños atractivos y personalizados
+                            </p>
                         </div>
                         <img className='rounded-b-[15px]' src="/cards/card-2.webp" alt="Slide 2" />
                     </div>
