@@ -13,7 +13,7 @@ const ServicesSlider = () => {
   };
 
   return (
-    <Slider className='xs:w-[80%] mx-auto' {...sliderSettings}>
+    <Slider className='xs:w-[85%] mx-auto' {...sliderSettings}>
       <div>
         <img src="/img/1.webp" alt="slider" />
       </div>
@@ -45,7 +45,7 @@ export default function Modal() {
       {showModal ? (
         <>
           <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-            <div className="relative w-auto my-6 mx-auto max-w-3xl">
+            <div className="relative my-6 mx-auto xs:w-[95%] md:w-[80%] xl:w-[65%] 2xl:w-[55%]">
               {/* Modal content */}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[#0b0b0b] outline-none focus:outline-none">
                 {/* Modal header */}
@@ -73,7 +73,7 @@ export default function Modal() {
                     type="button"
                     onClick={() => setShowModal(false)}
                   >
-                    Close
+                    Cerrar
                   </button>
                 </div>
               </div>
