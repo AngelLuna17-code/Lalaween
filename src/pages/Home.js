@@ -72,7 +72,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <img className='rounded-b-[15px]' src="/cards/card-2.webp" alt="diseño" />
+                        <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px]' src="/cards/card-2.webp" alt="diseño" />
                     </div>
                 </div>
             </div>

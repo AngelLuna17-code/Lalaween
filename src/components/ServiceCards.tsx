@@ -51,7 +51,7 @@ export default function App() {
                             </div>
                         </div>
                         <div>
-                            <img className='rounded-b-[15px]' src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} />
+                            <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} />
                         </div>
                     </div>
                     {item.showInModal && <Modal />}
