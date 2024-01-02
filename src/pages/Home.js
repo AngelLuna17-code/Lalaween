@@ -79,7 +79,7 @@ const Home = () => {
         </div>
         {/* Servicios */}
         {/* Slider */}
-        <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto xs:py-8 sm:py-[50px]'>
+        <div className='container mx-auto xs:py-8 sm:py-[50px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
