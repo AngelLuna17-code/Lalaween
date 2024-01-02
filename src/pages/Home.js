@@ -18,7 +18,7 @@ const Home = () => {
         <div id="stars3"></div>
         {/* Stars */}
         {/* Hero */}
-        <div className='xs:container sm:container md:container lg:container xl:container 2xl:container container mx-auto mt-[50px]'>
+        <div className='container mx-auto mt-[50px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center'>
                     <img style={{ height: "75%", width: "100%" }} src="/logo.svg" alt="logo" />
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
         {/* Hero */}
         {/* Servicios */}
-        <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto sm:py-[50px] xs:py-8 lg:hidden'>
+        <div className='container mx-auto sm:py-[50px] xs:py-8 lg:hidden'>
             <ServicesSlider />
         </div>
         <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 xs:hidden lg:block'>
