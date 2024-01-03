@@ -1,14 +1,12 @@
 import React from 'react';
 import Footer from "../components/Footer.jsx"
 import AnimatedText from "../components/AnimatedText.jsx"
-import CardAnimatedText from "../components/CardAnimatedText.jsx"
 import ServiceCards from "../components/ServiceCards.tsx"
 import Mapa from "../components/Mapa.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
 import ServicesSlider from '../components/ServicesSlider.jsx'
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 import FloatingButton from "../components/FloatingButton.jsx";
-import Modal from "../components/Modal.jsx"
 
 const Home = () => {
     return <div>
@@ -40,42 +38,8 @@ const Home = () => {
         <div className='container mx-auto sm:py-[50px] xs:py-8 lg:hidden'>
             <ServicesSlider />
         </div>
-        <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 xs:hidden lg:block'>
-            <div className='grid sm:grid-cols-1 lg:grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
-                <ServiceCards />
-                <div className='rounded-t-[15px] rounded-b-[15px] text-white text-center ' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                    <div className='lg:max-h-[230px] xl:max-h-[245px] 2xl:min-h-[260px] py-8 px-2 flex items-center justify-center'>
-                        <div>
-                            <div>
-                                <p className='title text-2xl'>
-                                    DISEÑO GRAFICO
-                                </p>
-                            </div>
-                            <div >
-                                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="diseño" />
-                            </div>
-                            <div>
-                            </div>
-                            <div>
-                                <p className='font-black '>
-                                    Tu imagen corporativa importa.
-                                </p>
-                            </div>
-                            <div>
-                                <CardAnimatedText />
-                            </div>
-                            <div className='mt-3'>
-                                <p>
-                                    Diseños atractivos y personalizados.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px]' src="/cards/card-2.webp" alt="diseño" />
-                    </div>
-                </div>
-            </div>
+        <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 xs:hidden lg:block'>
+            <ServiceCards />
         </div>
         {/* Servicios */}
         {/* Slider */}
