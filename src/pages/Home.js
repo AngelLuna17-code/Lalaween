@@ -44,22 +44,7 @@ const Home = () => {
         {/* Servicios */}
         {/* Slider */}
         <div className='container mx-auto xs:py-8 sm:py-[50px]'>
-            <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
-                <div className='text-white text-center flex items-center justify-center'>
-                    <div>
-                        <div>
-                            <h2 className='title-container'>Mira nuestro</h2>
-                            <h2 className='title-container title'>portafolio</h2>
-                        </div>
-                        <div className='xs:w-[90%] 2xl:w-[75%] mt-8 mx-auto'>
-                            <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
-                        </div>
-                    </div>
-                </div>
-                <div className='container xs:container sm:container md:container lg:container xl:container 2xl:container xs:mt-8'>
-                    <SliderComponent />
-                </div>
-            </div>
+            <SliderComponent />
         </div>
         {/* Slider */}
         {/* Mapa */}
