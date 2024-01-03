@@ -12,7 +12,7 @@ const Promo = () => {
         {/* Presentacion */}
         <div className='text-center container mx-auto mt-[150px]'>
             <div>
-                <h1 className='text-white font-black'>
+                <h1 className='text-white font-black text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
                     "¡Despega en Digital! Descubre Nuestras Ofertas Exclusivas para Potenciar tu Presencia en Línea"
                 </h1>
             </div>

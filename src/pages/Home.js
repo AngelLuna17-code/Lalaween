@@ -16,7 +16,7 @@ const Home = () => {
         <div id="stars3"></div>
         {/* Stars */}
         {/* Hero */}
-        <div className='container mx-auto mt-[50px]'>
+        <div className='container mx-auto mt-[100px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center'>
                     <img className='h-[281.27px] w-[375px] sm:h-[480.03px] sm:w-[840px] md:h-[576.05] md:w-[768px] lg:h-[384.03px] lg:w-[512px] xl:h-[480.03px] xl:w-[640px] 2xl:h-[576.05px] 2xl:w-[768px]' src="/logo.svg" alt="logo" />
@@ -55,8 +55,10 @@ const Home = () => {
         {/* Contacto */}
         <div className='contact-container'>
             <div className='text-white text-center'>
-                <h2 className='title-container'>Será un gusto</h2>
-                <h2 className='title-container title'>trabajar contigo</h2>
+                <div className='text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
+                    <h2 className='title-container'>Será un gusto</h2>
+                    <h2 className='title-container title'>trabajar contigo</h2>
+                </div>
                 <div className='mt-2'>
                     <a className='hover:text-[#00cac4] text-2xl' href="mailto:CreativeTeam@LalaWeen.com" target="blank">creativeteam@lalaween.com</a>
                 </div>

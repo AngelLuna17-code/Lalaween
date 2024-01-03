@@ -16,8 +16,8 @@ const SliderComponent = () => {
         <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
             <div className='text-white text-center flex items-center justify-center'>
                 <div>
-                    <div>
-                        <h2 className='title-container'>Mira nuestro</h2>
+                    <div className='text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
+                        <h2 className='title-container '>Mira nuestro</h2>
                         <h2 className='title-container title'>portafolio</h2>
                     </div>
                     <div className='xs:w-[90%] 2xl:w-[75%] mt-8 mx-auto'>

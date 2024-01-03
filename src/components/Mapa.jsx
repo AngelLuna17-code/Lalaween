@@ -30,8 +30,8 @@ export default function Mapa() {
                 </div>
             </div>
             <div className='flex justify-center items-center'>
-                <div className='text-white text-center xs:hidden lg:block'>
-                    <h2 className='title-container'>Aquí nos</h2>
+                <div className='text-white text-center xs:hidden lg:block text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
+                    <h2 className='title-container '>Aquí nos</h2>
                     <h2 className='title-container title'>encontramos</h2>
                 </div>
             </div>

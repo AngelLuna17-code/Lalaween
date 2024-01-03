@@ -19,11 +19,6 @@ body {
   animation: gradient 1s ease infinite;
 }
 
-img {
-  height: auto;
-  width: 100%;
-}
-
 .typing {
   font-weight: bolder;
   font-family: "Poppins-Regular", sans-serif;
@@ -52,46 +47,14 @@ p {
 }
 
 @media (min-width: 375px) {
-  h2 {
-    font-size: 25px;
-  }
-
   p {
     font-size: 14px;
   }
 }
 
-@media (min-width: 640px) {
-  h2 {
-    font-size: 32px;
-  }
-}
-
-@media (min-width: 768px) {
-  h2 {
-    font-size: 36px;
-  }
-}
-
 @media (min-width: 1024px) {
-  h2 {
-    font-size: 40px;
-  }
-
   p {
     font-size: 16px;
-  }
-}
-
-@media (min-width: 1280px) {
-  h2 {
-    font-size: 44px;
-  }
-}
-
-@media (min-width: 1536px) {
-  h2 {
-    font-size: 48px;
   }
 }
 
