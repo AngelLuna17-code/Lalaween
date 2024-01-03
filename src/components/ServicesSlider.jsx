@@ -67,7 +67,7 @@ const ServicesSlider = () => {
                                 DISEÑO WEB
                             </h2>
                             <div>
-                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-10.webp" alt="Diseño" />
+                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-10.webp" alt="Diseño" loading="lazy"/>
                             </div>
                             <p className='font-black'>
                                 Tu negocio al alcance de un click
