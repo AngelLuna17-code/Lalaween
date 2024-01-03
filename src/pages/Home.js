@@ -64,31 +64,7 @@ const Home = () => {
         {/* Slider */}
         {/* Mapa */}
         <div className='container mx-auto overflow-hidden xs:py-8'>
-            <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
-                <div className='text-white text-center lg:hidden'>
-                    <h2 className='title-container'>Aquí nos</h2>
-                    <h2 className='title-container title'>encontramos</h2>
-                </div>
-                <div>
-                    <div className='flex items-center justify-center xs:mt-5 lg:mt-0'>
-                        <Mapa />
-                    </div>
-                    <div className='mt-5'>
-                        <p className='text-white text-center'>
-                            Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.
-                        </p>
-                        <a href='https://maps.app.goo.gl/qwFmJHHRY3W8afux7' target='blank'>
-                            <p className='text-white text-center font-bold hover:text-[#00cac4]'>Ver mapa</p>
-                        </a>
-                    </div>
-                </div>
-                <div className='flex justify-center items-center'>
-                    <div className='text-white text-center xs:hidden lg:block'>
-                        <h2 className='title-container'>Aquí nos</h2>
-                        <h2 className='title-container title'>encontramos</h2>
-                    </div>
-                </div>
-            </div>
+            <Mapa />
         </div>
         {/* Mapa */}
         {/* Contacto */}
