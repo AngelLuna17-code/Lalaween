@@ -1,6 +1,8 @@
 import React from 'react';
 import Promociones from "../components/Promociones.tsx"
 import Footer from "../components/Footer.jsx"
+import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
+import FloatingButton from "../components/FloatingButton.jsx";
 
 const Promo = () => {
     return <div>
@@ -33,6 +35,10 @@ const Promo = () => {
         {/* Footer */}
         <Footer />
         {/* Footer */}
+        {/* Floating Buttons */}
+        <ScrollToTopButton />
+        <FloatingButton />
+        {/* Floating Buttons */}
     </div>
 }
 
