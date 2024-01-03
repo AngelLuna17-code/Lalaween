@@ -23,7 +23,7 @@ const ServicesSlider = () => {
                                 MARKETING DIGITAL
                             </h2>
                             <div>
-                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-08.webp" alt="Marketing" />
+                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-08.webp" alt="Marketing" loading="lazy"/>
                             </div>
                             <p className='font-black'>
                                 Tu negocio en contacto con el mundo.
@@ -32,7 +32,7 @@ const ServicesSlider = () => {
                                 Creación de contenido y manejo de tus redes sociales.
                             </p>
                         </div>
-                        <img className='rounded-b-[15px]' src="/cards/card-1.webp" alt="Slide 1" />
+                        <img className='rounded-b-[15px]' src="/cards/card-1.webp" alt="Slide 1" loading="lazy"/>
                     </div>
                 </div>
                 {/* Slider item 1 */}
@@ -44,7 +44,7 @@ const ServicesSlider = () => {
                                 DISEÑO GRAFICO
                             </h2>
                             <div>
-                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="" />
+                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="" loading="lazy"/>
 
                             </div>
                             <p className='font-black'>
@@ -55,7 +55,7 @@ const ServicesSlider = () => {
                                 Diseños atractivos y personalizados
                             </p>
                         </div>
-                        <img className='rounded-b-[15px]' src="/cards/card-2.webp" alt="Slide 2" />
+                        <img className='rounded-b-[15px]' src="/cards/card-2.webp" alt="Slide 2" loading="lazy"/>
                     </div>
                 </div>
                 {/* Slider item 2 */}
@@ -76,7 +76,7 @@ const ServicesSlider = () => {
                                 Programación y diseño de tu sitio web a tu medida
                             </p>
                         </div>
-                        <img className='rounded-b-[15px]' src="/cards/card-3.webp" alt="Slide 3" />
+                        <img className='rounded-b-[15px]' src="/cards/card-3.webp" alt="Slide 3" loading="lazy"/>
                     </div>
                 </div>
                 {/* Slider item 3 */}

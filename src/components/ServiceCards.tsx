@@ -36,7 +36,7 @@ export default function App() {
                                     </p>
                                 </div>
                                 <div>
-                                    <img className='mx-auto' style={{ height: "auto", width: "20%" }} src={process.env.PUBLIC_URL + "/" + item.icon} alt={item.title} />
+                                    <img className='mx-auto' style={{ height: "auto", width: "20%" }} src={process.env.PUBLIC_URL + "/" + item.icon} alt={item.title} loading="lazy"/>
                                 </div>
                                 <div>
                                     <p className='font-black'>
@@ -51,7 +51,7 @@ export default function App() {
                             </div>
                         </div>
                         <div>
-                            <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} />
+                            <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src={process.env.PUBLIC_URL + "/" + item.image} alt={item.title} loading="lazy"/>
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@ export default function App() {
                                 DISEÑO GRAFICO
                             </p>
                         </div>
-                        <div >
-                            <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="diseño" />
+                        <div>
+                            <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="diseño" loading="lazy"/>
                         </div>
                         <div>
                         </div>
@@ -85,7 +85,7 @@ export default function App() {
                     </div>
                 </div>
                 <div>
-                    <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="/cards/card-2.webp" alt="diseño" />
+                    <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="/cards/card-2.webp" alt="diseño" loading="lazy"/>
                 </div>
             </div>
         </div>

@@ -14,16 +14,16 @@ const ServicesSlider = () => {
   return (
     <Slider className='xs:w-[85%] mx-auto' {...sliderSettings}>
       <div>
-        <img src="/img/1.webp" alt="slider" />
+        <img src="//1.webp" alt="slider" loading="lazy"/>
       </div>
       <div>
-        <img src="/img/2.webp" alt="slider" />
+        <img src="/img/2.webp" alt="slider" loading="lazy"/>
       </div>
       <div>
-        <img src="/img/3.webp" alt="slider" />
+        <img src="/img/3.webp" alt="slider" loading="lazy"/>
       </div>
       <div>
-        <img src="/img/4.webp" alt="slider" />
+        <img src="/img/4.webp" alt="slider" loading="lazy"/>
       </div>
     </Slider>
   );
