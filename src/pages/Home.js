@@ -19,13 +19,13 @@ const Home = () => {
         <div className='container mx-auto mt-[100px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center'>
-                    <img className='h-[281.27px] w-[375px] sm:h-[480.03px] sm:w-[840px] md:h-[576.05] md:w-[768px] lg:h-[384.03px] lg:w-[512px] xl:h-[480.03px] xl:w-[640px] 2xl:h-[576.05px] 2xl:w-[768px]' src="/logo.svg" alt="logo" loading="lazy"/>
+                    <img className='w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px] ' src="/logo.svg" alt="logo" loading="lazy"/>
                 </div>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
-                        <h1 className='xs:text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>Impulsamos</h1>
+                        <h1 className='text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>Impulsamos</h1>
                         <AnimatedText />
-                        <h1 className='xs:text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>conservando tu esencia</h1>
+                        <h1 className='text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>conservando tu esencia</h1>
                         <a href="">
                             <button className='bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-[20px]'>Nuestros paquetes</button>
                         </a>
@@ -35,20 +35,20 @@ const Home = () => {
         </div>
         {/* Hero */}
         {/* Servicios */}
-        <div className='container mx-auto sm:py-[50px] xs:py-8 lg:hidden'>
+        <div className='container mx-auto sm:py-[50px] py-8 lg:hidden'>
             <ServicesSlider />
         </div>
-        <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 xs:hidden lg:block'>
+        <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 hidden lg:block'>
             <ServiceCards />
         </div>
         {/* Servicios */}
         {/* Slider */}
-        <div className='container mx-auto xs:py-8 sm:py-[50px]'>
+        <div className='container mx-auto py-8 sm:py-[50px]'>
             <SliderComponent />
         </div>
         {/* Slider */}
         {/* Mapa */}
-        <div className='container mx-auto overflow-hidden xs:py-8'>
+        <div className='container mx-auto overflow-hidden py-8'>
             <Mapa />
         </div>
         {/* Mapa */}
