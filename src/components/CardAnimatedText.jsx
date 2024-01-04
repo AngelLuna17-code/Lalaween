@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSpring, animated, config } from 'react-spring';
 
 const CardAnimatedText = () => {
-    const phrases = ['Logotipo', 'Identidad', 'Material grafico'];
+    const phrases = ['Diseño', 'Programación', 'Community manager'];
     const [index, setIndex] = useState(0);
 
     const props = useSpring({
