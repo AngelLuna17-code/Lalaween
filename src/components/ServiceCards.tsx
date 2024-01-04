@@ -17,8 +17,8 @@ export default function App() {
             title: "IDENTIDAD GRAFICA",
             subTitle: "Diseñamos y definimos el aspecto visual de una marca.",
             service: "En base al logotipo, misión, visión y objetivo de la empresa, se realiza el diseño adecuado para impreso o digital de una manera que sea fácil de identificar para el espectador y logre relacionarlo con la marca.",
-            image: "cards/card-3.webp",
-            icon: "icons/LalaWeen-WEB-10.webp",
+            image: "cards/card-2.webp",
+            icon: "icons/LalaWeen-WEB-09_1.webp",
             showInModal: false
         }
     ];
@@ -65,7 +65,7 @@ export default function App() {
                             </p>
                         </div>
                         <div className='mt-3'>
-                            <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="diseño" loading="lazy" />
+                            <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-10.webp" alt="diseño" loading="lazy" />
                         </div>
                         <div>
                         </div>
@@ -80,7 +80,7 @@ export default function App() {
                     </div>
                 </div>
                 <div>
-                    <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="/cards/card-2.webp" alt="diseño" loading="lazy" />
+                    <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="/cards/card-3.webp" alt="diseño" loading="lazy" />
                 </div>
             </div>
         </div>
