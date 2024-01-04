@@ -19,7 +19,7 @@ const Home = () => {
         <div className='container mx-auto mt-[100px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center'>
-                    <img className='w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px] ' src="/logo.svg" alt="logo" loading="lazy"/>
+                    <img className='w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px]' src="/logo.svg" alt="logo" loading="lazy"/>
                 </div>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
