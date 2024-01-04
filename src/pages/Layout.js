@@ -30,7 +30,7 @@ const Layout = () => {
                   <a href="">Servicio</a>
                 </li>
                 <li className='text-white hover:text-[#00cac4]'>
-                  <a href="">Contacto</a>
+                  <a href="/Facturas">Facturas</a>
                 </li>
                 <li className='text-white hover:text-[#00cac4]'>
                   <a href="/Promo">Promociones</a>

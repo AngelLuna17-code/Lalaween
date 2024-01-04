@@ -4,7 +4,7 @@ import Layout  from "./pages/Layout";
 import Promo  from "./pages/Promo";
 import Home  from "./pages/Home";
 import Default  from "./pages/Default";
-import Dashboard  from "./pages/Dashboard";
+import Facturas  from "./pages/Facturas";
 function App() {
   return (
     <div>
@@ -12,7 +12,7 @@ function App() {
         <Route path="/" element={<Layout />}>
            <Route path="Promo" element={<Promo />} />
            <Route path="/" element={<Home />} />
-           <Route path="dashboard" element={<Dashboard />} />
+           <Route path="Facturas" element={<Facturas />} />
            <Route path="*" element={<Default />} />
         </Route>
       </Routes>
