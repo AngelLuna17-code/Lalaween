@@ -4,9 +4,9 @@ import ServiceCards from "../components/ServiceCards.tsx"
 import Mapa from "../components/Mapa.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
 import ServicesSlider from "../components/ServicesSlider.jsx"
-import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 import Footer from "../components/Footer.jsx"
 import FloatingButton from "../components/FloatingButton.jsx"
+import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 
 const Home = () => {
     return (
@@ -17,8 +17,8 @@ const Home = () => {
             <div id="stars3"></div>
             {/* Stars */}
             {/* Hero */}
-            <div className='container xs-container mx-auto mt-[100px]'>
-                <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
+            <div className='container mx-auto mt-[100px]'>
+                <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='flex items-center'>
                         <img className='w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px]' src="/logo.svg" alt="logo" loading="lazy" />
                     </div>
