@@ -17,6 +17,7 @@ body {
   margin: 0 auto;
   background: linear-gradient(-45deg, #000000, #111111, #011e2c);
   animation: gradient 1s ease infinite;
+  min-width: 375px;
 }
 
 .typing {
