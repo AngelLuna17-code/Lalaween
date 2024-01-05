@@ -209,15 +209,17 @@ iframe {
     box-shadow: 1703px 1208px transparent, 381px 207px transparent, 1516px 1990px transparent, 1960px 982px transparent, 922px 1278px transparent, 689px 1766px transparent, 538px 554px transparent, 802px 1529px transparent, 871px 1805px transparent, 228px 1830px transparent, 353px 186px transparent, 1873px 1154px transparent, 494px 1244px transparent, 1415px 261px transparent, 1020px 1990px transparent, 1924px 1169px transparent, 1205px 464px transparent, 596px 830px transparent, 1319px 504px transparent, 953px 1850px transparent, 408px 1360px transparent, 569px 1704px transparent, 1367px 729px transparent, 807px 1845px transparent, 572px 825px transparent, 523px 1089px transparent, 1405px 1622px transparent, 1352px 423px transparent, 1247px 1758px transparent, 1117px 920px transparent, 983px 352px transparent, 175px 1351px transparent, 962px 260px transparent, 918px 1530px transparent, 1184px 935px transparent, 201px 473px transparent, 90px 1759px transparent, 211px 933px transparent, 1887px 171px transparent, 177px 101px transparent, 844px 346px transparent, 283px 1821px transparent, 1236px 1225px transparent, 173px 1875px transparent, 24px 1776px transparent, 277px 804px transparent, 1714px 715px transparent, 937px 1882px transparent, 1708px 1405px transparent, 173px 1847px transparent, 1902px 1160px transparent, 1725px 1270px transparent, 36px 18px transparent, 1612px 1467px transparent, 1390px 1733px transparent, 927px 1315px transparent, 1907px 1337px transparent, 1855px 1454px transparent, 1033px 1425px transparent, 1450px 1359px transparent, 1422px 771px transparent, 256px 343px transparent, 1581px 340px transparent, 1180px 247px transparent, 191px 882px transparent, 372px 1171px transparent, 1509px 937px transparent, 1018px 1829px transparent, 121px 152px transparent, 327px 767px transparent, 1438px 1421px transparent, 321px 905px transparent, 616px 245px transparent, 1957px 1520px transparent, 1811px 1924px transparent, 1454px 1778px transparent, 1507px 822px transparent, 649px 218px transparent, 362px 1567px transparent, 1637px 145px transparent, 115px 466px transparent, 345px 935px transparent, 112px 1019px transparent, 1440px 1910px transparent, 1280px 1367px transparent, 1505px 890px transparent, 788px 927px transparent, 753px 1273px transparent, 1924px 1714px transparent, 495px 1149px transparent, 267px 1851px transparent, 1293px 1431px transparent, 1159px 433px transparent, 1725px 1170px transparent, 1067px 296px transparent, 746px 463px transparent, 412px 349px transparent, 1193px 1421px transparent, 564px 455px transparent, 1675px 589px transparent
   }
 }
+
+#stars,
+#stars2,
+#stars3 {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
   #stars,
   #stars2,
   #stars3 {
-    display: none;
+    display: block;
   }
-  @media screen and (min-width: 1024px) {
-    #stars,
-    #stars2,
-    #stars3 {
-      display: block;
-    }
-  }
+}

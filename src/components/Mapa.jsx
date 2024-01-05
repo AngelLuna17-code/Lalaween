@@ -8,7 +8,7 @@ export default function Mapa() {
                 <h2 className='title-container title'>encontramos</h2>
             </div>
             <div>
-                <div className='flex items-center justify-center xs:mt-5 lg:mt-0'>
+                <div className='flex items-center justify-center mt-5 lg:mt-0'>
                     <iframe
                         className='p-0 sm:h-[450px] sm:w-[85%] lg:h-[250px] xl:h-[350px]'
                         title="Mapa"
@@ -30,7 +30,7 @@ export default function Mapa() {
                 </div>
             </div>
             <div className='flex justify-center items-center'>
-                <div className='text-white text-center xs:hidden lg:block text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
+                <div className='text-white text-center hidden lg:block text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
                     <h2 className='title-container '>Aquí nos</h2>
                     <h2 className='title-container title'>encontramos</h2>
                 </div>

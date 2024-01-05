@@ -13,7 +13,7 @@ const SliderComponent = () => {
     };
 
     return (
-        <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
+        <div className='grid grid-cols-1 lg:grid-cols-2'>
             <div className='text-white text-center flex items-center justify-center'>
                 <div>
                     <div className='text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
@@ -25,7 +25,7 @@ const SliderComponent = () => {
                     </div>
                 </div>
             </div>
-            <div className='container mt-8'>
+            <div className='mt-8'>
                 <div>
                     <Slider className='mx-auto w-[80%] sm:w-[65%] md:w-[55%]' {...sliderSettings}>
                         <div>
@@ -47,7 +47,6 @@ const SliderComponent = () => {
                 </div>
             </div>
         </div>
-
     );
 }
 

@@ -14,7 +14,7 @@ const ServicesSlider = () => {
 
     return (
         <div>
-            <Slider className='xs:w-[80%] mx-auto' {...sliderSettings}>
+            <Slider className='w-[80%] mx-auto' {...sliderSettings}>
                 {/* Slider item 1 */}
                 <div>
                     <div className='rounded-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
