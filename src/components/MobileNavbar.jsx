@@ -14,7 +14,7 @@ const Accordion = ({ content }) => {
                     <a href="/">
                         <div className="flex items-center min-h-[70px]">
                             <div >
-                                <img style={{ height: "37px", width: "100%" }} src="/logo.svg" alt="logo" loading="lazy"/>
+                                <img style={{ height: "37px", width: "100%" }} src="/logo.svg" alt="logo" loading="lazy" />
                             </div>
                             <div className="ml-2">
                                 <p>Lalaween</p>
@@ -46,11 +46,31 @@ export default function App() {
             <Accordion
                 content={
                     <ul className='list-none list-inside'>
-                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Inicio</li></a>
-                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Productos</li></a>
-                        <a href="" className='hover:text-[#00cac4]'><li className='mt-3'>Servicios</li></a>
-                        <a href="/Facturas" className='hover:text-[#00cac4]'><li className='mt-3'>Facturar</li></a>
-                        <a href="/Promo" className='hover:text-[#00cac4]'><li className='mt-3'>Promociones</li></a>
+                        <li className='mt-3'>
+                            <a href="" className='hover:text-[#00cac4]'>
+                                Inicio
+                            </a>
+                        </li>
+                        <li className='mt-3'>
+                            <a href="" className='hover:text-[#00cac4]'>
+                                Productos
+                            </a>
+                        </li>
+                        <li className='mt-3'>
+                            <a href="" className='hover:text-[#00cac4]'>
+                                Servicios
+                            </a>
+                        </li>
+                        <li className='mt-3'>
+                            <a href="/Facturas" className='hover:text-[#00cac4]'
+                            >Facturar
+                            </a>
+                        </li>
+                        <li className='mt-3'>
+                            <a href="/Promo" className='hover:text-[#00cac4]'>
+                                Promociones
+                            </a>
+                        </li>
                     </ul>
                 }
             />
