@@ -19,20 +19,6 @@ const Facturar = () => {
                         </label>
                     </div>
                     {/* RFC */}
-                    {/* UsoCFDI* */}
-                    <div className="mt-3">
-                        <label for="">UsoCFDI*
-                            <select name="?" size="1" className="w-full font-black text-black" >
-                                <option value="">1</option>
-                                <option value="">2</option>
-                                <option value="">3</option>
-                                <option value="">4</option>
-                                <option value="">5</option>
-                                <option value="">6</option>
-                            </select>
-                        </label>
-                    </div>
-                    {/* UsoCFDI* */}
                     {/* Regimen Fiscal */}
                     <div className="mt-3">
                         <label for="">Régimen Fiscal*
@@ -62,9 +48,27 @@ const Facturar = () => {
                                 <option value="">630 Enajenación de acciones en bolsa de valores</option>
                             </select>
                         </label>
-
                     </div>
                     {/* Regimen Fiscal */}
+                    {/* UsoCFDI* */}
+                    <div className="mt-3">
+                        <label for="">UsoCFDI*
+                            <select name="?" size="1" className="w-full font-black text-black" >
+                                <option value="">D04 Donativos</option>
+                                <option value="">G01 Adquisición de mercancías</option>
+                                <option value="">G03 Gastos en general</option>
+                                <option value="">I02 Mobiliario y equipo de oficina por inversiones</option>
+                                <option value="">I04 Equipo de cómputo y accesorios</option>
+                                <option value="">I05 Dados, troqueles, moldes, matrices y herramental</option>
+                                <option value="">I06 Comunicaciones telefónicas</option>
+                                <option value="">I07 Comunicaciones satelitales</option>
+                                <option value="">I08 Comunicaciones satelitales</option>
+                                <option value="">I08 Otra maquinaria y equipo</option>
+                                <option value="">S01 Sin efectos fiscales</option>
+                            </select>
+                        </label>
+                    </div>
+                    {/* UsoCFDI* */}
                     {/* Correo Electronico */}
                     <div className="mt-3">
                         <label for="">Correo Electrónico
