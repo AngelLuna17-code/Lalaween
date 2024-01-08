@@ -3,7 +3,7 @@ import React from 'react';
 export default function Mapa() {
     return (
         <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
-            <div className='text-white text-center lg:hidden'>
+            <div className='text-white text-center lg:hidden text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
                 <h2 className='title-container'>Aquí nos</h2>
                 <h2 className='title-container title'>encontramos</h2>
             </div>

@@ -29,19 +29,41 @@ const SliderComponent = () => {
                 <div>
                     <Slider className='mx-auto w-[80%] sm:w-[65%] md:w-[55%]' {...sliderSettings}>
                         <div>
-                            <img className='rounded-[15px]' src="/slider/1.webp" alt="Slide 1" loading="lazy" />
+                            <picture>
+                                <source media="(min-width: 1024px)" srcset="/slider/1.webp" />
+                                <source media="(min-width: 360px)" srcset="/slider/1-xs.webp" />
+                                <img className='rounded-[15px]' src="/slider/1.webp" loading='lazy' alt='slider'/>
+                            </picture>
                         </div>
                         <div>
-                            <img className='rounded-[15px]' src="/slider/2.webp" alt="Slide 2" loading="lazy" />
+                            <picture>
+                                <source media="(min-width: 1024px)" srcset="/slider/2.webp" />
+                                <source media="(min-width: 360px)" srcset="/slider/2-xs.webp" />
+                                <img className='rounded-[15px]' src="/slider/2.webp" loading='lazy'alt='slider'/>
+                            </picture>
                         </div>
                         <div>
-                            <img className='rounded-[15px]' src="/slider/3.webp" alt="Slide 2" loading="lazy" />
+                            <div>
+                                <picture>
+                                    <source media="(min-width: 1024px)" srcset="/slider/3.webp" />
+                                    <source media="(min-width: 360px)" srcset="/slider/3-xs.webp" />
+                                    <img className='rounded-[15px]' src="/slider/3.webp" loading='lazy' alt='slider'/>
+                                </picture>
+                            </div>
                         </div>
                         <div>
-                            <img className='rounded-[15px]' src="/slider/4.webp" alt="Slide 2" loading="lazy" />
+                            <picture>
+                                <source media="(min-width: 1024px)" srcset="/slider/4.webp" />
+                                <source media="(min-width: 360px)" srcset="/slider/4-xs.webp" />
+                                <img className='rounded-[15px]' src="/slider/4.webp" loading='lazy' alt='slider'/>
+                            </picture>
                         </div>
                         <div>
-                            <img className='rounded-[15px]' src="/slider/5.webp" alt="Slide 2" loading="lazy" />
+                            <picture>
+                                <source media="(min-width: 1024px)" srcset="/slider/5.webp" />
+                                <source media="(min-width: 360px)" srcset="/slider/5-xs.webp" />
+                                <img className='rounded-[15px]' src="/slider/5.webp" loading='lazy' alt='slider'/>
+                            </picture>
                         </div>
                     </Slider>
                 </div>

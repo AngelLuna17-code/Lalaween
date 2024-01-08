@@ -32,7 +32,7 @@ const ServicesSlider = () => {
                                 Englobando una serie de elementos clave como la creación de su logotipo, desde su tipografía, figura, estilo y pantones que le brinden una esencia visual distintiva.
                             </p>
                         </div>
-                        <img className='rounded-b-[15px]' src="/cards/card-1.webp" alt="Slide 1" loading="lazy" />
+                        <img className='rounded-b-[15px]' src="/cards/card-1-xs.webp" alt="Slide 1" loading="lazy" />
                     </div>
                 </div>
                 {/* Slider item 1 */}
@@ -53,7 +53,7 @@ const ServicesSlider = () => {
                                 En base al logotipo, misión, visión y objetivo de la empresa, se realiza el diseño adecuado para impreso o digital de una manera que sea fácil de identificar para el espectador y logre relacionarlo con la marca.
                             </p>
                         </div>
-                        <img className='rounded-b-[15px]' src="/cards/card-2.webp" alt="Slide 2" loading="lazy" />
+                        <img className='rounded-b-[15px]' src="/cards/card-2-xs.webp" alt="Slide 2" loading="lazy" />
                     </div>
                 </div>
                 {/* Slider item 2 */}
@@ -74,7 +74,7 @@ const ServicesSlider = () => {
                                 Identificación del público objetivo, creación de contenido en redes sociales para construir relaciones sólidas, y facilitación de adquisiciones a través de una página web atractiva y amigable.
                             </p>
                         </div>
-                        <img className='rounded-b-[15px]' src="/cards/card-3.webp" alt="Slide 3" loading="lazy" />
+                        <img className='rounded-b-[15px]' src="/cards/card-3-xs.webp" alt="Slide 3" loading="lazy" />
                     </div>
                 </div>
                 {/* Slider item 3 */}
