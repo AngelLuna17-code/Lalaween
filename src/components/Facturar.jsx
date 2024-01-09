@@ -8,21 +8,21 @@ const Facturar = () => {
                     {/* Nombre ó Razón Social */}
                     <div>
                         <label>Nombre ó Razón Social *
-                            <input className="w-full font-black text-black" type="text" name="Nombre ó Razón Social" required />
+                            <input className="w-full font-black text-black typing" type="text" name="Nombre ó Razón Social" required />
                         </label>
                     </div>
                     {/* Nombre ó Razón Social */}
                     {/* RFC */}
                     <div className="mt-3">
                         <label>RFc
-                            <input className="w-full font-black text-black" type="text" name="RFC" required />
+                            <input className="w-full font-black text-black typing" type="text" name="RFC" required />
                         </label>
                     </div>
                     {/* RFC */}
                     {/* Regimen Fiscal */}
                     <div className="mt-3">
                         <label>Régimen Fiscal*
-                            <select name="Régimen Fiscal*" size="1" className="w-full font-black text-black">
+                            <select name="Régimen Fiscal*" size="1" className="w-full font-black text-black typing">
                                 <option value="601 General de Ley Personas Morales">601 General de Ley Personas Morales</option>
                                 <option value="603 Personas Morales con Fines no Lucrativos">603 Personas Morales con Fines no Lucrativos</option>
                                 <option value="605 Sueldos y Salarios e Ingresos Asimilados a Salarios">605 Sueldos y Salarios e Ingresos Asimilados a Salarios</option>
@@ -53,7 +53,7 @@ const Facturar = () => {
                     {/* UsoCFDI* */}
                     <div className="mt-3">
                         <label>UsoCFDI*
-                            <select name="UsoCFDI" size="1" className="w-full font-black text-black" >
+                            <select name="UsoCFDI" size="1" className="w-full font-black text-black typing" >
                                 <option value="D04 Donativos">D04 Donativos</option>
                                 <option value="G01 Adquisición de mercancías">G01 Adquisición de mercancías</option>
                                 <option value="G03 Gastos en general">G03 Gastos en general</option>
@@ -72,21 +72,21 @@ const Facturar = () => {
                     {/* Correo Electronico */}
                     <div className="mt-3">
                         <label>Correo Electrónico
-                            <input className="w-full font-black text-black" type="text" name="Correo Electrónico" required />
+                            <input className="w-full font-black text-black typing" type="text" name="Correo Electrónico" required />
                         </label>
                     </div>
                     {/* Correo Electronico */}
                     {/* Folio IEPS */}
                     <div className="mt-3">
                         <label for="">Folio IEPS "Opcional"
-                            <input className="w-full font-black text-black" type="text" name="Folio IEPS" />
+                            <input className="w-full font-black text-black typing" type="text" name="Folio IEPS" />
                         </label>
                     </div>
                     {/* Folio IEPS */}
                     {/* Codigo Postal */}
                     <div className="mt-3">
                         <label>Codigo Postal
-                            <input className="w-full font-black text-black" type="text" name="Codigo Postal" required />
+                            <input className="w-full font-black text-black typing" type="text" name="Codigo Postal" required />
                         </label>
                     </div>
                     {/* Codigo Postal */}
