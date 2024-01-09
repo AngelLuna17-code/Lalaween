@@ -20,7 +20,7 @@ const Promo = () => {
                     </h1>
                 </div>
                 <div>
-                    <p className='text-white typing font-thin'>
+                    <p className='text-white text-[20px]'>
                         ¡Potencia tu presencia en línea con nuestras irresistibles promociones y descuentos en servicios de marketing digital! En [Nombre de tu empresa], entendemos la importancia de destacar en el mundo digital, por lo que hemos creado ofertas exclusivas para impulsar tu marca.
                     </p>
                 </div>
