@@ -138,23 +138,24 @@ export default function App() {
     return (
         <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-2 lg:gap-5 xl:gap-5 xl:gap-3 2xl:gap-5 overflow-hidden'>
             {list.map((item, index) => (
-                <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                    <div className='text-white'>
-                    <div>
-                        <h3 className='text-[#00a09b] font-black'>{item.titlePaq}</h3>
-                        <p>{item.sub}</p>
+                <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+                    <div className='text-white'>
+                        <div>
+                            <h3 className='text-[#00a09b] font-black text-[23px] typing'>{item.titlePaq}</h3>
+                            <p>{item.sub}</p>
+                        </div>
+                        <div className='mt-5'>
+                            <h4 className='text-[#00a09b] font-thin typing'>PRÓPOSITO</h4>
+                            <p className='text-justify'>{item.proposito}</p>
+                        </div>
                     </div>
                     <div className='mt-5'>
-                        <h4 className='text-[#00a09b] font-semibold'>PRÓPOSITO</h4>
-                        <p className='text-justify'>{item.proposito}</p>
-                    </div>
-                </div>
-                    <div className='mt-5'>
-                        <div className=''>
+                        <div className='typing'>
                             <Accordion
                                 title="¿Que implica?"
                                 content={
                                     <div>
-                                        <ul className='list-disc list-inside'>
+                                        <ul className='font-thin'>
                                             <li className='mt-3'>{item.li1item1}</li>
                                             <li className='mt-3'>{item.li1item2}</li>
                                             <li className='mt-3'>{item.li1item3}</li>
@@ -163,13 +164,13 @@ export default function App() {
                                 }
                             />
                         </div>
-                        <div className='mt-5'>
+                        <div className='mt-5 typing'>
                             <Accordion
                                 title="¿Qué servicios incluye?"
                                 content=
                                 {
                                     <div>
-                                        <ul className='list-disc list-inside'>
+                                        <ul className='font-thin'>
                                             <li className='mt-3'>{item.li2item1}</li>
                                             <li className='mt-3'>{item.li2item2}</li>
                                             <li className='mt-3'>{item.li2item3}</li>
@@ -183,12 +184,12 @@ export default function App() {
                                     </div>
                                 } />
                         </div>
-                        <div className='mt-5'>
+                        <div className='mt-5 typing'>
                             <Accordion
                                 title="¿Qué beneficios incluye?"
                                 content={
                                     <div>
-                                        <ul className='list-disc list-inside'>
+                                        <ul className='font-thin'>
                                             <li className='mt-3'>{item.li3item1}</li>
                                             <li className='mt-3'>{item.li3item2}</li>
                                             <li className='mt-3'>{item.li3item3}</li>
@@ -199,7 +200,7 @@ export default function App() {
                                 } />
                         </div>
                     </div>
-                    <div className='text-center text-white mt-5'>
+                    <div className='text-center text-white mt-5 typing font-thin'>
                         <p className='line-through'>COSTO REAL</p>
                         <p className='line-through'>{item.oldPrice}</p>
                         <p className='text-[#00a09b]'>COSTO PROMOCIONAL</p>
@@ -210,11 +211,11 @@ export default function App() {
             {/*Pa' quete des a conocer */}
             <div className='p-5 rounded-lg' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>                <div className='text-white'>
                 <div>
-                    <h3 className='text-[#00a09b] font-black'>Pa' quete des a conocer</h3>
+                    <h3 className='text-[#00a09b] font-black typing text-[23px]'>Pa' quete des a conocer</h3>
                     <p>Inicia tu presencia en redes sociales y crece tu negocio</p>
                 </div>
                 <div className='mt-5'>
-                    <h4 className='text-[#00a09b] font-semibold'>PRÓPOSITO</h4>
+                    <h4 className='text-[#00a09b] font-thin typing'>PRÓPOSITO</h4>
                     <p className='text-justify'>
                         Diseñar, generar y ejecutar las bases para comenzar a promocionar tus servicios y/o productos en el
                         mercado, estudiando y planteando estrategias según el análisis obtenido en redes sociales, dando a
@@ -224,12 +225,12 @@ export default function App() {
                 </div>
             </div>
                 <div className='mt-5'>
-                    <div>
+                    <div className='typing'>
                         <Accordion
                             title="¿Que implica?"
                             content={
                                 <div>
-                                    <ul className='list-disc list-inside'>
+                                    <ul className='font-thin'>
                                         <li className='mt-3'>Asesoramiento en la personalización de las redes sociales según su marca</li>
                                         <li className='mt-3'>Acompañamiento en el proceso de implementación en las campañas publicitarias en redes sociales.</li>
                                     </ul>
@@ -238,16 +239,16 @@ export default function App() {
                         />
                     </div>
                     <div className='mt-5'>
-                        <h5 className="text-[#00a09b]">¿Qué servicios incluye?</h5>
+                        <h5 className="text-[#00a09b] typing">¿Qué servicios incluye?</h5>
                     </div>
                     {/* Pa’ que le empieces */}
-                    <div className='mt-5'>
+                    <div className='mt-5 typing'>
                         <Accordion
                             title="¿Pa’ que le empieces?"
                             content={
                                 <div>
                                     <div>
-                                        <ul className='list-disc list-inside'>
+                                        <ul className='font-thin'>
                                             <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok)</li>
                                             <li className='mt-3'>Diseño de plantillas para redes sociales (Portada, Perfil y Publicaciones).</li>
                                             <li className='mt-3'>12 Publicaciones en imagen.</li>
@@ -267,13 +268,13 @@ export default function App() {
                     </div>
                     {/* Pa’ que le empieces */}
                     {/* Pa’ que te quieran */}
-                    <div className='mt-5'>
+                    <div className='mt-5 typing'>
                         <Accordion
                             title="Pa’ que te quieran"
                             content={
                                 <div>
                                     <div>
-                                        <ul className='list-disc list-inside'>
+                                        <ul className='font-thin'>
                                             <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok).</li>
                                             <li className='mt-3'>Diseño de plantillas para redes sociales(Portada, Perfil y Publicaciones).</li>
                                             <li className='mt-3'>20 Publicaciones en imagen.</li>
@@ -294,14 +295,14 @@ export default function App() {
                     </div>
                     {/* Pa’ que te quieran */}
                     {/* Pa’ que sueñen */}
-                    <div className='mt-5'>
+                    <div className='mt-5 typing'>
                         <Accordion
                             title="Pa’ que sueñen"
                             content={
                                 <div>
                                     <div>
                                         <div>
-                                            <ul className='list-disc list-inside'>
+                                            <ul className='font-thin'>
                                                 <li className='mt-3'>Creación de cuentas para la marca en redes sociales (Facebook, Instagram y/o Tiktok).</li>
                                                 <li className='mt-3'>Diseño de plantillas para redes sociales (Portada, Perfil y Publicaciones).</li>
                                                 <li className='mt-3'>28 Publicaciones en imagen</li>
@@ -321,7 +322,7 @@ export default function App() {
                                             <h5 className="text-[#00a09b]">¿Qué beneficios incluyen?</h5>
                                         </div>
                                         <div>
-                                            <ul className='list-disc list-inside'>
+                                            <ul className='font-thin'>
                                                 <li className='mt-3'>Formato optimizado para Facebook e Instagram</li>
                                                 <li className='mt-3'>Uso de imágenes de stock y/o proporcionadas por el cliente.</li>
                                                 <li className='mt-3'>Publicación del contenido trabajado para redes y administración de redes sociales durante un mes.</li>
