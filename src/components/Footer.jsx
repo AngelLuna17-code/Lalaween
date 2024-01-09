@@ -58,7 +58,7 @@ const Footer = () => {
                 </div>
                 <div className='mt-5'>
                     <p className='text-white text-center'>
-                        Copyright © 2023 Lalaween
+                        Copyright © 2024 Lalaween
                     </p>
                 </div>
                 <Outlet />
