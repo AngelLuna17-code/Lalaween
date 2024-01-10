@@ -4,7 +4,7 @@ const Facturar = () => {
     return (
         <div className='px-[15px] sm:px-[0px]'>
             <div className="text-white px-[15px]  w-full sm:w-[60%] lg:w-[40%] mx-auto py-[25px] px-[25px] rounded-[15px]" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                <form action="https://formsubmit.co/creativeteam@lalaween.com" method="POST">
+                <form action="https://formsubmit.co/luna17ahle@gmail.com" method="POST">
                     {/* Nombre ó Razón Social */}
                     <div>
                         <label>Nombre ó Razón Social *
@@ -90,6 +90,13 @@ const Facturar = () => {
                         </label>
                     </div>
                     {/* Codigo Postal */}
+                    {/* PDF */}
+                    <div className='mt-3'>
+                        <label>
+                            <input type="file" name='file' />
+                        </label>
+                    </div>
+                    {/* PDF */}
                     <div className='mt-5 flex justify-center'>
                         <button className='bg-[#066a69] hover:bg-[#01a09a] px-[45px] py-[10px] font-black rounded-[15px]' type='submit'>Enviar</button>
                     </div>
