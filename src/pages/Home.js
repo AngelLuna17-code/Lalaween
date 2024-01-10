@@ -7,6 +7,8 @@ import ServicesSlider from "../components/ServicesSlider.jsx"
 import Footer from "../components/Footer.jsx"
 import FloatingButton from "../components/FloatingButton.jsx"
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
+import Modal from "../components/Modal.jsx"
+
 
 const Home = () => {
     return (
@@ -43,6 +45,8 @@ const Home = () => {
                 <ServiceCards />
             </div>
             {/* Servicios */}
+            <Modal />
+
             {/* Slider */}
             <div id='productos' className='container mx-auto overflow-hidden lg:py-[80px]'>
                 <SliderComponent />
