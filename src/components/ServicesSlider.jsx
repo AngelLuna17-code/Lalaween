@@ -23,7 +23,7 @@ const ServicesSlider = () => {
                                 DISEÑO DE MARCA
                             </h2>
                             <div className='mt-3'>
-                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-08.webp" alt="Marketing" loading="lazy" />
+                                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-08.webp" alt="Marketing" loading="lazy" />
                             </div>
                             <p className='font-black mt-3'>
                                 Abarcamos el branding y la identidad corporativa de tu marca.
@@ -44,7 +44,7 @@ const ServicesSlider = () => {
                                 IDENTIDAD GRAFICA
                             </h2>
                             <div className='mt-3'>
-                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="" loading="lazy" />
+                                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-09_1.webp" alt="" loading="lazy" />
                             </div>
                             <p className='font-black mt-3'>
                                 Diseñamos y definimos el aspecto visual de una marca.
@@ -65,7 +65,7 @@ const ServicesSlider = () => {
                                 REDES SOCIALES Y DISEÑO WEB
                             </h2>
                             <div className='mt-3'>
-                                <img className='mx-auto' style={{ height: "auto", width: "30%" }} src="/icons/LalaWeen-WEB-10.webp" alt="Diseño" loading="lazy" />
+                                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="/icons/LalaWeen-WEB-10.webp" alt="Diseño" loading="lazy" />
                             </div>
                             <div className='mt-3'>
                                 <CardAnimatedText />

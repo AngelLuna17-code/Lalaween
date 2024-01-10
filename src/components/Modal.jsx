@@ -51,7 +51,7 @@ export default function Modal() {
                 </p>
               </div>
               <div className='mt-3'>
-                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-10.webp" alt="diseño" loading="lazy" />
+                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-08.webp" alt="diseño" loading="lazy" />
               </div>
               <div>
               </div>
@@ -61,7 +61,7 @@ export default function Modal() {
                 </p>
               </div>
               <div className='mt-3'>
-                <p className=''>
+                <p>
                   Englobando una serie de elementos clave como la creación de su logotipo, desde su tipografía, figura, estilo y pantones que le brinden una esencia visual distintiva.
                 </p>
               </div>
@@ -87,7 +87,7 @@ export default function Modal() {
                 </p>
               </div>
               <div className='mt-3'>
-                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-10.webp" alt="diseño" loading="lazy" />
+                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-09_1.webp" alt="diseño" loading="lazy" />
               </div>
               <div>
               </div>
