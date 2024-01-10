@@ -25,10 +25,10 @@ const Layout = () => {
                     <a href="/">Inicio</a>
                   </li>
                   <li className='text-white hover:text-[#00cac4]'>
-                    <a href="#servicios">Servicios</a>
+                    <a href="/#servicios">Servicios</a>
                   </li>
                   <li className='text-white hover:text-[#00cac4]'>
-                    <a href="">Productos</a>
+                    <a href="/#productos">Productos</a>
                   </li>
                   <li className='text-white hover:text-[#00cac4]'>
                     <a href="/Facturas">Facturas</a>

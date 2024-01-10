@@ -52,18 +52,18 @@ export default function App() {
                             </a>
                         </li>
                         <li className='mt-3'>
-                            <a href="" className='hover:text-[#00cac4]'>
-                                Productos
-                            </a>
-                        </li>
-                        <li className='mt-3'>
-                            <a href="" className='hover:text-[#00cac4]'>
+                            <a href="/#servicios-m" className='hover:text-[#00cac4]'>
                                 Servicios
                             </a>
                         </li>
                         <li className='mt-3'>
-                            <a href="/Facturas" className='hover:text-[#00cac4]'
-                            >Facturar
+                            <a href="/#productos" className='hover:text-[#00cac4]'>
+                                Productos
+                            </a>
+                        </li>
+                        <li className='mt-3'>
+                            <a href="/Facturas" className='hover:text-[#00cac4]'>
+                                Facturas
                             </a>
                         </li>
                         <li className='mt-3'>
