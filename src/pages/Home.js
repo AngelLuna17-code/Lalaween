@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             {/* Servicios */}
             {/* Slider */}
-            <div className='container mx-auto overflow-hidden lg:mt-[50px]'>
+            <div className='container mx-auto overflow-hidden lg:py-[80px]'>
                 <SliderComponent />
             </div>
             {/* Slider */}
