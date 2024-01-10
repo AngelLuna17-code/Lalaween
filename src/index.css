@@ -19,10 +19,12 @@ body {
   min-width: 360px;
   max-width: 1980px;
 }
-img{
+
+img {
   height: auto;
   width: 100%;
 }
+
 @media (min-width: 1024px) {
   body {
     background: linear-gradient(-45deg, #000000, #111111, #011e2c);
@@ -45,6 +47,7 @@ h1 {
 }
 
 @media (min-width: 1024px) {
+
   .typing,
   h1,
   h2,
