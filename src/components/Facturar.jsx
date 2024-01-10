@@ -4,7 +4,7 @@ const Facturar = () => {
     return (
         <div className='px-[15px] sm:px-[0px]'>
             <div className="text-white px-[15px]  w-full sm:w-[60%] lg:w-[40%] mx-auto py-[25px] px-[25px] rounded-[15px]" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                <form action="https://formsubmit.co/luna17ahle@gmail.com" method="POST">
+                <form action="https://formsubmit.co/creativeteam@lalaween.com" method="POST">
                     {/* Nombre ó Razón Social */}
                     <div>
                         <label>Nombre ó Razón Social *
