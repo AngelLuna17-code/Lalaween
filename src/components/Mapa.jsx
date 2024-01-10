@@ -24,9 +24,11 @@ export default function Mapa() {
                     <p className='text-white text-center'>
                         Lago Erie 77, Lagos del Country, 63175 Tepic, Nay.
                     </p>
-                    <a href='https://maps.app.goo.gl/qwFmJHHRY3W8afux7' target='blank'>
-                        <p className='text-white text-center font-bold hover:text-[#00cac4]'>Ver mapa</p>
-                    </a>
+                    <p className='text-white text-center font-bold hover:text-[#00cac4]'>
+                        <a href='https://maps.app.goo.gl/qwFmJHHRY3W8afux7' target='blank'>
+                            Ver mapa
+                        </a>
+                    </p>
                 </div>
             </div>
             <div className='flex justify-center items-center'>
