@@ -96,7 +96,7 @@ export default function Modal() {
               </div>
             </div>
           </div>
-          <div onClick={() => openModal(images1)}>
+          <div onClick={() => openModal(images2)}>
             <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-2.webp" alt="servicios" loading="lazy" />
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function Modal() {
               </div>
             </div>
           </div>
-          <div onClick={() => openModal(images1)}>
+          <div onClick={() => openModal(images3)}>
             <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-3.webp" alt="servicios" loading="lazy" />
           </div>
         </div>
