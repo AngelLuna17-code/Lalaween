@@ -2,8 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import CardAnimatedText from "../components/CardAnimatedText.jsx"
 
-const ServicesSlider = () => {
+const ImageSlider = ({ images }) => {
   const sliderSettings = {
     infinite: true,
     speed: 500,
@@ -12,19 +13,12 @@ const ServicesSlider = () => {
   };
 
   return (
-    <Slider className='xs:w-[85%] mx-auto' {...sliderSettings}>
-      <div>
-        <img src="//1.webp" alt="slider" loading="lazy"/>
-      </div>
-      <div>
-        <img src="/img/2.webp" alt="slider" loading="lazy"/>
-      </div>
-      <div>
-        <img src="/img/3.webp" alt="slider" loading="lazy"/>
-      </div>
-      <div>
-        <img src="/img/4.webp" alt="slider" loading="lazy"/>
-      </div>
+    <Slider {...sliderSettings}>
+      {images.map((image, index) => (
+        <div key={index}>
+          <img src={image} alt={`slider-${index}`} loading="lazy" />
+        </div>
+      ))}
     </Slider>
   );
 };
@@ -32,18 +26,117 @@ const ServicesSlider = () => {
 export default function Modal() {
   const [showModal, setShowModal] = React.useState(false);
 
+  const images1 = ["/img/1.webp", "/img/2.webp", "/img/3.webp"];
+  const images2 = ["/img/4.webp", "/img/5.webp", "/img/6.webp"];
+  const images3 = ["/img/7.webp", "/img/8.webp", "/img/9.webp"];
+
+  const openModal = (images) => {
+    setSliderImages(images);
+    setShowModal(true);
+  };
+
+  const [sliderImages, setSliderImages] = React.useState([]);
+
   return (
-    <section>
-      <div className="flex justify-center" onClick={() => setShowModal(true)}>
-        <svg xmlns="http://www.w3.org/2000/svg" width="90" height="auto" fill="currentColor" viewBox="0 0 16 16">
-          <path d="M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046z" />
-        </svg>
+    <>
+      {/* Cards */}
+      <div className='grid grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
+        {/* Card-1 */}
+        <div className='rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+          <div className='h-[350px] px-5 flex items-center justify-center'>
+            <div>
+              <div>
+                <p className='title text-2xl'>
+                  DISEÑO DE MARCA
+                </p>
+              </div>
+              <div className='mt-3'>
+                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-10.webp" alt="diseño" loading="lazy" />
+              </div>
+              <div>
+              </div>
+              <div className='mt-3'>
+                <p className='font-black'>
+                  Abarcamos el branding y la identidad corporativa de tu marca.                </p>
+              </div>
+              <div className='mt-3'>
+                <p className=''>
+                  Englobando una serie de elementos clave como la creación de su logotipo, desde su tipografía, figura, estilo y pantones que le brinden una esencia visual distintiva.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div onClick={() => openModal(images1)}>
+            <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-1.webp" alt="servicios" loading="lazy" />
+          </div>
+        </div>
+        {/* Card-1 */}
+        {/* Card-2 */}
+        <div className='rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+          <div className='h-[350px] px-5 flex items-center justify-center'>
+            <div>
+              <div>
+                <p className='title text-2xl'>
+                  IDENTIDAD GRAFICA
+                </p>
+              </div>
+              <div className='mt-3'>
+                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-10.webp" alt="diseño" loading="lazy" />
+              </div>
+              <div>
+              </div>
+              <div className='mt-3'>
+                <p className='font-black'>
+                  Diseñamos y definimos el aspecto visual de una marca.
+                </p>
+              </div>
+              <div className='mt-3'>
+                <p>
+                  En base al logotipo, misión, visión y objetivo de la empresa, se realiza el diseño adecuado para impreso o digital de una manera que sea fácil de identificar para el espectador y logre relacionarlo con la marca.                </p>
+              </div>
+            </div>
+          </div>
+          <div onClick={() => openModal(images1)}>
+            <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-2.webp" alt="servicios" loading="lazy" />
+          </div>
+        </div>
+        {/* Card-2 */}
+        {/* Card-3 */}
+        <div className='rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+          <div className='h-[350px] px-5 flex items-center justify-center'>
+            <div>
+              <div>
+                <p className='title text-2xl'>
+                  REDES SOCIALES Y DISEÑO WEB
+                </p>
+              </div>
+              <div className='mt-3'>
+                <img className='mx-auto' style={{ height: "auto", width: "20%" }} src="icons/LalaWeen-WEB-10.webp" alt="diseño" loading="lazy" />
+              </div>
+              <div>
+              </div>
+              <div className='mt-3'>
+                <CardAnimatedText />
+              </div>
+              <div className='mt-3'>
+                <p>
+                  Identificación del público objetivo, creación de contenido en redes sociales para construir relaciones sólidas, y facilitación de adquisiciones a través de una página web atractiva y amigable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div onClick={() => openModal(images1)}>
+            <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-3.webp" alt="servicios" loading="lazy" />
+          </div>
+        </div>
+        {/* Card-3 */}
       </div>
+      {/* Cards */}
+      {/* Modal */}
       {showModal ? (
         <section>
           <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="relative my-6 mx-auto xs:w-[95%] md:w-[80%] xl:w-[65%] 2xl:w-[55%]">
-              {/* Modal content */}
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[#0b0b0b] outline-none focus:outline-none">
                 {/* Modal header */}
                 <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
@@ -59,10 +152,12 @@ export default function Modal() {
                     </span>
                   </button>
                 </div>
+                {/* Modal header */}
                 {/* Modal body */}
-                <div className="relative  flex-auto">
-                  <ServicesSlider />
+                <div className="relative flex-auto">
+                  <ImageSlider images={sliderImages} />
                 </div>
+                {/* Modal body */}
                 {/* Modal footer */}
                 <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
                   <button
@@ -73,12 +168,14 @@ export default function Modal() {
                     Cerrar
                   </button>
                 </div>
+                {/* Modal footer */}
               </div>
             </div>
           </div>
           <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
         </section>
       ) : null}
-    </section>
+      {/* Modal */}
+    </>
   );
 }

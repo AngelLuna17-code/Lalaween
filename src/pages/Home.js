@@ -1,6 +1,5 @@
 import React from 'react';
 import AnimatedText from "../components/AnimatedText.jsx"
-import ServiceCards from "../components/ServiceCards.tsx"
 import Mapa from "../components/Mapa.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
 import ServicesSlider from "../components/ServicesSlider.jsx"
@@ -42,11 +41,9 @@ const Home = () => {
                 <ServicesSlider />
             </div>
             <div id='servicios' className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 hidden lg:block'>
-                <ServiceCards />
+                <Modal />
             </div>
             {/* Servicios */}
-            <Modal />
-
             {/* Slider */}
             <div id='productos' className='container mx-auto overflow-hidden lg:py-[80px]'>
                 <SliderComponent />
