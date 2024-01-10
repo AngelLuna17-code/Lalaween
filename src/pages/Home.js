@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             {/* Hero */}
             {/* Servicios */}
-            <div className='container mx-auto py-[50px] py-8 lg:hidden'>
+            <div id="servicios" className='container mx-auto py-[50px] py-8 lg:hidden'>
                 <ServicesSlider />
             </div>
             <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 hidden lg:block'>
