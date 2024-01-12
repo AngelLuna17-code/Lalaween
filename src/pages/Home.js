@@ -28,9 +28,11 @@ const Home = () => {
                             <h1 className='text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>Impulsamos</h1>
                             <AnimatedText />
                             <h1 className='text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>conservando tu esencia</h1>
-                            <a href="">
-                                <button className='bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-[20px]'>Nuestros paquetes</button>
-                            </a>
+
+                            <button className='bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-[20px]'>
+                                <a href="/Promo">
+                                    Nuestros Paquetes</a>
+                            </button>
                         </div>
                     </div>
                 </div>
