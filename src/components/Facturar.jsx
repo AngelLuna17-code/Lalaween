@@ -4,7 +4,7 @@ const Facturar = () => {
     return (
         <div className='px-[15px] sm:px-[0px]'>
             <div className="text-white px-[15px]  w-full sm:w-[60%] lg:w-[40%] mx-auto py-[25px] px-[25px] rounded-[15px]" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                <form action="https://formsubmit.co/Facturacionlalaween@gmail.com" method="POST">
+                <form action="https://formsubmit.co/luna17ahle@gmail.com" method="POST">
                     {/* Nombre ó Razón Social */}
                     <div>
                         <label>Nombre ó Razón Social *
@@ -92,9 +92,10 @@ const Facturar = () => {
                     {/* Codigo Postal */}
                     {/* PDF */}
                     <div className='mt-3'>
-                        <label>Constancia Fiscal <br />
-                            <input className='cursor-pointer' type="file" name='file' />
+                        <label>
+                            <input type="file" name="file" accept="PDF" />
                         </label>
+
                     </div>
                     {/* PDF */}
                     <div className='mt-5 flex justify-center'>
