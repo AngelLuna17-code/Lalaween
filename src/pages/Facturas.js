@@ -14,7 +14,7 @@ const Facturas = () => {
             <div id="stars3"></div>
             {/* Stars */}
             {/* Facturar */}
-            <div className="container mx-auto py-[130px] lg:pt-[150px] lg:pb-[1100px]">
+            <div className="container mx-auto mt-[200px]">
                 <Facturar />
             </div>
             {/* Facturar */}

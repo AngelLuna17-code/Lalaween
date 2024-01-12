@@ -78,7 +78,7 @@ const Facturar = () => {
                     {/* Correo Electronico */}
                     {/* Folio IEPS */}
                     <div className="mt-3">
-                        <label>Folio IEPS "Opcional"
+                        <label for="">Folio IEPS "Opcional"
                             <input className="w-full font-black text-black typing" type="text" name="Folio IEPS" />
                         </label>
                     </div>
@@ -90,19 +90,21 @@ const Facturar = () => {
                         </label>
                     </div>
                     {/* Codigo Postal */}
-                    {/* PDF */}
-                    <div className='mt-3'>
-                        <label>
-                            <input type="file" name="file" accept="PDF" />
-                        </label>
-
-                    </div>
-                    {/* PDF */}
                     <div className='mt-5 flex justify-center'>
                         <button className='bg-[#066a69] hover:bg-[#01a09a] px-[45px] py-[10px] font-black rounded-[15px]' type='submit'>Enviar</button>
                     </div>
                 </form>
             </div>
+            <div className=' mx-auto'>
+            <iframe className='mx-auto' src="https://docs.google.com/forms/d/e/1FAIpQLSfbeDt9FygylbbwILEMi3EZEpAGvuK9hZ4tyqFhhQZvbRP-0w/viewform?embedded=true"
+                width="640"
+                height="2000"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0">
+                Cargando…
+            </iframe>
+        </div>
         </div>
     );
 };
