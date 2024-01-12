@@ -67,7 +67,7 @@ export default function Modal() {
               </div>
             </div>
           </div>
-          <div className='relative' onClick={() => openModal(images1)}>
+          <div className='relative cursor-pointer' onClick={() => openModal(images1)}>
             <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-1.webp" alt="servicios" loading="lazy" />
             <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
               <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-hand-index-thumb-fill" viewBox="0 0 16 16">
@@ -102,7 +102,7 @@ export default function Modal() {
               </div>
             </div>
           </div>
-          <div className='relative' onClick={() => openModal(images2)}>
+          <div className='relative cursor-pointer' onClick={() => openModal(images2)}>
             <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-2.webp" alt="servicios" loading="lazy" />
             <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
               <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-hand-index-thumb-fill" viewBox="0 0 16 16">
@@ -136,7 +136,7 @@ export default function Modal() {
               </div>
             </div>
           </div>
-          <div className='relative' onClick={() => openModal(images3)}>
+          <div className='relative cursor-pointer' onClick={() => openModal(images3)}>
             <img className='h-[247.63px] w-[322.67px] xl:h-[309.02px] xl:w-[402.67px] 2xl:h-[360.17px] 2xl:w-[469.33px] rounded-b-[15px]' src="cards/card-3.webp" alt="servicios" loading="lazy" />
             <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity duration-300'>
               <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-hand-index-thumb-fill" viewBox="0 0 16 16">

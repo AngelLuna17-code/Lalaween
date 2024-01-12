@@ -78,7 +78,7 @@ const Facturar = () => {
                     {/* Correo Electronico */}
                     {/* Folio IEPS */}
                     <div className="mt-3">
-                        <label for="">Folio IEPS "Opcional"
+                        <label>Folio IEPS "Opcional"
                             <input className="w-full font-black text-black typing" type="text" name="Folio IEPS" />
                         </label>
                     </div>
@@ -92,8 +92,8 @@ const Facturar = () => {
                     {/* Codigo Postal */}
                     {/* PDF */}
                     <div className='mt-3'>
-                        <label>
-                            <input type="file" name='file' />
+                        <label>Constancia Fiscal <br />
+                            <input className='cursor-pointer' type="file" name='file' />
                         </label>
                     </div>
                     {/* PDF */}
