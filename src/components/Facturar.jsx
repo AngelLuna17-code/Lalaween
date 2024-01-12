@@ -4,7 +4,7 @@ const Facturar = () => {
     return (
         <div className='px-[15px] sm:px-[0px]'>
             <div className="text-white px-[15px]  w-full sm:w-[60%] lg:w-[40%] mx-auto py-[25px] px-[25px] rounded-[15px]" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                <form action="https://formsubmit.co/luna17ahle@gmail.com" method="POST">
+                <form action="https://formsubmit.co/Facturacionlalaween@gmail.com" method="POST">
                     {/* Nombre ó Razón Social */}
                     <div>
                         <label>Nombre ó Razón Social *
@@ -14,7 +14,7 @@ const Facturar = () => {
                     {/* Nombre ó Razón Social */}
                     {/* RFC */}
                     <div className="mt-3">
-                        <label>RFc
+                        <label>RFC
                             <input className="w-full font-black text-black typing" type="text" name="RFC" required />
                         </label>
                     </div>
@@ -95,16 +95,16 @@ const Facturar = () => {
                     </div>
                 </form>
             </div>
-            <div className=' mx-auto'>
-            <iframe className='mx-auto' src="https://docs.google.com/forms/d/e/1FAIpQLSfbeDt9FygylbbwILEMi3EZEpAGvuK9hZ4tyqFhhQZvbRP-0w/viewform?embedded=true"
-                width="640"
-                height="2000"
-                frameborder="0"
-                marginheight="0"
-                marginwidth="0">
-                Cargando…
-            </iframe>
-        </div>
+            <div className='text-white text-center mt-5'>
+                <p className='font-black text-xl'>
+                    Puedes mandarnos tu PDF de Regimen Fiscal al correo:
+                </p>
+                <div className='mt-3'>
+                    <a className='hover:text-[#00cac4] text-xl mt-[100px]' href="mailto:Facturacionlalaween@gmail.com" target='blank'>
+                        Facturacionlalaween@gmail.com
+                    </a>
+                </div>
+            </div>
         </div>
     );
 };
