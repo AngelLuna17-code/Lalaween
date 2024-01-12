@@ -13,10 +13,10 @@ const ImageSlider = ({ images }) => {
   };
 
   return (
-    <Slider {...sliderSettings}>
+    <Slider  {...sliderSettings}>
       {images.map((image, index) => (
-        <div key={index}>
-          <img className='rounded-[15px]' src={image} alt={`slider-${index}`} loading="lazy" />
+        <div className='flex items-center'>
+          <img key={index} className='rounded-[15px] h-auto w-[40%] mx-auto' src={image} alt={`slider-${index}`} loading="lazy" />
         </div>
       ))}
     </Slider>
@@ -26,9 +26,36 @@ const ImageSlider = ({ images }) => {
 export default function Modal() {
   const [showModal, setShowModal] = React.useState(false);
 
-  const images1 = ["/img/1.webp", "/img/2.webp", "/img/3.webp"];
-  const images2 = ["/img/4.webp", "/img/5.webp", "/img/6.webp"];
-  const images3 = ["/img/7.webp", "/img/8.webp", "/img/9.webp"];
+  const images1 =
+    [
+      "/DISEÑO DE MARCA/Mock up Etiqueta Tanukiya.webp",
+      "/DISEÑO DE MARCA/Mock up Gorra MJ.webp",
+      "/DISEÑO DE MARCA/Mock up Hoja reciclada.webp",
+      "/DISEÑO DE MARCA/Mock up Oficina-min.webp",
+      "/DISEÑO DE MARCA/Mock up Tarjeta Estudio Arq Logotipo.webp"
+    ];
+  const images2 =
+    [
+      "/IDENTIDAD GRÁFICA/Mock up Bolsa de paja.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Bolsa de papel ConCafé.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Branding.webp",
+      "/IDENTIDAD GRÁFICA/Mock up hoja grabada.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Receta SoyTotalmenteKeto.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación A.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación B.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación D.webp",
+      "/IDENTIDAD GRÁFICA/Mouckup Triptico pizzopolis.webp",
+      "/IDENTIDAD GRÁFICA/Mock up caja.webp"
+    ];
+  const images3 =
+    [
+      "/REDES Y WEB/Mock up Redes Sociales Dr José.webp",
+      "/REDES Y WEB/Mock up Redes Sociales Dra Jaz.webp",
+      "/REDES Y WEB/Mock up Redes Sociales Dra Marcela.webp",
+      "/REDES Y WEB/Mock up Tablet.webp",
+      "/REDES Y WEB/Mock up Tablet1.webp",
+      "/REDES Y WEB/Mock up WEB.webp"
+    ];
 
   const openModal = (images) => {
     setSliderImages(images);
