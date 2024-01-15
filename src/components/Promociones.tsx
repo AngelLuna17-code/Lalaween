@@ -8,7 +8,7 @@ const Accordion = ({ title, content }) => {
     };
 
     return (
-        <div className="accordion-item text-white bg-[#111827] rounded-lg p-2">
+        <div className="accordion-item text-white bg-[#111827] rounded-lg p-2 cursor-pointer">
             <div className="accordion-title" onClick={toggleAccordion}>
                 <div className='flex justify-between'>
                     <div className='1'>
