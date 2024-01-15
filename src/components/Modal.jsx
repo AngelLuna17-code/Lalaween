@@ -16,7 +16,7 @@ const ImageSlider = ({ images }) => {
     <Slider  {...sliderSettings}>
       {images.map((image, index) => (
         <div className='flex items-center'>
-          <img key={index} className='rounded-[15px] h-auto w-[40%] mx-auto' src={image} alt={`slider-${index}`} loading="lazy" />
+          <img key={index} className='rounded-[15px] h-auto w-[60%] mx-auto' src={image} alt={`slider-${index}`} loading="lazy" />
         </div>
       ))}
     </Slider>
@@ -36,22 +36,15 @@ export default function Modal() {
     ];
   const images2 =
     [
-      "/IDENTIDAD GRÁFICA/Mock up Bolsa de paja.webp",
-      "/IDENTIDAD GRÁFICA/Mock up Bolsa de papel ConCafé.webp",
       "/IDENTIDAD GRÁFICA/Mock up Branding.webp",
-      "/IDENTIDAD GRÁFICA/Mock up hoja grabada.webp",
-      "/IDENTIDAD GRÁFICA/Mock up Receta SoyTotalmenteKeto.webp",
-      "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación A.webp",
-      "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación B.webp",
-      "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación D.webp",
       "/IDENTIDAD GRÁFICA/Mouckup Triptico pizzopolis.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Receta SoyTotalmenteKeto.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Bolsa de papel ConCafé.webp",
+      "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación B.webp",
       "/IDENTIDAD GRÁFICA/Mock up caja.webp"
     ];
   const images3 =
     [
-      "/REDES Y WEB/Mock up Redes Sociales Dr José.webp",
-      "/REDES Y WEB/Mock up Redes Sociales Dra Jaz.webp",
-      "/REDES Y WEB/Mock up Redes Sociales Dra Marcela.webp",
       "/REDES Y WEB/Mock up Tablet.webp",
       "/REDES Y WEB/Mock up Tablet1.webp",
       "/REDES Y WEB/Mock up WEB.webp"
