@@ -12,7 +12,7 @@ const Layout = () => {
               <a href="/">
                 <div className="flex items-center min-h-[70px]">
                   <div >
-                    <img style={{ height: "37px", width: "100%" }} src="/logo.svg" alt="logo" loading="lazy" />
+                    <img style={{ height: "37px", width: "100%" }} src="/logo.webp" alt="logo" loading="lazy" />
                   </div>
                   <div className="ml-2">
                     <p>Lalaween</p>

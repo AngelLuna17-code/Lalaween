@@ -20,18 +20,18 @@ const Home = () => {
             {/* Hero */}
             <div className='container mx-auto mt-[100px]'>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
-                    <div className='flex items-center'>
-                        <img className='w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px]' src="/logo.svg" alt="logo" loading="lazy" />
+                    <div className='flex items-center justify-center'>
+                        <img className='h-auto w-[80%]' src="/logo.webp" alt="logo" loading="lazy" />
                     </div>
                     <div className='text-white text-center flex items-center justify-center'>
                         <div>
-                            <h1 className='text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>Impulsamos</h1>
+                            <h1>Impulsamos</h1>
                             <AnimatedText />
-                            <h1 className='text-[32px] sm:text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] 2xl:text-[52px]'>conservando tu esencia</h1>
-
+                            <h1>conservando tu esencia</h1>
                             <button className='bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-[20px]'>
                                 <a href="/Promo">
-                                    Nuestros Paquetes</a>
+                                    Nuestros Paquetes
+                                </a>
                             </button>
                         </div>
                     </div>
@@ -59,9 +59,9 @@ const Home = () => {
             {/* Contacto */}
             <div className='contact-container'>
                 <div className='text-white text-center'>
-                    <div className='text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>
-                        <h2 className='title-container'>Será un gusto</h2>
-                        <h2 className='title-container title'>trabajar contigo</h2>
+                    <div>
+                        <h2 className='title-container text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>Será un gusto</h2>
+                        <h2 className='title-container title text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>trabajar contigo</h2>
                     </div>
                     <div className='mt-2'>
                         <a className='hover:text-[#00cac4] text-2xl' href="mailto:CreativeTeam@LalaWeen.com" target="blank">creativeteam@lalaween.com</a>
