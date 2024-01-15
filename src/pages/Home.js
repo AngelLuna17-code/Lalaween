@@ -22,9 +22,9 @@ const Home = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='flex items-center justify-center'>
                         <picture className='h-auto w-[80%]'>
-                            <source media="(min-width: 1024px)" srcset="LOgo.webp.webp" loading='lazy' alt='logo' />
-                            <source media="(min-width: 360px)" srcset="/logo-xs.webp" loading='lazy' alt='logo' />
-                            <img className='rounded-[15px]' src="/slider/logo-xs.webp" loading='lazy' alt='logo' />
+                            <source media="(min-width: 360px)" srcset="logo-xs.webp" loading='lazy' alt='logo' />
+                            <source media="(min-width: 1024px)" srcset="logo.webp" loading='lazy' alt='logo' />
+                            <img src="Logo.webp" loading='lazy' alt='logo' />
                         </picture>
                     </div>
                     <div className='text-white text-center flex items-center justify-center'>
