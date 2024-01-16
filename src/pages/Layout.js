@@ -21,21 +21,21 @@ const Layout = () => {
               </a>
               <div className='overflow-hidden'>
                 <ul className='list-none flex items-center space-x-12'>
-                  <li className='text-white hover:text-[#00cac4]'>
-                    <a href="/">Inicio</a>
-                  </li>
-                  <li className='text-white hover:text-[#00cac4]'>
-                    <a href="/#servicios">Servicios</a>
-                  </li>
-                  <li className='text-white hover:text-[#00cac4]'>
-                    <a href="/#productos">Productos</a>
-                  </li>
-                  <li className='text-white hover:text-[#00cac4]'>
-                    <a href="/Facturas">Facturas</a>
-                  </li>
-                  <li className='text-white hover:text-[#00cac4]'>
-                    <a href="/Promo">Promociones</a>
-                  </li>
+                  <Link className="text-white hover:text-[#00cac4]" to="/">
+                    Inicio
+                  </Link>
+                  <Link className="text-white hover:text-[#00cac4]" to="/">
+                    Servicios
+                  </Link>
+                  <Link className="text-white hover:text-[#00cac4]" to="/">
+                    Productos
+                  </Link>
+                  <Link className="text-white hover:text-[#00cac4]" to="/Facturas">
+                    Facturas
+                  </Link>
+                  <Link className="text-white hover:text-[#00cac4]" to="/Promo">
+                    Promocionest
+                  </Link>
                 </ul>
               </div>
             </div>
