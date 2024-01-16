@@ -92,7 +92,7 @@ const Promo = () => {
                     </ol>
                 </div>
                 <div className='mt-3'>
-                <p className='text-white text-center font-semibold'>
+                    <p className='text-white text-center font-semibold'>
                         Si usted desea obtener más información acerca de nuestros servicios y beneficios, lo invitamos a visitar nuestras redes sociales y contactarnos vía What’s app.
                     </p>
                 </div>
