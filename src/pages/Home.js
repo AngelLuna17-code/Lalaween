@@ -22,8 +22,7 @@ const Home = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                     <div className='flex items-center justify-center'>
                         <div>
-                            <img class="w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px]" src="/logo.webp" alt="logo" loading="lazy" />
-
+                            <img class="w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px]" src="logo.webp" alt="logo" loading="lazy" />
                         </div>
                     </div>
                     <div className='text-white text-center flex items-center justify-center'>

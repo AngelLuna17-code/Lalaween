@@ -7,15 +7,15 @@ const Footer = () => {
             <div className='px-4 py-8 bg-black'>
                 <div>
                     <ul className='list-none flex items-center justify-center space-x-12'>
-                        <li className='text-white hover:text-[#00cac4]'>
-                            <a href="">Inicio</a>
-                        </li>
-                        <li className='text-white hover:text-[#00cac4]'>
-                            <a href="">Productos</a>
-                        </li>
-                        <li className='text-white hover:text-[#00cac4]'>
-                            <a href="">Servicio</a>
-                        </li>
+                        <Link className="text-white hover:text-[#00cac4]" to="/">
+                            Inicio
+                        </Link>
+                        <Link className="text-white hover:text-[#00cac4]" to="/">
+                            Productos
+                        </Link>
+                        <Link className="text-white hover:text-[#00cac4]" to="/">
+                            Servicios
+                        </Link>
                     </ul>
                 </div>
                 <div className="mt-5 flex items-center justify-center space-x-10 text-white">

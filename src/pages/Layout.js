@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
 import MobileNavbar from "../components/MobileNavbar.jsx"
 
 const Layout = () => {
@@ -12,7 +12,7 @@ const Layout = () => {
               <a href="/">
                 <div className="flex items-center min-h-[70px]">
                   <div >
-                    <img style={{ height: "37px", width: "100%" }} src="/logo.webp" alt="logo" loading="lazy" />
+                    <img style={{ height: "37px", width: "100%" }} src="logo.webp" alt="logo" loading="lazy" />
                   </div>
                   <div className="ml-2">
                     <p>Lalaween</p>
@@ -30,10 +30,10 @@ const Layout = () => {
                   <Link className="text-white hover:text-[#00cac4]" to="/">
                     Productos
                   </Link>
-                  <Link className="text-white hover:text-[#00cac4]" to="/Facturas">
+                  <Link className="text-white hover:text-[#00cac4]" to="Facturas">
                     Facturas
                   </Link>
-                  <Link className="text-white hover:text-[#00cac4]" to="/Promo">
+                  <Link className="text-white hover:text-[#00cac4]" to="Promo">
                     Promocionest
                   </Link>
                 </ul>
@@ -80,7 +80,6 @@ const Layout = () => {
         </div>
         {/* Mobile Navbar */}
       </nav>
-      <Outlet />
     </div>
   );
 };

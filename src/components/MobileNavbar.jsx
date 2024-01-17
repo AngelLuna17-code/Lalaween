@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 
 const Accordion = ({ content }) => {
     const [isOpen, setIsOpen] = React.useState(false);
@@ -14,7 +15,7 @@ const Accordion = ({ content }) => {
                     <a href="/">
                         <div className="flex items-center min-h-[70px]">
                             <div >
-                                <img style={{ height: "37px", width: "100%" }} src="/logo.webp" alt="logo" loading="lazy" />
+                                <img style={{ height: "37px", width: "100%" }} src="logo.webp" alt="logo" loading="lazy" />
                             </div>
                             <div className="ml-2">
                                 <p>Lalaween</p>
@@ -37,6 +38,7 @@ const Accordion = ({ content }) => {
                     </div>
                 </div>
             }
+
         </div>
     );
 };
@@ -46,34 +48,25 @@ export default function App() {
             <Accordion
                 content={
                     <ul className='list-none list-inside'>
-                        <li className='mt-3'>
-                            <a href="" className='hover:text-[#00cac4]'>
-                                Inicio
-                            </a>
-                        </li>
-                        <li className='mt-3'>
-                            <a href="/#servicios-m" className='hover:text-[#00cac4]'>
-                                Servicios
-                            </a>
-                        </li>
-                        <li className='mt-3'>
-                            <a href="/#productos" className='hover:text-[#00cac4]'>
-                                Productos
-                            </a>
-                        </li>
-                        <li className='mt-3'>
-                            <a href="/Facturas" className='hover:text-[#00cac4]'>
-                                Facturas
-                            </a>
-                        </li>
-                        <li className='mt-3'>
-                            <a href="/Promo" className='hover:text-[#00cac4]'>
-                                Promociones
-                            </a>
-                        </li>
+                        <Link className="mt-3" to="/">
+                            Inicio
+                        </Link>
+                        <Link className="mt-3" to="/">
+                            Servicios
+                        </Link>
+                        <Link className="mt-3" to="/">
+                            Productos
+                        </Link>
+                        <Link className="mt-3" to="/Facturas">
+                            Factyras
+                        </Link>
+                        <Link className="mt-3" to="/Promo">
+                            Promociones
+                        </Link>
                     </ul>
                 }
             />
+            <Outlet />
         </div>
     );
 }
