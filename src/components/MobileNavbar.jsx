@@ -47,28 +47,28 @@ export default function App() {
             <Accordion
                 content={
                     <ul className='list-none list-inside'>
-                        <li>
-                            <Link className="mt-3" to="/">
+                        <li className="mt-3">
+                            <Link to="/">
                                 Inicio
                             </Link>
                         </li>
-                        <li>
-                            <Link className="mt-3" to="/">
+                        <li className="mt-3">
+                            <Link to="/">
                                 Servicios
                             </Link>
                         </li>
-                        <li>
-                            <Link className="mt-3" to="/">
+                        <li className="mt-3">
+                            <Link to="/">
                                 Productos
                             </Link>
                         </li>
-                        <li>
-                            <Link className="mt-3" to="/Facturas">
+                        <li className="mt-3">
+                            <Link to="/Facturas">
                                 Facturas
                             </Link>
                         </li>
-                        <li>
-                            <Link className="mt-3" to="/Promo">
+                        <li className="mt-3">
+                            <Link to="/Promo">
                                 Promociones
                             </Link>
                         </li>

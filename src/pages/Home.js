@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import AnimatedText from "../components/AnimatedText.jsx"
 import Mapa from "../components/Mapa.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
@@ -31,9 +32,9 @@ const Home = () => {
                             <AnimatedText />
                             <h1>conservando tu esencia</h1>
                             <button className='bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-[20px]'>
-                                <a href="/Promo">
+                                <Link to="promo">
                                     Nuestros Paquetes
-                                </a>
+                                </Link>
                             </button>
                         </div>
                     </div>
