@@ -34,7 +34,7 @@ const Layout = () => {
                     Facturas
                   </Link>
                   <Link className="text-white hover:text-[#00cac4]" to="Promo">
-                    Promocionest
+                    Promociones
                   </Link>
                 </ul>
               </div>
