@@ -41,15 +41,15 @@ const Home = () => {
             </div>
             {/* Hero */}
             {/* Servicios */}
-            <div id='servicios-m' className='container mx-auto py-[50px] py-8 lg:hidden'>
+            <div className='container mx-auto py-[50px] py-8 lg:hidden'>
                 <ServicesSlider />
             </div>
-            <div id='servicios' className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 hidden lg:block'>
+            <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 hidden lg:block'>
                 <Modal />
             </div>
             {/* Servicios */}
             {/* Slider */}
-            <div id='productos' className='container mx-auto overflow-hidden lg:py-[80px]'>
+            <div className='container mx-auto overflow-hidden lg:py-[80px]'>
                 <SliderComponent />
             </div>
             {/* Slider */}

@@ -12,7 +12,7 @@ const Accordion = ({ content }) => {
         <div className="top-0 px-10 lg:px-6 xl:px-8 text-white fixed top-0 w-screen min-h-[70px] z-20 lg:hidden" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
             <div className='flex justify-between items-center'>
                 <div>
-                    <a href="/">
+                    <Link to="/">
                         <div className="flex items-center min-h-[70px]">
                             <div >
                                 <img style={{ height: "37px", width: "100%" }} src="logo.webp" alt="logo" loading="lazy" />
@@ -21,7 +21,7 @@ const Accordion = ({ content }) => {
                                 <p>Lalaween</p>
                             </div>
                         </div>
-                    </a>
+                    </Link>
                 </div>
                 <div className="" onClick={toggleAccordion}>
                     <div className='flex justify-between'>
@@ -38,7 +38,6 @@ const Accordion = ({ content }) => {
                     </div>
                 </div>
             }
-
         </div>
     );
 };
@@ -48,21 +47,31 @@ export default function App() {
             <Accordion
                 content={
                     <ul className='list-none list-inside'>
-                        <Link className="mt-3" to="/">
-                            Inicio
-                        </Link>
-                        <Link className="mt-3" to="/">
-                            Servicios
-                        </Link>
-                        <Link className="mt-3" to="/">
-                            Productos
-                        </Link>
-                        <Link className="mt-3" to="/Facturas">
-                            Factyras
-                        </Link>
-                        <Link className="mt-3" to="/Promo">
-                            Promociones
-                        </Link>
+                        <li>
+                            <Link className="mt-3" to="/">
+                                Inicio
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="mt-3" to="/">
+                                Servicios
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="mt-3" to="/">
+                                Productos
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="mt-3" to="/Facturas">
+                                Facturas
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className="mt-3" to="/Promo">
+                                Promociones
+                            </Link>
+                        </li>
                     </ul>
                 }
             />

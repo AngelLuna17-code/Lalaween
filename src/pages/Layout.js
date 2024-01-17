@@ -9,7 +9,7 @@ const Layout = () => {
         <div className="hidden lg:block">
           <div className="flex justify-between items-center top-0 px-10 lg:px-6 xl:px-8 text-white fixed top-0 w-screen min-h-[70px] z-20" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
             <div className='flex items-center lg:space-x-5 xl:space-x-12'>
-              <a href="/">
+              <Link to="/">
                 <div className="flex items-center min-h-[70px]">
                   <div >
                     <img style={{ height: "37px", width: "100%" }} src="logo.webp" alt="logo" loading="lazy" />
@@ -18,7 +18,7 @@ const Layout = () => {
                     <p>Lalaween</p>
                   </div>
                 </div>
-              </a>
+              </Link>
               <div className='overflow-hidden'>
                 <ul className='list-none flex items-center space-x-12'>
                   <Link className="text-white hover:text-[#00cac4]" to="/">
