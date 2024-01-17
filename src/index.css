@@ -55,7 +55,6 @@ p {
 @media (min-width: 640px) {
   h1 {
     font-size: 36px;
-
   }
 }
 
@@ -91,14 +90,12 @@ p {
   h1 {
     font-size: 48px;
   }
-
 }
 
 @media (min-width: 1536px) {
   h1 {
     font-size: 52px;
   }
-
 }
 
 @keyframes gradient {
