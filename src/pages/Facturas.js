@@ -8,13 +8,8 @@ import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 const Facturas = () => {
     return (
         <div>
-            {/* Stars */}
-            <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
-            {/* Stars */}
             {/* Facturar */}
-            <div className="container mx-auto pt-[100px] pb-[85px] lg:pb-[1200px]">
+            <div className="container mx-auto py-[100px]">
                 <Facturar />
             </div>
             {/* Facturar */}
