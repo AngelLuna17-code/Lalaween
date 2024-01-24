@@ -1,14 +1,13 @@
 import React from 'react';
 import Stars from "../components/Stars.jsx"
 import Hero from "../components/Hero.jsx"
-import Mapa from "../components/Mapa.jsx"
-import SliderComponent from "../components/SliderComponent.jsx"
 import ServicesSlider from "../components/ServicesSlider.jsx"
+import Modal from "../components/Modal.jsx"
+import SliderComponent from "../components/SliderComponent.jsx"
+import Mapa from "../components/Mapa.jsx"
 import Footer from "../components/Footer.jsx"
 import FloatingButton from "../components/FloatingButton.jsx"
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
-import Modal from "../components/Modal.jsx"
-
 
 const Home = () => {
     return (
