@@ -1,4 +1,5 @@
 import React from 'react';
+import Stars from "../components/Stars.jsx"
 import Promociones from "../components/Promociones.tsx"
 import Terminos from "../components/Terminos.jsx"
 import Footer from "../components/Footer.jsx"
@@ -9,6 +10,7 @@ const Promo = () => {
     return (
         <section>
             {/* Stars */}
+            <Stars />
             {/* Stars */}
             {/* Presentacion */}
             <div className='text-center container mx-auto mt-[150px]'>
