@@ -1,28 +1,23 @@
 import React from 'react';
 import Facturar from "../components/Facturar.jsx"
-
 import Footer from "../components/Footer.jsx"
 import FloatingButton from "../components/FloatingButton.jsx"
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 
 const Facturas = () => {
     return (
-        <div>
+        <section>
             {/* Facturar */}
-            <div className="container mx-auto py-[100px]">
-                <Facturar />
-            </div>
+            <Facturar />
             {/* Facturar */}
             {/* Footer */}
-            <div>
-                <Footer />
-            </div>
+            <Footer />
             {/* Footer */}
             {/* Floating Buttons */}
             <ScrollToTopButton />
             <FloatingButton />
             {/* Floating Buttons */}
-        </div>
+        </section>
     );
 };
 
