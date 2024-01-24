@@ -8,9 +8,6 @@ const Promo = () => {
     return (
         <div>
             {/* Stars */}
-            <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
             {/* Stars */}
             {/* Presentacion */}
             <div className='text-center container mx-auto mt-[150px]'>
@@ -27,9 +24,7 @@ const Promo = () => {
             </div>
             {/* Presentacion */}
             {/* Promociones */}
-            <div className='container mx-auto py-8 px-4 lg:px-0'>
-                <Promociones />
-            </div>
+            <Promociones />
             {/* Promociones */}
             {/* Terminos y condiciones */}
             <div className='container mx-auto py-6 px-1 lag:px-0'>
