@@ -58,7 +58,7 @@ export default function Modal() {
   const [sliderImages, setSliderImages] = React.useState([]);
 
   return (
-    <div className='container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4 hidden lg:block'>
+    <div className='Modal container mx-auto flex justify-center items-center sm:mt-[100px] sm:px-8 md:px-4'>
       {/* Cards */}
       <div className='grid grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
         {/* Card-1 */}

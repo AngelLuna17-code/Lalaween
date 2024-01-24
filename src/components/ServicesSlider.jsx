@@ -13,7 +13,7 @@ const ServicesSlider = () => {
     };
 
     return (
-        <div className='container mx-auto py-[50px] py-8 lg:hidden'>
+        <div className='ServiceSlider container mx-auto py-[50px] py-8'>
             <div>
                 <Slider className='w-[80%] mx-auto' {...sliderSettings}>
                     {/* Slider item 1 */}
