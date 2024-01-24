@@ -21,8 +21,9 @@ const Home = () => {
             <Hero />
             {/* Hero */}
             {/* Servicios */}
-            <ServicesSlider/>
-            <Weno />
+
+            <ServicesSlider />
+            <Weno/>
             <Modal />
             {/* Servicios */}
             {/* Slider */}
