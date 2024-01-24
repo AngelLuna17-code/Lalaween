@@ -1,4 +1,5 @@
 import React from 'react';
+import Stars from "../components/Stars.jsx"
 import Facturar from "../components/Facturar.jsx"
 import Footer from "../components/Footer.jsx"
 import FloatingButton from "../components/FloatingButton.jsx"
@@ -7,6 +8,9 @@ import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 const Facturas = () => {
     return (
         <section>
+            {/* Stars */}
+            <Stars />
+            {/* Stars */}
             {/* Facturar */}
             <Facturar />
             {/* Facturar */}
