@@ -1,4 +1,5 @@
 import React from 'react';
+import Stars from "../components/Stars.jsx"
 import Hero from "../components/Hero.jsx"
 import Mapa from "../components/Mapa.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
@@ -13,9 +14,7 @@ const Home = () => {
     return (
         <div>
             {/* Stars */}
-            <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
+            <Stars />
             {/* Stars */}
             {/* Hero */}
             <Hero />
