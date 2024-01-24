@@ -28,9 +28,7 @@ const Home = () => {
             <SliderComponent />
             {/* Slider */}
             {/* Mapa */}
-            <div className='container mx-auto overflow-hidden py-8'>
-                <Mapa />
-            </div>
+            <Mapa />
             {/* Mapa */}
             {/* Contacto */}
             <div className='contact-container'>
