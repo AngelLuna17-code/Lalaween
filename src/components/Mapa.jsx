@@ -3,11 +3,13 @@ import React from 'react';
 export default function Mapa() {
     return (
         <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
-            <div className='text-white text-center lg:hidden'>
-                <h2 className='text-white text-center lg:hidden text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px] title-container '>Aquí nos</h2>
-                <h2 className='text-white text-center lg:hidden text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px] title-container title'>encontramos</h2>
+            <div className='order-1 lg:order-2 flex items-center justify-center'>
+                <div className='text-white text-center'>
+                    <h2 className='text-white text-center text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px] title-container '>Aquí nos</h2>
+                    <h2 className='text-white text-center text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px] title-container title'>encontramos</h2>
+                </div>
             </div>
-            <div>
+            <div className='order-2 lg:order-1'>
                 <div className='flex items-center justify-center mt-5 lg:mt-0'>
                     <iframe
                         className='p-0 sm:h-[450px] sm:w-[85%] lg:h-[250px] xl:h-[350px]'
@@ -29,12 +31,6 @@ export default function Mapa() {
                             Ver mapa
                         </a>
                     </p>
-                </div>
-            </div>
-            <div className='flex justify-center items-center'>
-                <div className='text-white text-center hidden lg:block'>
-                    <h2 className='title-container text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>Aquí nos</h2>
-                    <h2 className='title-container title sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>encontramos</h2>
                 </div>
             </div>
         </div>
