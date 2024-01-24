@@ -12,7 +12,7 @@ import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 
 const Home = () => {
     return (
-        <div>
+        <section>
             {/* Stars */}
             <Stars />
             {/* Stars */}
@@ -33,15 +33,13 @@ const Home = () => {
             <Contacto />
             {/* Contacto */}
             {/* Footer */}
-            <div>
-                <Footer />
-            </div>
+            <Footer />
             {/* Footer */}
             {/* Floating Buttons */}
             <ScrollToTopButton />
             <FloatingButton />
             {/* Floating Buttons */}
-        </div >
+        </section>
     );
 };
 
