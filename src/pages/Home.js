@@ -25,9 +25,7 @@ const Home = () => {
             <Modal />
             {/* Servicios */}
             {/* Slider */}
-            <div className='container mx-auto overflow-hidden lg:py-[80px]'>
-                <SliderComponent />
-            </div>
+            <SliderComponent />
             {/* Slider */}
             {/* Mapa */}
             <div className='container mx-auto overflow-hidden py-8'>
