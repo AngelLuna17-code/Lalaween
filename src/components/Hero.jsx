@@ -8,15 +8,15 @@ const ServicesSlider = () => {
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center justify-center'>
                     <div>
-                        <img class="w-full h-[281.27px] sm:h-[480.03px] md:h-[576.05] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px]" src="logo.webp" alt="logo" loading="lazy" />
+                        <img class="w-full h-[281.27px] sm:h-[400px] lg:h-[384.03px] xl:h-[480.03px] 2xl:h-[576.05px]" src="logo.webp" alt="logo" loading="lazy" />
                     </div>
                 </div>
-                <div className='text-white text-center flex items-center justify-center'>
+                <div className='text-white text-center flex items-center justify-center mt-3 lg:mt-0'>
                     <div>
                         <h1>Impulsamos</h1>
                         <AnimatedText />
                         <h1>conservando tu esencia</h1>
-                        <button className='bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-[20px]'>
+                        <button className=' w-[80%] lg:w-[70%] bg-[#066a69] hover:bg-[#01a09a] px-[95px] py-[10px] font-black rounded-lg mt-3'>
                             <Link to="promo">
                                 Nuestros Paquetes
                             </Link>

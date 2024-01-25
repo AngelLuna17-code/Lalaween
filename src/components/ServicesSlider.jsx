@@ -47,7 +47,7 @@ const ServicesSlider = () => {
   };
 
   return (
-    <div className='ServiceSlider container mx-auto py-[50px] py-8'>
+    <div className='ServiceSlider container mx-auto py-[50px]'>
       <div className='w-[80%] sm:w-[60%] mx-auto'>
         <Slider className='' {...sliderSettings}>
           {slides.map((slide, index) => (
