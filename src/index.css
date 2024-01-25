@@ -23,10 +23,14 @@ body {
 
 #stars,
 #stars2,
-#stars3,
-.Modal {
+#stars3 {
   display: none;
 }
+
+.ServiceCards {
+  display: none;
+}
+
 
 img {
   height: auto;
@@ -74,10 +78,14 @@ p {
 
   #stars,
   #stars2,
-  #stars3,
-  .Modal {
+  #stars3 {
     display: block;
   }
+
+  .ServiceCards {
+    display: block;
+  }
+
 
   .ServiceSlider {
     display: none;

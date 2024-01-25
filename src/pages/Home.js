@@ -2,7 +2,7 @@ import React from 'react';
 import Stars from "../components/Stars.jsx"
 import Hero from "../components/Hero.jsx"
 import ServicesSlider from "../components/ServicesSlider.jsx"
-import Modal from "../components/Modal.jsx"
+import ServiceCards from "../components/ServiceCards.jsx"
 import SliderComponent from "../components/SliderComponent.jsx"
 import Mapa from "../components/Mapa.jsx"
 import Contacto from "../components/Contacto.jsx"
@@ -21,7 +21,7 @@ const Home = () => {
             {/* Hero */}
             {/* Servicios */}
             <ServicesSlider />
-            <Modal />
+            <ServiceCards />
             {/* Servicios */}
             {/* Slider */}
             <SliderComponent />
