@@ -1,19 +1,10 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
-import CardAnimatedText from "../components/CardAnimatedText.jsx";
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import CardAnimatedText from "../components/CardAnimatedText"
 
 const ServicesSlider = () => {
-  const sliderRef = useRef(null);
-
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
 
   const slides = [
     {
@@ -47,18 +38,18 @@ const ServicesSlider = () => {
     },
   ];
 
-  const handleNextSlide = () => {
-    sliderRef.current.slickNext();
-  };
-
-  const handlePrevSlide = () => {
-    sliderRef.current.slickPrev();
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   };
 
   return (
     <div className='ServiceSlider container mx-auto py-[50px] py-8'>
       <div className='w-[80%] mx-auto'>
-        <Slider ref={sliderRef} {...settings}>
+        <Slider className='' {...sliderSettings}>
           {slides.map((slide, index) => (
             <div key={index}>
               <div className='rounded-[15px] text-white text-center' style={{ background: slide.bgColor, backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
@@ -96,14 +87,6 @@ const ServicesSlider = () => {
             </div>
           ))}
         </Slider>
-      </div>
-      <div className="flex justify-center mt-3">
-        <button onClick={handlePrevSlide} className="carousel-button carousel-button-left text-white">
-          &lt; Anterior
-        </button>
-        <button onClick={handleNextSlide} className="carousel-button carousel-button-right text-white">
-          Siguiente &gt;
-        </button>
       </div>
     </div>
   );

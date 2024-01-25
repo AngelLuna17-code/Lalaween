@@ -9,7 +9,6 @@ import Contacto from "../components/Contacto.jsx"
 import Footer from "../components/Footer.jsx"
 import FloatingButton from "../components/FloatingButton.jsx"
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
-import Weno from "../components/Weno.jsx"
 
 const Home = () => {
     return (
@@ -21,9 +20,7 @@ const Home = () => {
             <Hero />
             {/* Hero */}
             {/* Servicios */}
-
             <ServicesSlider />
-            <Weno/>
             <Modal />
             {/* Servicios */}
             {/* Slider */}
