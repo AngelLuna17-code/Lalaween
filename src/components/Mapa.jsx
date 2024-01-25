@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Mapa() {
     return (
-        <div className='container mx-auto overflow-hidden py-8'>
+        <div className='container mx-auto overflow-hidden py-[50px]'>
             <div className='grid sm:grid-cols-1 lg:grid-cols-2'>
                 <div className='order-1 lg:order-2 flex items-center justify-center'>
                     <div className='text-white text-center'>
@@ -11,7 +11,7 @@ export default function Mapa() {
                     </div>
                 </div>
                 <div className='order-2 lg:order-1'>
-                    <div className='flex items-center justify-center mt-5 lg:mt-0'>
+                    <div className='flex items-center justify-center mt-3 lg:mt-0'>
                         <iframe
                             className='p-0 sm:h-[450px] sm:w-[85%] lg:h-[250px] xl:h-[350px]'
                             title="Mapa"

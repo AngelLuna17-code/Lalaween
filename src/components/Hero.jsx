@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 const ServicesSlider = () => {
     return (
-        <div className='container mx-auto mt-[100px]'>
+        <div className='container mx-auto pt-[150px] pb-[50px]'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center justify-center'>
                     <div>

@@ -13,7 +13,7 @@ const SliderComponent = () => {
     };
 
     return (
-        <div className='container mx-auto overflow-hidden lg:py-[80px]'>
+        <div className='container mx-auto overflow-hidden py-[50px]'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
@@ -21,12 +21,12 @@ const SliderComponent = () => {
                             <h2 className='text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px] title-container'>Mira nuestro</h2>
                             <h2 className='title-container title text-[25px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl-[44px] 2xl:text-[48px]'>portafolio</h2>
                         </div>
-                        <div className='w-[90%] 2xl:w-[75%] mt-8 mx-auto'>
+                        <div className='w-[90%] 2xl:w-[75%] mt-3 mx-auto'>
                             <p>Nosotros somos LalaWeen, agencia de publicidad y diseño. El creative team de diseño y marketing, que tu negocio necesita. Con la experiencia que nos respalda llevaremos tu negocio al siguiente nivel.</p>
                         </div>
                     </div>
                 </div>
-                <div className='mt-8'>
+                <div className='mt-3 lg:mt-0'>
                     <div>
                         <Slider className='mx-auto w-[80%] sm:w-[65%] md:w-[55%]' {...sliderSettings}>
                             <div>
