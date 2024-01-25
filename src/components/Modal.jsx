@@ -190,10 +190,8 @@ export default function Modal() {
                 </div>
                 {/* Modal header */}
                 {/* Modal body */}
-                <div className="relative flex-auto">
-                  <div className='mx-auto w-[85%] p-5'>
-                    <ImageSlider images={sliderImages} />
-                  </div>
+                <div className='mx-auto mt-auto w-[90%] p-5'>
+                  <ImageSlider images={sliderImages} />
                 </div>
                 {/* Modal body */}
                 {/* Modal footer */}
