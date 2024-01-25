@@ -31,7 +31,6 @@ body {
   display: none;
 }
 
-
 img {
   height: auto;
   width: 100%;
@@ -70,7 +69,6 @@ p {
 }
 
 @media (min-width: 1024px) {
-
   body {
     background: linear-gradient(-45deg, #000000, #111111, #011e2c);
     animation: gradient 1s ease infinite;
@@ -85,7 +83,6 @@ p {
   .ServiceCards {
     display: block;
   }
-
 
   .ServiceSlider {
     display: none;
