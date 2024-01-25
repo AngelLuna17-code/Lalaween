@@ -83,6 +83,7 @@ const ServiceCards = () => {
     return (
         <div className='ServiceCards container mx-auto flex items-center justify-around px-[15px] py-[50px] 2xl:px-0'>
             <div className='grid grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
+                {/* Cards */}
                 {list.map((slide, index) => (
                     <div key={index} className='rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: slide.bgColor, backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='h-[350px] px-5 flex items-center justify-center'>
@@ -135,6 +136,7 @@ const ServiceCards = () => {
                         </div>
                     </div>
                 ))}
+                {/* Cards */}
             </div>
             {/* Modal */}
             {showModal ? (
