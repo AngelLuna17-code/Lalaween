@@ -48,35 +48,37 @@ const ServicesSlider = () => {
 
   return (
     <div className='ServiceSlider container mx-auto py-[50px] py-8'>
-      <div className='w-[80%] mx-auto'>
+      <div className='w-[80%] sm:w-[60%] mx-auto'>
         <Slider className='' {...sliderSettings}>
           {slides.map((slide, index) => (
             <div key={index}>
               <div className='rounded-[15px] text-white text-center' style={{ background: slide.bgColor, backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                <div className='py-4 px-2'>
-                  <h2 className='title'>
-                    {slide.title}
-                  </h2>
-                  <div className='mt-3'>
-                    <img
-                      className='mx-auto'
-                      style={{ height: "auto", width: "20%" }}
-                      src={slide.images[1]}
-                      alt="Marketing"
-                      loading="lazy"
-                    />
+                <div className='flex items-center justify-center h-[300px] px-2'>
+                  <div className=''>
+                    <h2 className='title'>
+                      {slide.title}
+                    </h2>
+                    <div className='mt-3'>
+                      <img
+                        className='mx-auto'
+                        style={{ height: "auto", width: "20%" }}
+                        src={slide.images[1]}
+                        alt="Marketing"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div className='mt-3'>
+                      {index === 2 && (
+                        <CardAnimatedText />
+                      )}
+                    </div>
+                    <p className='font-black mt-3'>
+                      {slide.sub}
+                    </p>
+                    <p className='mt-3'>
+                      {slide.text}
+                    </p>
                   </div>
-                  <div className='mt-3'>
-                    {index === 2 && (
-                      <CardAnimatedText />
-                    )}
-                  </div>
-                  <p className='font-black mt-3'>
-                    {slide.sub}
-                  </p>
-                  <p className='mt-3'>
-                    {slide.text}
-                  </p>
                 </div>
                 <img className='rounded-b-[15px]'
                   src={slide.images[0]}
