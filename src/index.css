@@ -21,19 +21,8 @@ body {
   font-smooth: auto;
 }
 
-#stars,
-#stars2,
-#stars3 {
-  display: none;
-}
-
 .ServiceCards {
   display: none;
-}
-
-img {
-  height: auto;
-  width: 100%;
 }
 
 .typing {
@@ -72,12 +61,6 @@ p {
   body {
     background: linear-gradient(-45deg, #000000, #111111, #011e2c);
     animation: gradient 1s ease infinite;
-  }
-
-  #stars,
-  #stars2,
-  #stars3 {
-    display: block;
   }
 
   .ServiceCards {
