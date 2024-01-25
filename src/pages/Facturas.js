@@ -1,5 +1,5 @@
 import React from 'react';
-import Stars from "../components/Stars.jsx"
+import SmallStars from "../components/SmallStars.jsx"
 import Facturar from "../components/Facturar.jsx"
 import Footer from "../components/Footer.jsx"
 import FloatingButton from "../components/FloatingButton.jsx"
@@ -9,7 +9,7 @@ const Facturas = () => {
     return (
         <section>
             {/* Stars */}
-            <Stars />
+            <SmallStars />
             {/* Stars */}
             {/* Facturar */}
             <Facturar />
