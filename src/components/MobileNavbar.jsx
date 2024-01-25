@@ -13,7 +13,7 @@ const Accordion = ({ content, onClose }) => {
         const handleClickOutside = (event) => {
             if (accordionRef.current && !accordionRef.current.contains(event.target)) {
                 setIsOpen(false);
-                onClose(); // Close the accordion when clicking outside
+                onClose();
             }
         };
 
@@ -67,7 +67,7 @@ export default function App() {
     };
 
     useEffect(() => {
-        closeAccordion(); // Close the accordion when the route changes
+        closeAccordion();
     }, [location.pathname]);
 
     return (
@@ -75,31 +75,31 @@ export default function App() {
             <Accordion
                 content={
                     <ul className='list-none list-inside'>
-                        <li className="mt-3">
-                            <Link to="/">
+                        <Link to="/">
+                            <li className="mt-3">
                                 Inicio
-                            </Link>
-                        </li>
-                        <li className="mt-3">
-                            <Link to="/">
+                            </li>
+                        </Link>
+                        <Link to="/">
+                            <li className="mt-3">
                                 Servicios
-                            </Link>
-                        </li>
-                        <li className="mt-3">
-                            <Link to="/">
+                            </li>
+                        </Link>
+                        <Link to="/">
+                            <li className="mt-3">
                                 Productos
-                            </Link>
-                        </li>
-                        <li className="mt-3">
-                            <Link to="/Facturas">
+                            </li>
+                        </Link>
+                        <Link to="/Facturas">
+                            <li className="mt-3">
                                 Facturas
-                            </Link>
-                        </li>
-                        <li className="mt-3">
-                            <Link to="/Promo">
+                            </li>
+                        </Link>
+                        <Link to="/Promo">
+                            <li className="mt-3">
                                 Promociones
-                            </Link>
-                        </li>
+                            </li>
+                        </Link>
                     </ul>
                 }
                 onClose={closeAccordion}
