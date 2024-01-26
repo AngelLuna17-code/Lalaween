@@ -60,7 +60,6 @@ const NavBar = () => {
                                 </svg>
                             </button>
                         </div>
-
                         {/* Burger button */}
                         {/* Redes sociales */}
                         <div className="flex items-center space-x-10 hidden lg:block lg:flex">                        <a href="https://www.facebook.com/LalaWeen/" target="blank">
