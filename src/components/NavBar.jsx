@@ -1,16 +1,31 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Outlet, Link, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
+    const menuRef = useRef(null);
 
     const toggleMenu = () => {
         setMenuOpen(!isMenuOpen);
     };
 
+    const closeMenu = (event) => {
+        if (menuRef.current && !menuRef.current.contains(event.target)) {
+            setMenuOpen(false);
+        }
+    };
+
+    useEffect(() => {
+        document.addEventListener('click', closeMenu);
+
+        return () => {
+            document.removeEventListener('click', closeMenu);
+        };
+    }, []);
+
     return (
         <section>
-            <nav className="top-0 px-10 lg:px-6 xl:px-8 text-white fixed top-0 w-screen min-h-[70px] z-30" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+            <nav ref={menuRef} className="top-0 px-10 lg:px-6 xl:px-8 text-white fixed top-0 w-screen min-h-[70px] z-30" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                 <div className='flex justify-between items-center'>
                     {/* Logo */}
                     <div className="flex items-center">
@@ -136,3 +151,4 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
