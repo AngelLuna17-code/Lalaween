@@ -80,10 +80,12 @@ const ServicesSlider = () => {
                     </p>
                   </div>
                 </div>
-                <img className='rounded-b-[15px]'
+                <img
+                  className='rounded-b-[15px]'
                   src={slide.images[0]}
                   alt={`Slide ${index + 1}`}
                   loading="lazy"
+                  style={{ height: 'auto', width: '100%' }}
                 />
               </div>
             </div>
