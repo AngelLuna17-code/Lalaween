@@ -1,3 +1,24 @@
+#stars,
+#stars2,
+#stars3,
+#stars-xs,
+#stars2-xs,
+#stars3-xs {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+
+  #stars,
+  #stars2,
+  #stars3,
+  #stars-xs,
+  #stars2-xs,
+  #stars3-xs {
+    display: block;
+  }
+}
+
 #stars {
   width: 1px;
   height: 1px;
@@ -159,26 +180,6 @@
   animation-iteration-count: infinite;
   animation-fill-mode: none;
   animation-play-state: running
-}
-
-#stars,
-#stars2,
-#stars3,
-#stars-xs,
-#stars2-xs,
-#stars3-xs {
-  display: none;
-}
-
-@media (min-width: 1024px) {
-  #stars,
-  #stars2,
-  #stars3,
-  #stars-xs,
-  #stars2-xs,
-  #stars3-xs {
-    display: block;
-  }
 }
 
 @keyframes change-color-2 {
