@@ -45,6 +45,7 @@ const NavBar = () => {
                             <button
                                 onClick={toggleMenu}
                                 className="text-white focus:outline-none focus:border-none"
+                                aria-label="Toggle Menu"
                             >
                                 <svg
                                     className="h-6 w-6"
@@ -59,6 +60,7 @@ const NavBar = () => {
                                 </svg>
                             </button>
                         </div>
+
                         {/* Burger button */}
                         {/* Redes sociales */}
                         <div className="flex items-center space-x-10 hidden lg:block lg:flex">                        <a href="https://www.facebook.com/LalaWeen/" target="blank">
@@ -135,8 +137,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
-
-
-
-
