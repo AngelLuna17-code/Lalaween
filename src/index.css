@@ -60,7 +60,6 @@ p {
 @media (min-width: 1024px) {
   body {
     background: linear-gradient(-45deg, #000000, #111111, #011e2c);
-    animation: gradient 1s ease infinite;
   }
 
   .ServiceCards {
@@ -89,20 +88,6 @@ p {
 @media (min-width: 1536px) {
   h1 {
     font-size: 52px;
-  }
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  50% {
-    background-position: 100% 50%;
-  }
-
-  100% {
-    background-position: 0% 50%;
   }
 }
 
