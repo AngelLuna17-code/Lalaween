@@ -7,7 +7,12 @@ const ServicesSlider = () => {
         <div className='container mx-auto pt-[150px] pb-[50px]'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center justify-center'>
-                    <img style={{ height: "auto", width: "65%" }} src="logo.webp" alt="logo" loading="lazy" />
+                    <img
+                        class="h-autp w-[280px] sm:w-[400px] lg:w-[385px] xl:w-[480px] 2xl:w-[575px]"
+                        src="logo.webp"
+                        alt="logo"
+                        loading="lazy"
+                    />
                 </div>
                 <div className='text-white text-center flex items-center justify-center mt-3 lg:mt-0'>
                     <div>

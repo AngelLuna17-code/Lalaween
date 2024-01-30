@@ -30,8 +30,12 @@ const NavBar = () => {
                     {/* Logo */}
                     <div className="flex items-center">
                         <Link to="/" className="flex items-center min-h-[70px]">
-                            <img style={{ height: "auto", width: "30px"}} src="logo.webp" alt="logo" loading="lazy" />
-                            <p className="ml-2">Lalaween</p>
+                            <img
+                                style={{ width: "37px", height: "auto" }}
+                                src="logo.webp"
+                                alt="logo"
+                                loading="lazy"
+                            />                            <p className="ml-2">Lalaween</p>
                         </Link>
                         <div className='overflow-hidden hidden lg:flex items-center px-10'>
                             <ul className='list-none flex items-center space-x-12'>
@@ -151,4 +155,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-
