@@ -41,7 +41,7 @@ const ServiceCards = () => {
             sub: "Abarcamos el branding y la identidad corporativa de tu marca.",
             text: "Englobando una serie de elementos clave como la creación de su logotipo, desde su tipografía, figura, estilo y pantones que le brinden una esencia visual distintiva.",
             images: [
-                "/DISEÑO DE MARCA/Mock up Etiqueta Tanukiya.webp",
+                "/DISEÑO DE MARCA/Mock up Etiqueta Tanukiya_11zon_11zon.webp",
                 "/DISEÑO DE MARCA/Mock up Gorra MJ.webp",
                 "/DISEÑO DE MARCA/Mock up Hoja reciclada.webp",
                 "/DISEÑO DE MARCA/Mock up Oficina-min.webp",
