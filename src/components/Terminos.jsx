@@ -2,7 +2,7 @@ import React from 'react';
 
 const Terminos = () => {
     return (
-        <div className='container mx-auto py-6 px-1 lag:px-0'>
+        <div className='container mx-auto py-6 px-1 lag:px-0' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
             <div>
                 <p className='text-white text-center typing'>
                     TERMINOS Y CONDICIONES

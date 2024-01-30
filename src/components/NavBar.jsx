@@ -35,7 +35,10 @@ const NavBar = () => {
                                 src="logo.webp"
                                 alt="logo"
                                 loading="lazy"
-                            />                            <p className="ml-2">Lalaween</p>
+                            />
+                            <p className="ml-2">
+                                Lalaween
+                            </p>
                         </Link>
                         <div className='overflow-hidden hidden lg:flex items-center px-10'>
                             <ul className='list-none flex items-center space-x-12'>
