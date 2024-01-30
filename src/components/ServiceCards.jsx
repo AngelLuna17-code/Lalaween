@@ -77,9 +77,12 @@ const ServiceCards = () => {
             ],
             text: "Identificación del público objetivo, creación de contenido en redes sociales para construir relaciones sólidas, y facilitación de adquisiciones a través de una página web atractiva y amigable.",
             images: [
+                "/REDES Y WEB/Mock up Redes Sociales Dr José_1_1.webp",
+                "/REDES Y WEB/Mock up Redes Sociales Dra Jaz_11zon_11zon.webp",
+                "/REDES Y WEB/Mock up Redes Sociales Dra Marcela_2_11zon_2_11zon.webp",
                 "/REDES Y WEB/Mock up Tablet.webp",
                 "/REDES Y WEB/Mock up Tablet1.webp",
-                "/REDES Y WEB/Mock up WEB.webp"
+                "/REDES Y WEB/Mock up WEB.webp",
             ],
             bgColor: "rgba(0, 0, 0, 0.7)",
         },
