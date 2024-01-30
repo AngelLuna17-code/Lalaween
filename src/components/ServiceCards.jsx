@@ -57,11 +57,16 @@ const ServiceCards = () => {
             sub: "Diseñamos y definimos el aspecto visual de una marca.",
             text: "En base al logotipo, misión, visión y objetivo de la empresa, se realiza el diseño adecuado para impreso o digital de una manera que sea fácil de identificar para el espectador y logre relacionarlo con la marca.",
             images: [
-                "/IDENTIDAD GRÁFICA/Mouckup Triptico pizzopolis.webp",
-                "/IDENTIDAD GRÁFICA/Mock up Receta SoyTotalmenteKeto.webp",
-                "/IDENTIDAD GRÁFICA/Mock up Bolsa de papel ConCafé.webp",
-                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación B.webp",
-                "/IDENTIDAD GRÁFICA/Mock up caja.webp"
+                "/IDENTIDAD GRÁFICA/Mock up Branding_3_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Bolsa de paja_11zon_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mouckup Triptico pizzopolis_10_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Bolsa de papel ConCafé_2.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Receta SoyTotalmenteKeto_6_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación B_8.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación A.webp",
+                "/IDENTIDAD GRÁFICA/Mock up caja_4_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up hoja grabada_11zon_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación D.webp"
             ],
             bgColor: "rgba(0, 0, 0, 0.7)",
         },
