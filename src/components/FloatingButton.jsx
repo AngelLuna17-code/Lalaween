@@ -10,7 +10,6 @@ const FloatingButton = () => {
                 </svg>
             </a>
         </button>
-
     );
 };
 
