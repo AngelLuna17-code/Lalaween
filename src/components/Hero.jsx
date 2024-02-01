@@ -14,7 +14,7 @@ const Hero = () => {
                         src={logoSrc}
                         alt="logo"
                         loading="lazy"
-                        style={{ height: "auto", width: "65%" }}
+                        style={{ height: "auto", width: "70%" }}
                     />
                 </div>
                 <div className='text-white text-center flex items-center justify-center mt-3 lg:mt-0'>
@@ -22,11 +22,11 @@ const Hero = () => {
                         <h1>Impulsamos</h1>
                         <AnimatedText />
                         <h1>conservando tu esencia</h1>
-                        <button className='w-full lg:w-3/4 bg-[#066a69] hover:bg-[#01a09a] px-12 py-3 font-black rounded-lg mt-3'>
-                            <Link to={promoLink}>
+                        <Link to={promoLink}>
+                            <button className='w-full lg:w-3/4 bg-[#066a69] hover:bg-[#01a09a] px-12 py-3 font-black rounded-lg mt-3'>
                                 Nuestros Paquetes
-                            </Link>
-                        </button>
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>
