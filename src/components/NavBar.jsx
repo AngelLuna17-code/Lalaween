@@ -48,21 +48,31 @@ const NavBar = () => {
                         {/* Links */}
                         <div className='overflow-hidden hidden lg:flex items-center px-10'>
                             <ul className='list-none flex items-center space-x-12'>
-                                <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
-                                    Inicio
-                                </Link>
-                                <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
-                                    Servicios
-                                </Link>
-                                <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
-                                    Productos
-                                </Link>
-                                <Link className="text-white hover:text-[#00cac4]" to="Facturas" onClick={closeMenuOnClick}>
-                                    Facturas
-                                </Link>
-                                <Link className="text-white hover:text-[#00cac4]" to="Promo" onClick={closeMenuOnClick}>
-                                    Promociones
-                                </Link>
+                                <li>
+                                    <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
+                                        Inicio
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
+                                        Servicios
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
+                                        Productos
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="text-white hover:text-[#00cac4]" to="Facturas" onClick={closeMenuOnClick}>
+                                        Facturas
+                                    </Link>
+                                </li>
+                                <li>
+                                    <Link className="text-white hover:text-[#00cac4]" to="Promo" onClick={closeMenuOnClick}>
+                                        Promociones
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                         {/* Links */}
