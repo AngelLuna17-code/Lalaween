@@ -25,7 +25,7 @@ const NavBar = () => {
 
     return (
         <section>
-            <nav ref={menuRef} className="top-0 px-10 lg:px-6 xl:px-8 text-white fixed top-0 w-screen min-h-[70px] z-30" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+            <nav ref={menuRef} className="top-0 px-6 lg:px-6 xl:px-8 text-white fixed top-0 w-screen min-h-[70px] z-30" style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                 <div className='flex justify-between items-center'>
                     {/* Logo */}
                     <div className="flex items-center">
