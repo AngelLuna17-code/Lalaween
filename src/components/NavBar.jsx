@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Outlet, Link } from 'react-router-dom';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const NavBar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -54,9 +55,17 @@ const NavBar = () => {
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
+                                    <ScrollLink
+                                        to="servicios-section"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                        className="text-white hover:text-[#00cac4]"
+                                        onClick={closeMenuOnClick}
+                                    >
                                         Servicios
-                                    </Link>
+                                    </ScrollLink>
                                 </li>
                                 <li>
                                     <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
