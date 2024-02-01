@@ -1,5 +1,3 @@
-
-
 import React, { useEffect } from 'react';
 import { Element } from 'react-scroll';
 import { useNavigate, useLocation } from 'react-router-dom';
