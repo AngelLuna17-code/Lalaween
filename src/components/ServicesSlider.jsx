@@ -60,7 +60,7 @@ const ServicesSlider = () => {
                     </h2>
                     <div className='mt-3'>
                       <img
-                        className='mx-auto'
+                        className='mx-auto object-cover'
                         style={{ height: "auto", width: "20%" }}
                         src={slide.images[1]}
                         alt="Marketing"

@@ -12,8 +12,16 @@ const SliderComponent = () => {
         slidesToScroll: 1,
     };
 
+    const sliderImages = [
+        '/slider/1.webp',
+        '/slider/2.webp',
+        '/slider/3.webp',
+        '/slider/4.webp',
+        '/slider/5.webp',
+    ];
+
     return (
-        <div className='container mx-auto overflow-hidden py-[50px]'>
+        <div className='container mx-auto py-[50px]'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='text-white text-center flex items-center justify-center'>
                     <div>
@@ -29,43 +37,16 @@ const SliderComponent = () => {
                 <div className='mt-3 lg:mt-0'>
                     <div>
                         <Slider className='mx-auto w-[80%] sm:w-[65%] md:w-[55%]' {...sliderSettings}>
-                            <div>
-                                <picture>
-                                    <source media="(min-width: 1024px)" srcset="/slider/1.webp" />
-                                    <source media="(min-width: 360px)" srcset="/slider/1-xs.webp" />
-                                    <img className='rounded-[15px]' src="/slider/1.webp" loading='lazy' alt='slider' />
-                                </picture>
-                            </div>
-                            <div>
-                                <picture>
-                                    <source media="(min-width: 1024px)" srcset="/slider/2.webp" />
-                                    <source media="(min-width: 360px)" srcset="/slider/2-xs.webp" />
-                                    <img className='rounded-[15px]' src="/slider/2.webp" loading='lazy' alt='slider' />
-                                </picture>
-                            </div>
-                            <div>
-                                <div>
-                                    <picture>
-                                        <source media="(min-width: 1024px)" srcset="/slider/3.webp" />
-                                        <source media="(min-width: 360px)" srcset="/slider/3-xs.webp" />
-                                        <img className='rounded-[15px]' src="/slider/3.webp" loading='lazy' alt='slider' />
-                                    </picture>
-                                </div>
-                            </div>
-                            <div>
-                                <picture>
-                                    <source media="(min-width: 1024px)" srcset="/slider/4.webp" />
-                                    <source media="(min-width: 360px)" srcset="/slider/4-xs.webp" />
-                                    <img className='rounded-[15px]' src="/slider/4.webp" loading='lazy' alt='slider' />
-                                </picture>
-                            </div>
-                            <div>
-                                <picture>
-                                    <source media="(min-width: 1024px)" srcset="/slider/5.webp" />
-                                    <source media="(min-width: 360px)" srcset="/slider/5-xs.webp" />
-                                    <img className='rounded-[15px]' src="/slider/5.webp" loading='lazy' alt='slider' />
-                                </picture>
-                            </div>
+                            {sliderImages.map((image, index) => (
+                                <img
+                                    key={index}
+                                    className='rounded-[15px]'
+                                    src={image}
+                                    loading='lazy'
+                                    alt={`slider-${index + 1}`}
+                                    style={{ height: "auto", width: "100%" }}
+                                />
+                            ))}
                         </Slider>
                     </div>
                 </div>
