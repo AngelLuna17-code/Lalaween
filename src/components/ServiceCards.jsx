@@ -149,7 +149,7 @@ const ServiceCards = () => {
             {/* Modal */}
             {showModal ? (
                 <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-                    <div className="relative my-6 mx-auto xs:w-[95%] md:w-[80%] xl:w-[65%] 2xl:w-[55%]">
+                    <div className="relative my-6 mx-auto w-[95%] md:w-[80%] xl:w-[65%] 2xl:w-[55%]">
                         <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[#0b0b0b] outline-none focus:outline-none">
                             {/* Modal header */}
                             <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
