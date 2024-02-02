@@ -148,12 +148,12 @@ const ServiceCards = () => {
             </div>
             {/* Modal */}
             {showModal ? (
-                <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
+                <div className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                     <div className="relative my-6 mx-auto w-[95%] md:w-[80%] xl:w-[65%] 2xl:w-[55%]">
                         <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[#0b0b0b] outline-none focus:outline-none">
                             {/* Modal header */}
-                            <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                                <h3 className="text-3xl font-semibold text-white">
+                            <div className="flex items-start justify-between p-0 md:p-5 border-b border-solid border-blueGray-200 rounded-t">
+                                <h3 className="text-2xl font-semibold text-white">
                                     Lalaween Creative Team
                                 </h3>
                                 <button
@@ -167,12 +167,12 @@ const ServiceCards = () => {
                             </div>
                             {/* Modal header */}
                             {/* Modal body */}
-                            <div className='mx-auto mt-auto w-[90%] p-5'>
+                            <div className='mx-auto py-[10px] w-[80%]'>
                                 <ImageSlider images={sliderImages} />
                             </div>
                             {/* Modal body */}
                             {/* Modal footer */}
-                            <div className="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                            <div className="flex items-center justify-end p-0 md:p-6 border-t border-solid border-blueGray-200 rounded-b">
                                 <button
                                     className="text-white background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                                     type="button"
