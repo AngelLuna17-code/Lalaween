@@ -90,10 +90,10 @@ const ServiceCards = () => {
 
     return (
         <div className='ServiceCards container mx-auto flex items-center justify-around px-[15px] py-[50px] 2xl:px-0'>
-            <div className='grid grid-cols-3 gap-5 md:gap-2 lg:gap-3 xl:gap-5 xl:gap-3 2xl:gap-12 overflow-hidden'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap.8 overflow-hidden'>
                 {/* Cards */}
                 {list.map((slide, index) => (
-                    <div key={index} className='rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: slide.bgColor, backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+                    <div key={index} className='sm:w-[80%] lg:w-full mx-auto rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: slide.bgColor, backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='h-[350px] px-5 flex items-center justify-center'>
                             <div>
                                 <div>

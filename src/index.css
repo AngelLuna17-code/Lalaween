@@ -24,7 +24,7 @@ body {
 }
 
 .ServiceCards {
-  display: none;
+
 }
 
 .typing {
@@ -65,7 +65,7 @@ p {
   }
 
   .ServiceCards {
-    display: block;
+    display: blk;
   }
 
   .ServiceSlider {

@@ -38,7 +38,6 @@ const Home = () => {
             {/* Hero */}
             {/* Servicios */}
             <Element name="servicios-section">
-                <ServicesSlider />
                 <ServiceCards />
             </Element>
             {/* Servicios */}
