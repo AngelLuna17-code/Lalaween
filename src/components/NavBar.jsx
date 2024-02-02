@@ -61,16 +61,24 @@ const NavBar = () => {
                                         smooth={true}
                                         offset={-70}
                                         duration={500}
-                                        className="text-white hover:text-[#00cac4]"
+                                        className="text-white hover:text-[#00cac4] cursor-pointer"
                                         onClick={closeMenuOnClick}
                                     >
                                         Servicios
                                     </ScrollLink>
                                 </li>
                                 <li>
-                                    <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
-                                        Productos
-                                    </Link>
+                                    <ScrollLink
+                                        to="portafolio-section"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                        className="text-white hover:text-[#00cac4] cursor-pointer"
+                                        onClick={closeMenuOnClick}
+                                    >
+                                        Portafolio
+                                    </ScrollLink>
                                 </li>
                                 <li>
                                     <Link className="text-white hover:text-[#00cac4]" to="Facturas" onClick={closeMenuOnClick}>
@@ -155,14 +163,30 @@ const NavBar = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
+                                <ScrollLink
+                                    to="servicios-section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                    className="text-white hover:text-[#00cac4] cursor-pointer"
+                                    onClick={closeMenuOnClick}
+                                >
                                     Servicios
-                                </Link>
+                                </ScrollLink>
                             </li>
                             <li>
-                                <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
-                                    Productos
-                                </Link>
+                                <ScrollLink
+                                    to="portafolio-section"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                    className="text-white hover:text-[#00cac4] cursor-pointer"
+                                    onClick={closeMenuOnClick}
+                                >
+                                    Portafolio
+                                </ScrollLink>
                             </li>
                             <li>
                                 <Link className="text-white hover:text-[#00cac4]" to="Facturas" onClick={closeMenuOnClick}>

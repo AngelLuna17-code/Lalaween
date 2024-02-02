@@ -43,7 +43,9 @@ const Home = () => {
             </Element>
             {/* Servicios */}
             {/* Slider */}
-            <SliderComponent />
+            <Element name="portafolio-section">
+                <SliderComponent />
+            </Element>
             {/* Slider */}
             {/* Mapa */}
             <Mapa />

@@ -1,7 +1,8 @@
-import React from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link } from 'react-router-dom';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 
 const Footer = () => {
+
     return (
         <footer>
             <div className='px-4 py-8 bg-black'>
@@ -13,14 +14,28 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link className="text-white hover:text-[#00cac4]" to="/">
-                                Productos
-                            </Link>
+                            <ScrollLink
+                                to="servicios-section"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="text-white hover:text-[#00cac4] cursor-pointer"
+                            >
+                                Servicios
+                            </ScrollLink>
                         </li>
                         <li>
-                            <Link className="text-white hover:text-[#00cac4]" to="/">
-                                Servicios
-                            </Link>
+                            <ScrollLink
+                                to="portafolio-section"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={500}
+                                className="text-white hover:text-[#00cac4] cursor-pointer"
+                            >
+                                Portafolio
+                            </ScrollLink>
                         </li>
                     </ul>
                 </div>
