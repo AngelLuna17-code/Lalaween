@@ -24,8 +24,8 @@ const ServiceCards = () => {
         return (
             <Slider  {...sliderSettings}>
                 {images.map((image, index) => (
-                    <div className='flex items-center' key={index}>
-                        <img className='rounded-[15px] h-auto w-[60%] mx-auto' src={image} alt={`slider-${index}`} loading="lazy" />
+                    <div key={index}>
+                        <img className='w-auto h-[400px] object-contain mx-auto' src={image} alt={`slider-${index}`} loading="lazy" />
                     </div>
                 ))}
             </Slider>
@@ -57,16 +57,16 @@ const ServiceCards = () => {
             sub: "Diseñamos y definimos el aspecto visual de una marca.",
             text: "En base al logotipo, misión, visión y objetivo de la empresa, se realiza el diseño adecuado para impreso o digital de una manera que sea fácil de identificar para el espectador y logre relacionarlo con la marca.",
             images: [
-                "/IDENTIDAD GRÁFICA/Mock up Branding_3_11zon.webp",
-                "/IDENTIDAD GRÁFICA/Mock up Bolsa de paja_11zon_11zon.webp",
-                "/IDENTIDAD GRÁFICA/Mouckup Triptico pizzopolis_10_11zon.webp",
-                "/IDENTIDAD GRÁFICA/Mock up Bolsa de papel ConCafé_2.webp",
+                "/IDENTIDAD GRÁFICA/Mock up hoja grabada_5_11zon.webp",
                 "/IDENTIDAD GRÁFICA/Mock up Receta SoyTotalmenteKeto_6_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación A_7.webp",
                 "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación B_8.webp",
-                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación A.webp",
-                "/IDENTIDAD GRÁFICA/Mock up caja_4_11zon.webp",
-                "/IDENTIDAD GRÁFICA/Mock up hoja grabada_11zon_11zon.webp",
-                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación D.webp"
+                "/IDENTIDAD GRÁFICA/Mock up Tarjeta de presentación D_9.webp",
+                "/IDENTIDAD GRÁFICA/Mouckup Triptico pizzopolis_10_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Bolsa de paja_1_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Bolsa de papel ConCafé_2.webp",
+                "/IDENTIDAD GRÁFICA/Mock up Branding_3_11zon.webp",
+                "/IDENTIDAD GRÁFICA/Mock up caja_4_11zon.webp"
             ],
             bgColor: "rgba(0, 0, 0, 0.7)",
         },
@@ -77,12 +77,12 @@ const ServiceCards = () => {
             ],
             text: "Identificación del público objetivo, creación de contenido en redes sociales para construir relaciones sólidas, y facilitación de adquisiciones a través de una página web atractiva y amigable.",
             images: [
-                "/REDES Y WEB/Mock up Redes Sociales Dr José_1_1.webp",
-                "/REDES Y WEB/Mock up Redes Sociales Dra Jaz_11zon_11zon.webp",
-                "/REDES Y WEB/Mock up Redes Sociales Dra Marcela_2_11zon_2_11zon.webp",
-                "/REDES Y WEB/Mock up Tablet.webp",
-                "/REDES Y WEB/Mock up Tablet1.webp",
-                "/REDES Y WEB/Mock up WEB.webp",
+                "/REDES Y WEB/Mock up Redes Sociales Dr José_1.webp",
+                "/REDES Y WEB/Mock up Redes Sociales Dra Jaz_2_11zon.webp",
+                "/REDES Y WEB/Mock up Redes Sociales Dra Marcela_3_11zon.webp",
+                "/REDES Y WEB/Mock up Tablet_4_11zon.webp",
+                "/REDES Y WEB/Mock up Tablet1_5_11zon.webp",
+                "/REDES Y WEB/Mock up WEB_6_11zon.webp",
             ],
             bgColor: "rgba(0, 0, 0, 0.7)",
         },

@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @font-face {
   font-family: 'Poppins-Thin';
   src: url("../Font/Poppins-Thin.ttf") format('truetype');
@@ -21,10 +22,6 @@ body {
   margin: 0 auto;
   background-color: #09181f;
   font-smooth: auto;
-}
-
-.ServiceCards {
-
 }
 
 .typing {
@@ -62,10 +59,6 @@ p {
 @media (min-width: 1024px) {
   body {
     background: linear-gradient(-45deg, #000000, #111111, #011e2c);
-  }
-
-  .ServiceCards {
-    display: blk;
   }
 
   .ServiceSlider {
