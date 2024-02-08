@@ -1,35 +1,35 @@
-import React from 'react';
+import React, { memo, useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import CardAnimatedText from "./CardAnimatedText.jsx";
 
+const ImageSlider = memo(({ images }) => {
+    const sliderSettings = {
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
+    return (
+        <Slider {...sliderSettings}>
+            {images.map((image, index) => (
+                <div key={index}>
+                    <img className='w-auto h-[400px] object-contain mx-auto' src={image} alt={`slider-${index}`} loading="lazy" />
+                </div>
+            ))}
+        </Slider>
+    );
+});
+
 const ServiceCards = () => {
-    const [showModal, setShowModal] = React.useState(false);
-    const [sliderImages, setSliderImages] = React.useState([]);
+    const [showModal, setShowModal] = useState(false);
+    const [sliderImages, setSliderImages] = useState([]);
 
     const openModal = (images) => {
         setSliderImages(images);
         setShowModal(true);
-    };
-
-    const ImageSlider = ({ images }) => {
-        const sliderSettings = {
-            infinite: true,
-            speed: 500,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-        };
-
-        return (
-            <Slider  {...sliderSettings}>
-                {images.map((image, index) => (
-                    <div key={index}>
-                        <img className='w-auto h-[400px] object-contain mx-auto' src={image} alt={`slider-${index}`} loading="lazy" />
-                    </div>
-                ))}
-            </Slider>
-        );
     };
 
     const list = [
@@ -91,7 +91,6 @@ const ServiceCards = () => {
     return (
         <div className='ServiceCards container mx-auto flex items-center justify-around px-[15px] py-[50px] 2xl:px-0'>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap.8 overflow-hidden'>
-                {/* Cards */}
                 {list.map((slide, index) => (
                     <div key={index} className='sm:w-[80%] lg:w-full mx-auto rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: slide.bgColor, backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         <div className='h-[350px] px-5 flex items-center justify-center'>
@@ -144,14 +143,11 @@ const ServiceCards = () => {
                         </div>
                     </div>
                 ))}
-                {/* Cards */}
             </div>
-            {/* Modal */}
-            {showModal ? (
+            {showModal && (
                 <div className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
                     <div className="relative my-6 mx-auto w-[95%] md:w-[80%] xl:w-[65%] 2xl:w-[55%]">
                         <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-[#0b0b0b] outline-none focus:outline-none">
-                            {/* Modal header */}
                             <div className="flex items-start justify-between p-0 md:p-5 border-b border-solid border-blueGray-200 rounded-t">
                                 <h3 className="text-2xl font-semibold text-white">
                                     Lalaween Creative Team
@@ -165,13 +161,9 @@ const ServiceCards = () => {
                                     </span>
                                 </button>
                             </div>
-                            {/* Modal header */}
-                            {/* Modal body */}
                             <div className='mx-auto py-[10px] w-[80%]'>
                                 <ImageSlider images={sliderImages} />
                             </div>
-                            {/* Modal body */}
-                            {/* Modal footer */}
                             <div className="flex items-center justify-end p-0 md:p-6 border-t border-solid border-blueGray-200 rounded-b">
                                 <button
                                     className="text-white background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -181,12 +173,10 @@ const ServiceCards = () => {
                                     Cerrar
                                 </button>
                             </div>
-                            {/* Modal footer */}
                         </div>
                     </div>
                 </div>
-            ) : null}
-            {/* Modal */}
+            )}
         </div>
     );
 };

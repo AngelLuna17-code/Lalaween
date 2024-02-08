@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -36,23 +36,27 @@ const SliderComponent = () => {
                 </div>
                 <div className='mt-3 lg:mt-0'>
                     <div>
-                        <Slider className='mx-auto w-[80%] sm:w-[65%] md:w-[55%]' {...sliderSettings}>
-                            {sliderImages.map((image, index) => (
-                                <img
-                                    key={index}
-                                    className='rounded-[15px]'
-                                    src={image}
-                                    loading='lazy'
-                                    alt={`slider-${index + 1}`}
-                                    style={{ height: "auto", width: "100%" }}
-                                />
-                            ))}
-                        </Slider>
+                        <MemoizedSlider images={sliderImages} settings={sliderSettings} />
                     </div>
                 </div>
             </div>
         </div>
     );
 }
+
+const MemoizedSlider = memo(({ images, settings }) => (
+    <Slider className='mx-auto w-[80%] sm:w-[65%] md:w-[55%]' {...settings}>
+        {images.map((image, index) => (
+            <img
+                key={index}
+                className='rounded-[15px]'
+                src={image}
+                loading='lazy'
+                alt={`slider-${index + 1}`}
+                style={{ height: "auto", width: "100%" }}
+            />
+        ))}
+    </Slider>
+));
 
 export default SliderComponent;
