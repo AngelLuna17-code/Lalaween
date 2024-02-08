@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
+interface AccordionProps {
+    title: string;
+    content: React.ReactNode;
+}
 
-const Accordion = ({ title, content }) => {
+const Accordion: React.FC<AccordionProps> = memo(({ title, content }) => {
+
     const [isOpen, setIsOpen] = React.useState(false);
 
     const toggleAccordion = () => {
@@ -28,7 +33,8 @@ const Accordion = ({ title, content }) => {
             }
         </div>
     );
-};
+});
+
 export default function App() {
     const list = [
         /* Pa' que le emprendas */
@@ -331,3 +337,4 @@ export default function App() {
         </div>
     );
 }
+
