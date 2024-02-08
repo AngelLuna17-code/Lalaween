@@ -13,7 +13,7 @@ const Hero = () => {
                     {/* Componente de logo */}
                     <Logo src={logoSrc} />
                 </div>
-                <div className='text-white text-center flex items-center justify-center mt-3 lg:mt-0'>
+                <div className='text-white text-center flex items-center justify-center'>
                     <div>
                         <h1>Impulsamos</h1>
                         <AnimatedText />
@@ -36,7 +36,9 @@ const Logo = React.memo(({ src }) => (
         src={src}
         alt="logo"
         loading="lazy"
-        style={{ height: "auto", width: "70%" }}
+        width="500"
+        height="200"
+        style={{ objectFit: "cover" }}
     />
 ));
 
