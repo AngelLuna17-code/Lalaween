@@ -10,12 +10,8 @@ const Hero = () => {
         <div className='container mx-auto px-[15px] sm:px-0 pt-[125px] pb-8 lg:pt-32 lg:pb-10'>
             <div className='grid grid-cols-1 lg:grid-cols-2'>
                 <div className='flex items-center justify-center'>
-                    <img
-                        src={logoSrc}
-                        alt="logo"
-                        loading="lazy"
-                        style={{ height: "auto", width: "70%" }}
-                    />
+                    {/* Componente de logo */}
+                    <Logo src={logoSrc} />
                 </div>
                 <div className='text-white text-center flex items-center justify-center mt-3 lg:mt-0'>
                     <div>
@@ -33,5 +29,15 @@ const Hero = () => {
         </div>
     );
 }
+
+// Componente de logo memoizado
+const Logo = React.memo(({ src }) => (
+    <img
+        src={src}
+        alt="logo"
+        loading="lazy"
+        style={{ height: "auto", width: "70%" }}
+    />
+));
 
 export default Hero;
