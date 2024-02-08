@@ -7,7 +7,7 @@
 #stars3-xs {
   display: none;
 }
-*/
+
 @media (min-width: 1024px) {
 
   #stars,
@@ -19,7 +19,7 @@
     display: block;
   }
 }
-
+*/
 #stars {
   width: 1px;
   height: 1px;
