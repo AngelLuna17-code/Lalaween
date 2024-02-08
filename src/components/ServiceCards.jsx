@@ -94,7 +94,7 @@ const ServiceCards = () => {
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 md:gap.8 overflow-hidden'>
                     {list.map((slide, index) => (
                         <div key={index} className='sm:w-[80%] lg:w-full mx-auto rounded-t-[15px] rounded-b-[15px] text-white text-center' style={{ background: slide.bgColor, backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
-                            <div className='h-[350px] px-5 flex items-center justify-center'>
+                            <div className='h-[355px] px-5 flex items-center justify-center'>
                                 <div>
                                     <div>
                                         <p className='title text-2xl'>
@@ -104,7 +104,7 @@ const ServiceCards = () => {
                                     <div className='mt-3'>
                                         <img
                                             className='mx-auto'
-                                            style={{ height: "auto", maxWidth: "100%", width: "30%" }}
+                                            style={{ height: "auto", maxWidth: "100%", width: "20%" }}
                                             src={slide.icon[0]}
                                             alt="diseño"
                                             loading="lazy"
