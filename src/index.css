@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'Poppins-Thin';
+  src: url("../Font/Poppins-Thin.ttf") format('truetype');
+  font-smooth: auto;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url("../Font/Poppins-Regular.ttf") format('truetype');
+  font-smooth: auto;
+  font-display: swap;
+}
+
+body {
+  font-family: "Poppins-Thin", sans-serif;
+  margin: 0 auto;
+  background-color: #09181f;
+  font-smooth: auto;
+}
+
+.typing {
+  font-weight: bolder;
+  font-family: "Poppins-Regular", sans-serif;
+}
+
+.title {
+  font-weight: bolder;
+  font-family: "Poppins-Regular", sans-serif;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 32px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media (min-width: 640px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: linear-gradient(-45deg, #000000, #111111, #011e2c);
+  }
+
+  .ServiceSlider {
+    display: none;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1536px) {
+  h1 {
+    font-size: 52px;
+  }
+}
+
+.contact-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #000;
+  background-image: linear-gradient(rgba(1, 1, 1, .5), rgba(1, 1, 0, 2)), url(../public/team.webp);
+  background-position: 50% 50%;
+  overflow: hidden;
+  box-sizing: content-box;
+  padding: 150px 0;
+  backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(0)
+}
+
+iframe {
+  filter: grayscale(100%) invert(92%) contrast(83%);
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #00cac4 #101010
+}
+
+*::-webkit-scrollbar {
+  width: 16px
+}
+
+*::-webkit-scrollbar-track {
+  background: #101010
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #00cac4;
+  border-radius: 10px;
+  border: 3px none #fff
+}
