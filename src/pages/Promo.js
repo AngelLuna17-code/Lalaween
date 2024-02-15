@@ -6,6 +6,7 @@ import Terminos from "../components/Terminos.jsx"
 import Footer from "../components/Footer.jsx"
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 import FloatingButton from "../components/FloatingButton.jsx";
+import Modales from '../components/Modales.jsx';
 
 const Promo = () => {
     return (
@@ -16,6 +17,7 @@ const Promo = () => {
             {/* Promociones */}
             <Promociones />
             <Promociones2/>
+            <Modales/>
             {/* Promociones */}
             {/* Terminos y condiciones */}
             <Terminos />
