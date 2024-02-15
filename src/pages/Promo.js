@@ -1,6 +1,7 @@
 import React from 'react';
 import SmallStars from '../components/SmallStars.jsx';
 import Promociones from "../components/Promociones.tsx"
+import Promociones2 from '../components/promociones2.jsx';
 import Terminos from "../components/Terminos.jsx"
 import Footer from "../components/Footer.jsx"
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
@@ -14,6 +15,7 @@ const Promo = () => {
             {/* Stars */}
             {/* Promociones */}
             <Promociones />
+            <Promociones2/>
             {/* Promociones */}
             {/* Terminos y condiciones */}
             <Terminos />
