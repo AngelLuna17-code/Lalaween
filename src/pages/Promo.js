@@ -1,13 +1,11 @@
 import React from 'react';
 import SmallStars from '../components/SmallStars.jsx';
 import Promociones from "../components/Promociones.tsx"
-import Promociones2 from '../components/promociones2.jsx';
 import Terminos from "../components/Terminos.jsx"
 import Footer from "../components/Footer.jsx"
 import ScrollToTopButton from "../components/ScrollToTopButton.jsx"
 import FloatingButton from "../components/FloatingButton.jsx";
-import Modales from '../components/Modales.jsx';
-
+import Paquetes from '../components/Paquetes.jsx';
 const Promo = () => {
     return (
         <section>
@@ -16,8 +14,7 @@ const Promo = () => {
             {/* Stars */}
             {/* Promociones */}
             <Promociones />
-            <Promociones2/>
-            <Modales/>
+            <Paquetes />
             {/* Promociones */}
             {/* Terminos y condiciones */}
             <Terminos />
