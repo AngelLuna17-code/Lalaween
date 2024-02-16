@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+ul{
+  list-style: inside;
+}
 
 @font-face {
   font-family: 'Poppins-Thin';
