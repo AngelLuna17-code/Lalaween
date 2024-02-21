@@ -15,7 +15,7 @@ const Paquete1 = () => {
                             <p></p>
                         </div>
                         <div className='mt-5'>
-                            <h4 className='text-[#00a09b] font-thin typing'>PRÓPOSITO</h4>
+                            <p className='text-[#00a09b] font-thin typing'>Proposito</p>
                             <p className='text-justify'></p>
                         </div>
                     </div>
