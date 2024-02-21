@@ -30,7 +30,7 @@ const Paquetes = () => {
     ];
 
     const routes = [
-        "/pagina-0",
+        "/Paquete1",
         "/pagina-1",
         "/pagina-2",
         "/pagina-3",

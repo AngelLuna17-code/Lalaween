@@ -5,7 +5,9 @@ import Home from './pages/Home';
 import Facturas from "./pages/Facturas"
 import Promo from "./pages/Promo"
 import NotFound from './pages/NotFound';
-import Footer from "./components/Footer"
+/* Paquetes */
+import Paquete1 from './pages/paquetes/Paquete1';
+/* Paquetes */
 
 const App = () => {
   return (
@@ -16,6 +18,9 @@ const App = () => {
         <Route path="/Promo" element={<Promo />} />
         <Route path="/Facturas" element={<Facturas />} />
         <Route path="*" element={<NotFound />} />
+        {/* Paquetes */}
+        <Route path="/Paquete1" element={<Paquete1 />} />
+        {/* Paquetes */}
       </Routes>
     </Router>
   );
