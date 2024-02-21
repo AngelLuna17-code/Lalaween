@@ -38,10 +38,17 @@ const Paquetes = () => {
         {
             titlePaq: "Pa' quete encuentren siempre",
             sub: "Inicia tu presencia en redes sociales y crece tu negocio",
-            oldPrice: "$5,250.00 + IVA * Mes",
-            newPrice: "$2,625.00 + IVA * Mes",
         },
         /* Pa' que economices */
+    ];
+
+    const routes = [
+        "/pagina-0",
+        "/pagina-1",
+        "/pagina-2",
+        "/pagina-3",
+        "/pagina-4",
+        "/pagina-5"
     ];
 
     return (
@@ -49,7 +56,7 @@ const Paquetes = () => {
             <div className='container mx-auto grid grid-cols-1 lg:grid-cols-3 gap-4'>
                 {/* Cuerpo de card */}
                 {modals.map((modal, index) => (
-                    <div className='p-5 rounded-lg flex items-center justify-center' key={index} style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
+                    <a href={routes[index]} className='p-5 rounded-lg flex items-center justify-center' key={index} style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)' }}>
                         {/* Contenido del card */}
                         <div>
                             <div className='text-center'>
@@ -81,7 +88,7 @@ const Paquetes = () => {
                             {/* Precios */}
                         </div>
                         {/* Contenido del card */}
-                    </div>
+                    </a>
                 ))}
                 {/* Cuerpo de card */}
             </div>
