@@ -21,7 +21,7 @@ const Paquete1 = () => {
                         </div>
                         <div className='mt-5'>
                             <p className='text-[#00a09b] font-thin typing'>Proposito</p>
-                            <p className='font-thin typing'>
+                            <p className='typing'>
                                 Diseñar para comunicar de manera efectiva la personalidad, esencia e identidad de tu marca.
                                 Para generar un lanzamiento positivo desde la creación de su logotipo y a través de campañas publicitarias
                                 en redes sociales e impresos con diseños óptimos y atractivos para el nicho de mercado al que su negocio
@@ -30,12 +30,11 @@ const Paquete1 = () => {
                         </div>
                     </div>
                     <div className='mt-5'>
-                        <div className='typing'>
                             <p className='text-[#00a09b] font-thin typing'>
                                 ¿Que implica?
                             </p>
                             <div>
-                                <ul className='font-thin'>
+                                <ul className='font-thin typing'>
                                     <li>
                                         Asesoramiento en la personalización de la idea de negocio.
                                     </li>
@@ -48,12 +47,12 @@ const Paquete1 = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='mt-5 typing'>
+                        <div className='mt-5'>
                             <p className='text-[#00a09b] font-thin typing'>
                                 ¿Qué servicios incluye?"
                             </p>
                             <div>
-                                <ul className='font-thin'>
+                                <ul className='font-thin typing'>
                                     <li>
                                         Diseño de Logotipo
                                     </li>
@@ -82,14 +81,13 @@ const Paquete1 = () => {
                                         1 Diseño de firma para correo en PNG y JPG para uso digital.
                                     </li>
                                 </ul>
-                            </div>
                         </div>
-                        <div className='mt-5 typing'>
+                        <div className='mt-5'>
                             <p className='text-[#00a09b] font-thin typing'>
                                 ¿Qué beneficios incluye?
                             </p>
                             <div>
-                                <ul className='font-thin'>
+                                <ul className='font-thin typing'>
                                     <li>
                                         Se realizan 3 propuestas de logotipo y se selecciona uno que será entregado en formato .JPG .PNG .Ai y .EPS
                                     </li>
