@@ -44,12 +44,55 @@ const Paquetes = () => {
         slidesToScroll: 1,
         centerMode: true,
         centerPadding: '60px',
+        responsive: [
+            {
+                breakpoint: 1280, // xl breakpoint
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    centerPadding: '60px',
+                },
+            },
+            {
+                breakpoint: 1024, // lg breakpoint
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    centerPadding: '30px',
+                },
+            },
+            {
+                breakpoint: 768, // md breakpoint
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerPadding: '120px',
+                },
+            },
+            {
+                breakpoint: 640, // sm breakpoint
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '60px',
+                },
+            },
+            {
+                breakpoint: 360, // xs breakpoint
+                settings: {
+                    slidesToShow: 1,
+                    centerPadding: '0px',
+                },
+            },
+        ],
     };
+    
+    
+    
 
     return (
         <section>
-            <div className='container mx-auto'>
-                <Slider {...settings}>
+            <div className='container mx-auto pt-[120px] pb-[100px] px-[10px]'>
+                <Slider className='w-[85%] mx-auto' {...settings}>
                     {modals.map((modal, index) => (
                         <div key={index}>
                             {/* Card */}
