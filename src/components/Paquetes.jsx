@@ -85,18 +85,15 @@ const Paquetes = () => {
             },
         ],
     };
-    
-    
-    
 
     return (
         <section>
             <div className='container mx-auto pt-[120px] pb-[100px] px-[10px]'>
-                <Slider className='w-[85%] mx-auto' {...settings}>
+                <Slider className='w-[85%] lg:w-[95%] mx-auto' {...settings}>
                     {modals.map((modal, index) => (
                         <div key={index}>
                             {/* Card */}
-                            <div className='p-5 rounded-lg flex items-center justify-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', margin: '0 10px' }}>
+                            <div className='h-[340px] lg:h-[360px] overflow-hidden p-5 lg:p-2 rounded-lg flex items-center justify-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', margin: '0 10px' }}>
                                 <div>
                                     <div className='text-center'>
                                         <h3 className='text-[#00a09b] font-black text-[23px] typing'>
