@@ -88,7 +88,7 @@ const Paquetes = () => {
 
     return (
         <section>
-            <div className='container mx-auto pt-[120px] pb-[100px] px-[10px]'>
+            <div className='container mx-auto pt-[140px] pb-[140px] xl:pt-[175px] xl:pb-[175px] px-[10px]'>
                 <Slider className='w-[85%] lg:w-[95%] mx-auto' {...settings}>
                     {modals.map((modal, index) => (
                         <div key={index}>
