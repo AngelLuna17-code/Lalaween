@@ -31,9 +31,9 @@ const Paquetes = () => {
 
     const routes = [
         "/Paquete1",
-        "/pagina-1",
-        "/pagina-2",
-        "/pagina-3",
+        "/Paquete2",
+        "/Paquete3",
+        "/Paquete4"
     ];
 
     const settings = {

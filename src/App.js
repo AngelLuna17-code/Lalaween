@@ -7,6 +7,9 @@ import Promo from "./pages/Promo"
 import NotFound from './pages/NotFound';
 /* Paquetes */
 import Paquete1 from './pages/paquetes/Paquete1';
+import Paquete2 from './pages/paquetes/Paquete2';
+import Paquete3 from './pages/paquetes/Paquete3';
+import Paquete4 from './pages/paquetes/Paquete4';
 /* Paquetes */
 
 const App = () => {
@@ -20,6 +23,9 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
         {/* Paquetes */}
         <Route path="/Paquete1" element={<Paquete1 />} />
+        <Route path="/Paquete2" element={<Paquete2 />} />
+        <Route path="/Paquete3" element={<Paquete3 />} />
+        <Route path="/Paquete4" element={<Paquete4 />} />
         {/* Paquetes */}
       </Routes>
     </Router>
