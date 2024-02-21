@@ -95,6 +95,7 @@ const Paquetes = () => {
                             {/* Card */}
                             <div className='h-[340px] lg:h-[360px] overflow-hidden p-5 lg:p-2 rounded-lg flex items-center justify-center' style={{ background: 'rgba(0, 0, 0, 0.7)', backdropFilter: 'blur(10px)', WebkitBackdropFilter: 'blur(10px)', margin: '0 10px' }}>
                                 <div>
+                                    {/* titulo */}
                                     <div className='text-center'>
                                         <h3 className='text-[#00a09b] font-black text-[23px] typing'>
                                             {modal.titlePaq}
@@ -103,6 +104,8 @@ const Paquetes = () => {
                                             {modal.sub}
                                         </p>
                                     </div>
+                                    {/* titulo */}
+                                    {/* Button */}
                                     <div className='flex justify-center mt-5'>
                                         <a href={routes[index]}>
                                             <button className='px-[15px] py-[10px] bg-[#006d6a] hover:bg-[#005351] font-bold rounded-[10px]'>
@@ -110,6 +113,8 @@ const Paquetes = () => {
                                             </button>
                                         </a>
                                     </div>
+                                    {/* Button */}
+                                    {/* Precio */}
                                     <div className='text-center text-white mt-5 typing font-thin'>
                                         {modal.oldPrice && (
                                             <div>
@@ -120,6 +125,7 @@ const Paquetes = () => {
                                             </div>
                                         )}
                                     </div>
+                                    {/* Precio */}
                                 </div>
                             </div>
                             {/* Card */}
