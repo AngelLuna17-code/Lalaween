@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className='overflow-hidden hidden lg:flex items-center px-10'>
               <ul className='list-none flex items-center space-x-12'>
                 <li>
-                  <Link className="text-white hover:text-[#00cac4]" to="/" onClick={closeMenuOnClick}>
+                  <Link className="text-white hover:text-[#00cac4]" to="/">
                     Inicio
                   </Link>
                 </li>
@@ -64,12 +64,12 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-white hover:text-[#00cac4]" to="/Facturas" onClick={closeMenuOnClick}>
+                  <Link className="text-white hover:text-[#00cac4]" to="/Facturas">
                     Facturas
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-white hover:text-[#00cac4]" to="/Promo" onClick={closeMenuOnClick}>
+                  <Link className="text-white hover:text-[#00cac4]" to="/Promo">
                     Promociones
                   </Link>
                 </li>
@@ -146,12 +146,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className="text-white hover:text-[#00cac4]" smooth to="/#service">
+                <Link className="text-white hover:text-[#00cac4]" smooth to="/#service" onClick={closeMenuOnClick}>
                   Servicios
                 </Link>
               </li>
               <li>
-                <Link className="text-white hover:text-[#00cac4]" smooth to="/#portafolio">
+                <Link className="text-white hover:text-[#00cac4]" smooth to="/#portafolio" onClick={closeMenuOnClick}>
                   Portafolio
                 </Link>
               </li>
