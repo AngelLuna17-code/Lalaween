@@ -10,6 +10,7 @@ import Paquete1 from './pages/paquetes/Paquete1';
 import Paquete2 from './pages/paquetes/Paquete2';
 import Paquete3 from './pages/paquetes/Paquete3';
 import Paquete4 from './pages/paquetes/Paquete4';
+import Paquete5 from './pages/paquetes/Paquete5';
 /* Paquetes */
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
         <Route path="/Paquete2" element={<Paquete2 />} />
         <Route path="/Paquete3" element={<Paquete3 />} />
         <Route path="/Paquete4" element={<Paquete4 />} />
+        <Route path="/Paquete5" element={<Paquete5 />} />
         {/* Paquetes */}
       </Routes>
     </Router>

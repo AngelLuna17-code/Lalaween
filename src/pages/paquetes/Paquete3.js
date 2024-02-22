@@ -5,7 +5,7 @@ import Footer from '../../components/Footer';
 import FloatingButton from '../../components/FloatingButton';
 import ScrollToTopButton from '../../components/ScrollToTopButton';
 
-const Paquete2 = () => {
+const Paquete3 = () => {
 
     return (
         <section>
@@ -131,4 +131,4 @@ const Paquete2 = () => {
     );
 };
 
-export default Paquete2;
+export default Paquete3;
