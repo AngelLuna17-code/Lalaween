@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importar Link desde react-router-dom
 import Slider from 'react-slick';
 
 const Paquetes = () => {
@@ -122,11 +123,11 @@ const Paquetes = () => {
                                     {/* titulo */}
                                     {/* Button */}
                                     <div className='flex justify-center mt-5'>
-                                        <a href={routes[index]}>
+                                        <Link to={routes[index]}>
                                             <button className='px-[15px] py-[10px] bg-[#006d6a] hover:bg-[#005351] font-bold rounded-[10px]'>
                                                 Más información
                                             </button>
-                                        </a>
+                                        </Link>
                                     </div>
                                     {/* Button */}
                                     {/* Precio */}
