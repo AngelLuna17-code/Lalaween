@@ -64,12 +64,12 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-white hover:text-[#00cac4]" to="Facturas" onClick={closeMenuOnClick}>
+                  <Link className="text-white hover:text-[#00cac4]" to="/Facturas" onClick={closeMenuOnClick}>
                     Facturas
                   </Link>
                 </li>
                 <li>
-                  <Link className="text-white hover:text-[#00cac4]" to="Promo" onClick={closeMenuOnClick}>
+                  <Link className="text-white hover:text-[#00cac4]" to="/Promo" onClick={closeMenuOnClick}>
                     Promociones
                   </Link>
                 </li>
@@ -156,12 +156,12 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className="text-white hover:text-[#00cac4]" to="Facturas" onClick={closeMenuOnClick}>
+                <Link className="text-white hover:text-[#00cac4]" to="/Facturas" onClick={closeMenuOnClick}>
                   Facturas
                 </Link>
               </li>
               <li>
-                <Link className="text-white hover:text-[#00cac4]" to="Promo" onClick={closeMenuOnClick}>
+                <Link className="text-white hover:text-[#00cac4]" to="/Promo" onClick={closeMenuOnClick}>
                   Promociones
                 </Link>
               </li>
