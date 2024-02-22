@@ -1,11 +1,17 @@
 import React from 'react';
+import SmallStars from '../../components/SmallStars';
 import Navbar from '../../components/Navbar';
 import Footer from '../../components/Footer';
+import FloatingButton from '../../components/FloatingButton';
+import ScrollToTopButton from '../../components/ScrollToTopButton';
 
 const Paquete1 = () => {
 
     return (
         <section>
+            {/* Stars */}
+            <SmallStars />
+            {/* Stars */}
             {/* Navbar */}
             <Navbar />
             {/* Navbar */}
@@ -119,6 +125,10 @@ const Paquete1 = () => {
             {/* Footer */}
             <Footer />
             {/* Footer */}
+            {/* Floating Buttons */}
+            <ScrollToTopButton />
+            <FloatingButton />
+            {/* Floating Buttons */}
         </section>
     );
 };
