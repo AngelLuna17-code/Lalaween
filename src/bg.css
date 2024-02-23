@@ -1,4 +1,3 @@
-/*
 #stars,
 #stars2,
 #stars3,
@@ -9,7 +8,6 @@
 }
 
 @media (min-width: 1024px) {
-
   #stars,
   #stars2,
   #stars3,
@@ -19,7 +17,7 @@
     display: block;
   }
 }
-*/
+
 #stars {
   width: 1px;
   height: 1px;

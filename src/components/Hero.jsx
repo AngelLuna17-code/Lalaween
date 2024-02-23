@@ -35,7 +35,7 @@ const Logo = React.memo(({ src }) => (
     <img
         src={src}
         alt="logo"
-        loading="lazy"
+        loading='Lazy'
         width="400"
         height="160"
         style={{ objectFit: "cover" }}
